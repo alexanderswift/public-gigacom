@@ -2,33 +2,43 @@
 
 Yes, I was sceptical of the claims too but **TL;DR**. It's Gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for FTTB apartment complexes from the beginning.
 
-### Who is player 1?
+### Who is player 1❓
 
-An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said 'we are fanatical about support', so yes average customer support gets my back up, but anyway those ISP/telco fundamentals of **💩 in 💩 out**, the **beer truck analogy** and **internet speed = distance/time (frequency )** has not been forgotten.
+An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said '*we are fanatical about support*', so yes average customer support gets my back up, but anyway the point of mentioning this is those ISP/telco fundamentals of a **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** the **beer truck analogy** of packets and transmission,  **Internet speed = distance/time (frequency )** and **💩 in 💩 out** has not been forgotten.
 
-### Previous ISP:
+### Previous ISP 👋:
 
-  Used TPG's FttB (since the pre NBN days) with vDSL syncing at 100/40Mbps for $59 a month, it's cheap and it’s not the NBN because the service uses the TPG network the whole way from the TPG equipment installed in the MDF room of my apartment complex (~200 units) to the internet so whats not to love? Creeping up latency and their customer service & support, it's my opinion that it sucks, really sucks.
+Used TPG's FttB (since the pre NBN days) with vDSL syncing at 100/40Mbps for $59 a month, it's cheap, it’s not the NBN because the service uses the TPG network the whole way from the TPG equipment installed in the MDF room of my apartment complex (~200 units) to the internet so whats not to love? The latency on the line was ~5ms to 7ms but over the past year has been slowly increasing and their customer service & support, it's my opinion that it sucks, it really sucks.
 
 ```
-I've spent weeks in the past pleading with their support to help me improve the 8bit Minecraft like WebEx calls and random dropouts.All rhetorical questions but;
-- Why is traffic routing traffic via the USA from my home in Pyrmont to WebEx Sydney (13445.syd.equinix.com).
+I've spent weeks in the past pleading with their support to help me improve the 8bit Minecraft like WebEx calls and random dropouts.
+All rhetorical questions but;
+- Why is WebEx traffic routing via the USA from my home in Pyrmont to the WebEx node in Sydney (13445.syd.equinix.com).
 - Why is the latency on my connection getting worse.
 - Why do I get dropouts during busy times, why after an interruption does the line sync at a lower speed.
-- Why does it take a customer to point out issues on the core network before you take a look,
+- Why does it take a customer to point out issues on the core network before you take a look.
+- WFH is a thing and why can't the 3rd largest telco in the country just peer directly with AS13445.
 
-The TPG answer, and I quote "it's your router sir, you need to reboot" & "sometime the internet doesn't give the speeds" 🤐🤐🤐. Maybe (using the beer truck analogy) your driver is lost and hasn't heard of the **💩 in 💩 out** fundamental of networking.
+The TPG answer, and I quote "it's your router sir, you need to reboot" & "sometime the internet doesn't give the speeds you want" 🤐🤐🤐. 
 ```
 
-  Being an enthusiast level rusty ex-ISP network engineer I connected a 4G LTE modem (thank you employer) to my pfSense router/firewall and routed WebEx traffic over it HD audio and video calls FTW at zero cost (to me) but it annoyed me that I needed to do this. WFH is a thing why can't the 3rd largest telco in the country just peer directly with AS13445 🤷‍♂️. Anyway there's no point 🙅‍♂️ trying to rationalise those points I'll just take my business elsewhere.
+Being an enthusiast level rusty ex-ISP network engineer I could work around the WebEx problem using a 4G LTE modem (*thank you employer🙏*) with my pfSense router/firewall I just routed WebEx traffic over 4G and I had crystal clear HD audio and video calls FTW at zero cost (to me) but it annoyed me that I needed to do this.. Anyway there's no point 🙅‍♂️ trying to rationalise those points I'll just take my business elsewhere.
 
-  Annnnnnd breath 🧘🏼, now that's out of the system I'll move on 🤣.
+🧘🏼 Annnnnnd breath, now that's out of the system I'll move on 🧘🏼.
 
-**The search for a new provider begins 🚀:**
 
-  *'It's OK until it’s not OK'* has never been truer when it comes to the way we now rely upon and use the Internet because of how and where we work (WFH + 🦠), the way we've shopped, consumed services like FaceTime, WebEx, Zoom and Netflix (my parents now use daily 🤯) to stay connected with each other. It's my opinion that  need more from a provider than *typical evening speeds*, ** a reliable low latency connection is of greater value to me than typical evening speeds** and on a side-note my fingers are crossed for more Aussie consumers thinking this way creating the market demand in-turn creating a better internet for all Australians 🇦🇺.
 
-  My building constraints; The was (pre GigaComm) FTTB available from the NBN or TPG and from the MDF room to my unit an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). I asked the  NBN for a FTTP quote and in my opinion that's an unethical amount of money for a building that already has NBN FTTB thus it's a lot on money for a consumer to pay, it's almost like I was been quoted for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on. At this stage I thought I was stuck with FTTB providers an in that case, it's my opinion that Aussie Broadband came out tops in research and recommendations from friends/colleagues (if I had to choose FTTB).
+### **The search for a new provider begins 🚀:**
+
+The phrase *'It's OK until it’s not OK'* has never been truer when it comes to the way we now rely upon the Internet because of how and where we work (WFH + 🦠).  Services normally the domian of the corprate like FaceTime, WebEx, Zoom and Netflix (my parents now use daily 🤯) are now being used in the home to stay connected with each other. <u>It's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.</u> 
+
+> and on a side-note my fingers are crossed for more Aussie consumers thinking this way thus creating a market demand and a better internet for all Australians 🇦🇺.
+
+ 
+
+#### My building constraints 🏪 ; 
+
+Prior to GigaComm enabling the building FttB was the only available from either an NBN retail service provider or TPG and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices so I asked the  NBN for a FttP quote 🙅‍♂️, that's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB thus it's a lot on money for a consumer to pay, it's almost like I was been quoted for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on. At this stage I thought I was stuck with FTTB providers an in that case, it's my opinion that Aussie Broadband came out tops in research and recommendations from friends/colleagues (if I had to choose FttB).
 
       Oh maybe now is the time to explain my perspective on **internet speed = distance/time**. I promise I'll try be succinct with this using the beer truck analogy, for this example the beer truck is...
       - limited to 100kph,
