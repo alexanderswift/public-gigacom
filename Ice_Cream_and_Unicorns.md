@@ -1,10 +1,10 @@
 ## ISP promised and delivers Gigabit over single-pair copper!
 
-Yes, I was sceptical of the claims too but **TL;DR**. It's Gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for FTTB apartment complexes from the beginning.
+Yes, I was sceptical of the claims too but **TL;DR**. It's Gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for apartment complexes from the beginning.
 
 ### Who is player 1❓
 
-An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said '*we are fanatical about support*', so yes average customer support gets my back up, but anyway the point of mentioning this is those ISP/telco fundamentals of a **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** the **beer truck analogy** of packets and transmission,  **Internet speed = distance/time (frequency )** and **💩 in 💩 out** has not been forgotten.
+An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said '*we are fanatical about support*', so yes average customer support gets my back up, but anyway the point of mentioning this is those ISP/telco fundamentals of a **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** the **beer truck analogy** of packets and transmission,  **Internet speed = distance/time (frequency )** and that **💩 in = 💩 out** has not been forgotten.
 
 ### Previous ISP 👋:
 
@@ -38,7 +38,9 @@ The phrase *'It's OK until it’s not OK'* has never been truer when it comes to
 
 #### My building constraints 🏪 ; 
 
-Prior to GigaComm enabling the building FttB was the only available from either an NBN retail service provider or TPG and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices so I asked the  NBN for a FttP quote 🙅‍♂️, that's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB thus it's a lot on money for a consumer to pay, it's almost like I was been quoted for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on. At this stage I thought I was stuck with FTTB providers an in that case, it's my opinion that Aussie Broadband came out tops in research and recommendations from friends/colleagues (if I had to choose FttB).
+Prior to GigaComm enabling the building the available options are either a NBN retail service provider or TPG Fibre to the Building and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices for low latency Gigabit Internet so I asked the  NBN for a FttP quote 🙅‍♂️. That's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB and it's a lot on money for a consumer to pay, it's almost like I was taking the hit for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on🏃‍♂️. 
+
+At this stage I thought I was stuck with FttB providers an in that case, it's my opinion that Aussie Broadband came out tops in research and recommendations from friends/colleagues (if I had to choose FttB).
 
       Oh maybe now is the time to explain my perspective on **internet speed = distance/time**. I promise I'll try be succinct with this using the beer truck analogy, for this example the beer truck is...
       - limited to 100kph,
@@ -67,7 +69,7 @@ They even said I could run my NBN / current internet provider side-by-side AND t
 
   I will order the 1000/100 please, if the line sync cannot hold up I’ll downgrade..** I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
 
-The reason FTTB is limited to 100/40Mbps (in my building) is because the frequency used by vDSL profile 17a is 17 MHz and the distance to the brewery sorry the DSLAM equipment in the MDF room to my unit an estimated 220 to 250 meters when the max is considered to be 300 meters and in some apartment complexes that could be the full 300 meters. To deliver a 1000/100Mbps service with low latency service needs more MHz of frequency **time**, a lot more MHz of vectoring over a shorter length of line needs to be a shorter **distance** to the equipment.
+The reason FttB is limited to 100/40Mbps (in my building) is because the frequency used by vDSL profile 17a is 17 MHz and the distance to the brewery sorry the DSLAM equipment in the MDF room to my unit an estimated 220 to 250 meters when the max is considered to be 300 meters and in some apartment complexes that could be the full 300 meters. To deliver a 1000/100Mbps service with low latency service needs more MHz of frequency **time**, a lot more MHz of vectoring over a shorter length of line needs to be a shorter **distance** to the equipment.
 
 ![vectoring](vectoring.jpeg)
 
