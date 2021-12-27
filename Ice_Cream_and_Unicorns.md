@@ -1,12 +1,12 @@
-ISP promised and delivers Gigabit over single-pair copper!
+## ISP promised and delivers Gigabit over single-pair copper!
 
-Yes, I was sceptical of the claims too but TL;DR. It's Gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for FTTB apartment complexes from the beginning.
+Yes, I was sceptical of the claims too but **TL;DR**. It's Gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for FTTB apartment complexes from the beginning.
 
-Who is player 1?
+### Who is player 1?
 
 An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said 'we are fanatical about support', so yes average customer support gets my back up, but anyway those ISP/telco fundamentals of **💩 in 💩 out**, the **beer truck analogy** and **internet speed = distance/time (frequency )** has not been forgotten.
 
-## Previous ISP:
+### Previous ISP:
 
   Used TPG's FttB (since the pre NBN days) with vDSL syncing at 100/40Mbps for $59 a month, it's cheap and it’s not the NBN because the service uses the TPG network the whole way from the TPG equipment installed in the MDF room of my apartment complex (~200 units) to the internet so whats not to love? Creeping up latency and their customer service & support, it's my opinion that it sucks, really sucks.
 
