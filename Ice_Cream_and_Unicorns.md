@@ -69,9 +69,9 @@ The reason FttB is limited to 100/40Mbps (in my building) is because the frequen
 
 ![](vectoring.jpeg)
 
-GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard correctly) “*a bit of secret source technology*” **and that seemed too good to be true!**
+GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard them correctly) **“*<u>a bit of secret source technology</u>*” and that seemed too good to be true!**
 
-I  GigaComm a follow up email to seek further clarification. Always one for transparency I said.
+I sent GigaComm [a follow up email]() to seek further clarification. 
 
   **"Hello this all sounds great but when an ISP or telco promises unicorns & ice cream you need to ask more questions because 26AWG copper pair has its physical limits, current vDSL technology is distance constrained and to get a higher speeds the frequency needs to increase. From what you guys as says / not saying it looks like you found a way to get the $ per consumer down with a mix of vectoring and fibre in the building.
 
