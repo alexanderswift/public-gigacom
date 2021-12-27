@@ -6,16 +6,19 @@ Who is player 1?
 
 An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said 'we are fanatical about support', so yes average customer support gets my back up, but anyway those ISP/telco fundamentals of **💩 in 💩 out**, the **beer truck analogy** and **internet speed = distance/time (frequency )** has not been forgotten.
 
-Previous ISP:
+## Previous ISP:
 
   Used TPG's FttB (since the pre NBN days) with vDSL syncing at 100/40Mbps for $59 a month, it's cheap and it’s not the NBN because the service uses the TPG network the whole way from the TPG equipment installed in the MDF room of my apartment complex (~200 units) to the internet so whats not to love? Creeping up latency and their customer service & support, it's my opinion that it sucks, really sucks.
 
-    -- I've spent weeks in the past pleading with their support to help me improve the 8bit Minecraft like WebEx calls and random dropouts.
-    All rhetorical questions but why is traffic routing traffic via the USA from my home in Pyrmont to WebEx Sydney (13445.syd.equinix.com).
-    Why is the latency on my connection getting worse.
-    Why do I get dropouts during busy times, why after an interruption does the line sync at a lower speed.
-    Why does it take a customer to point out issues on the core network,
-    and I quote "it's your router sir, you need to reboot" & "sometime the internet doesn't give the speeds" 🤐🤐🤐. Maybe (using the beer truck analogy) your driver is lost and hasn't heard of the **💩 in 💩 out** fundamental of networking.
+```
+I've spent weeks in the past pleading with their support to help me improve the 8bit Minecraft like WebEx calls and random dropouts.All rhetorical questions but;
+- Why is traffic routing traffic via the USA from my home in Pyrmont to WebEx Sydney (13445.syd.equinix.com).
+- Why is the latency on my connection getting worse.
+- Why do I get dropouts during busy times, why after an interruption does the line sync at a lower speed.
+- Why does it take a customer to point out issues on the core network before you take a look,
+
+The TPG answer, and I quote "it's your router sir, you need to reboot" & "sometime the internet doesn't give the speeds" 🤐🤐🤐. Maybe (using the beer truck analogy) your driver is lost and hasn't heard of the **💩 in 💩 out** fundamental of networking.
+```
 
   Being an enthusiast level rusty ex-ISP network engineer I connected a 4G LTE modem (thank you employer) to my pfSense router/firewall and routed WebEx traffic over it HD audio and video calls FTW at zero cost (to me) but it annoyed me that I needed to do this. WFH is a thing why can't the 3rd largest telco in the country just peer directly with AS13445 🤷‍♂️. Anyway there's no point 🙅‍♂️ trying to rationalise those points I'll just take my business elsewhere.
 
@@ -31,7 +34,7 @@ Previous ISP:
       - limited to 100kph,
       - can carry 33,600 bottles of amber nectar,
       - it's 100km between you and the brewery aka about 1hr away.
-
+    
       It's just an analogy but a brewery produces the amber nectar in great volumes and theres pubs & bottle shops that a distribute it for consumption in smaller amounts 'please drink responsibly'.
       Thus if you could imagine the journey a single 6-pack has taken to on its way to you it involves packing four 6-packs into a slab, then packing 70 slabs onto 20 pallets and all 20 pallets are loaded onto the beer truck at the brewery. Then the truck is unloaded at the pubs & bottle shops to be efficient due to the beer truck operating costs they want to mutually agree a delivery frequency and time slots between the brewery, pubs & bottle shops so the cost of delivering 6 or 33,600 bottles of amber nectar is bottles is efficient and costs less per bottle delivered.
 
@@ -83,7 +86,7 @@ Slight side-topic, I use Apple devices with iCloud Private Relay (iCloud subscri
     3) https://www.speedtest.net/result/12505889645
     4) https://www.speedtest.net/result/12505892027
     5) https://www.speedtest.net/result/12505894579
-
+    
     Host: tpg.speedtestcustom.com
     0) http://tpg.speedtestcustom.com/result/fe5e6de0-6452-11ec-b50d-5754f75e3cf4
     1) http://tpg.speedtestcustom.com/result/1a41b560-63bf-11ec-8bed-9336fa9df5d4
