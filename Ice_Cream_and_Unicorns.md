@@ -57,7 +57,7 @@ At this stage I thought I was stuck with FttB providers and in that case, it's m
 
 The network & tech enthusiast in me obviously upgraded the iPhone when Telstra 5G was launched and thus my mobile internet is 4x faster than my fixed-line internet 🤷‍♂️ and latency is about par on but on both latency is variable. I've also seen via technology news sites the auctions of the mmWave (pronounced as millimetre wave) 5G spectrum has completed, well network providers have paid all that money so someone must be selling a short-range (distance), high-frequency (time) network technology that delivers higher speeds.
 
-### Early GigaComm Scepticism:
+### Early GigaComm Scepticism 🤔:
 
 Researching who and whats available I discovered what looks like a smaller but experienced & growing company who are combining mmWave and optical fibre technology to build "a network built for the Gigabit Age".  
 
@@ -69,15 +69,15 @@ The reason FttB is limited to 100/40Mbps (in my building) is because the frequen
 
 ![](vectoring.jpeg)
 
-GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard them correctly) **“*<u>a bit of secret source technology</u>*” and that seemed too good to be true!**
+GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard them correctly) **“*<u>a bit of secret source technology</u>*” and that all seemed too good to be true!**
 
-I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gigacom/blob/main/emails_to_gigacomm.pdf) to seek further clarification basically with a a few more questions if they didn't (they didn't) and stating from what GigaComm are saying it looks like they found a way to get the $ per consumer down with a mix of vectoring and fibre in the building. I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
+I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gigacom/blob/main/emails_to_gigacomm.pdf) to seek further clarification basically with a a few more questions if they didn't (an they did not mind, professional and speedy reply) and stating from what GigaComm are saying it looks like they found a way to get the $ per consumer down with a mix of vectoring and fibre in the building. I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
 
 
 
 ### Peering 🤝:
 
-GigaComm are AS139049 and there's a number of ways to find out who they peer with and good news for me the look to learn the route to WebEx from Vocus and good news for everyone else for company of their size they are will connected and connect with both Equinix peering LAN ASN's giving them access to all the Equinix buildings in the region and connected on the IX Australia NSW & VIC carrier-neutral internet exchanges shortening the distance and time to hundreds of ISP's, MSP's, Amazon & Google clouds and CDN's like Akamai and Cloudflare etc.  
+GigaComm are AS139049 and there's a number of ways to find out who they peer with and good news for me the look to learn the route to WebEx from Vocus and good news for everyone else for company of their size they are well connected via both Equinix peering LANs ASN's giving them access to all the Equinix buildings in the region and they are aso connected on the IX Australia NSW & VIC carrier-neutral internet exchanges shortening the distance and time to hundreds of ISP's, MSP's, Amazon & Google clouds and CDN's like Akamai and Cloudflare etc.  
 
     Useful sites to work this out;
     - GIGACOMM-AU https://bgp.he.net/AS139049#_asinfo  
@@ -88,9 +88,23 @@ GigaComm are AS139049 and there's a number of ways to find out who they peer wit
     - Another option is https://www.peeringdb.com/
     - AS139049 traffic on the IX https://metrics.ix.asn.au/d/fY3FT5Mnk/ix-peer?orgId=2&var-Customer=746&var-polling_interval=1m&var-Device=All&var-ASN=AS139049&var-ASNRAW=139049
 
-Slight side-topic, I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses (at the time of writing this) I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and these are two very very well connected networks so  GigaComm  
+Slight side-topic, I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses at the time of writing this I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and these are two very  well connected networks so I get the best of a global AS and the access speed of GigaComm. 
 
-**The install and what i've tested so far 🔎:**
+
+
+### The install and what i've tested so far 🔎:
+
+
+
+Install pics and whats this additional box❓
+
+testing side by side 🧪and Adtron
+
+
+
+##### Consider whats required to get to Gigabit speeds 🧐.
+
+##### Testing my 
 
     My own speed testing comparing the old and the new.
     From TPG
