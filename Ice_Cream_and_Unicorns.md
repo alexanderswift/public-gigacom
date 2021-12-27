@@ -40,22 +40,24 @@ The phrase *'It's OK until it’s not OK'* has never been truer when it comes to
 
 Prior to GigaComm enabling the building the available options are either a NBN retail service provider or TPG Fibre to the Building and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices for low latency Gigabit Internet so I asked the  NBN for a FttP quote 🙅‍♂️. That's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB and it's a lot on money for a consumer to pay, it's almost like I was taking the hit for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on🏃‍♂️. 
 
-At this stage I thought I was stuck with FttB providers an in that case, it's my opinion that Aussie Broadband came out tops in research and recommendations from friends/colleagues (if I had to choose FttB).
+At this stage I thought I was stuck with FttB providers and in that case, it's my opinion that Aussie Broadband came out tops in my research and recommendations from friends/colleagues and if I had to choose FttB i'd happliy do so.
 
-      Oh maybe now is the time to explain my perspective on **internet speed = distance/time**. I promise I'll try be succinct with this using the beer truck analogy, for this example the beer truck is...
+##### So whats this Internet speed = distance/time and the beer truck analogy (optional read)?
+
+    Oh maybe now is the time to explain my perspective on internet speed = distance/time. I promise I'll try be succinct with this using the beer truck analogy, for this example the beer truck is...
       - limited to 100kph,
       - can carry 33,600 bottles of amber nectar,
-      - it's 100km between you and the brewery aka about 1hr away.
+      - it's 150km between you and the brewery aka about 90min away.
     
-      It's just an analogy but a brewery produces the amber nectar in great volumes and theres pubs & bottle shops that a distribute it for consumption in smaller amounts 'please drink responsibly'.
-      Thus if you could imagine the journey a single 6-pack has taken to on its way to you it involves packing four 6-packs into a slab, then packing 70 slabs onto 20 pallets and all 20 pallets are loaded onto the beer truck at the brewery. Then the truck is unloaded at the pubs & bottle shops to be efficient due to the beer truck operating costs they want to mutually agree a delivery frequency and time slots between the brewery, pubs & bottle shops so the cost of delivering 6 or 33,600 bottles of amber nectar is bottles is efficient and costs less per bottle delivered.
+    It's just an analogy but a brewery produces the amber nectar in great volumes and theres pubs & bottle shops that a distribute it for consumption in smaller amounts 'please drink responsibly'.
+    
+    Thus if you could imagine the journey a single 6-pack has taken to on its way to you it involves packing four 6-packs into a slab, then packing 70 slabs onto a pallets and you can fit about 20 pallets on my beer truck. All these pallets are loaded onto the beer truck at the brewery and driven to pubs & bottle shops because it would be queues arounf the block if you all headed to the brewery to pickup your 6-packs. So to be efficient due to the beer truck operating costs they want to mutually agree a delivery frequency and time slots between the brewery, pubs & bottle shops so the cost of delivering 33,600 bottles of amber nectar is bottles is efficient and costs less per bottle delivered.
+    
+    As we know frequency is generally defined as the number of cycles which occur in a given interval of **time**, lots of delivery cycles (more beer trucks) could deliver more amber nectar per 90min window of time but your costs will increase due to needing more beer trucks and the brewery is still 150km away. Building another brewery closer to me would reduce the **distance** but building a brewery isn't cheap so generally we all agree to share the beer truck and wait **latency**.  
 
-  As we know frequency is generally defined as the number of cycles which occur in a given interval of **time**, lots of delivery cycles (more beer trucks, more costs) could deliver more amber nectar in 1 hour but the brewery is still 100km away. Building another brewery closer to me would reduce the **distance** but could also be very expensive so generally we all agree to share the beer truck and wait (latency).  
+The network & tech enthusiast in me obviously upgraded the iPhone when Telstra 5G was launched and thus my mobile internet is 4x faster than my fixed-line internet 🤷‍♂️ and latency is about par on but on both latency is variable. I've also seen via technology news sites the auctions of the mmWave (pronounced as millimetre wave) 5G spectrum has completed, well network providers have paid all that money so someone must be selling a short-range (distance), high-frequency (time) network technology that delivers higher speeds.
 
-
-Early GigaComm Scepticism:
-
-The network & tech enthusiast in me obviously upgraded the iPhone when Telstra 5G was launched and thus experienced an oddity that my mobile internet is faster than fixed-line internet 🤷‍♂️ and about par on latency tipping in favour of the fixed-line. I've also seen via technology news sites the auctions of the mmWave (pronounced as millimetre wave) 5G spectrum has completed, well network providers have paid all that money so someone must be selling a short-range (distance), high-frequency (time) network technology that delivers higher speeds.
+### Early GigaComm Scepticism:
 
 Researching who and whats available I discovered what looks like a smaller but experienced & growing company who are combining mmWave and optical fibre technology to build "a network built for the Gigabit Age".  
 
@@ -63,13 +65,19 @@ Researching who and whats available I discovered what looks like a smaller but e
 - '10x Faster than the Australian download average'
 - '24/7 Consistent speeds you can rely on'
 
-They even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard correctly) “a bit of secret source technology” and that seemed too good to be true so I sent GigaComm a follow up email to seek further clarification. Always one for transparency I said.
+The reason FttB is limited to 100/40Mbps (in my building) is because the frequency used by vDSL profile 17a is 17 MHz and the distance to the brewery sorry the DSLAM equipment in the MDF room to my unit an estimated 220 to 250 meters when the max is considered to be 300 meters and in some apartment complexes that could be the full 300 meters. To deliver a 1000/100Mbps service with low latency service needs more MHz of frequency (**time**) using a common method called vectoring (the V in vDSL) and the length of line between me and the to the GigaComm equipment needs to be a much shorter **distance**.
+
+![](vectoring.jpeg)
+
+GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard correctly) “*a bit of secret source technology*” **and that seemed too good to be true!**
+
+I  GigaComm a follow up email to seek further clarification. Always one for transparency I said.
 
   **"Hello this all sounds great but when an ISP or telco promises unicorns & ice cream you need to ask more questions because 26AWG copper pair has its physical limits, current vDSL technology is distance constrained and to get a higher speeds the frequency needs to increase. From what you guys as says / not saying it looks like you found a way to get the $ per consumer down with a mix of vectoring and fibre in the building.
 
   I will order the 1000/100 please, if the line sync cannot hold up I’ll downgrade..** I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
 
-The reason FttB is limited to 100/40Mbps (in my building) is because the frequency used by vDSL profile 17a is 17 MHz and the distance to the brewery sorry the DSLAM equipment in the MDF room to my unit an estimated 220 to 250 meters when the max is considered to be 300 meters and in some apartment complexes that could be the full 300 meters. To deliver a 1000/100Mbps service with low latency service needs more MHz of frequency **time**, a lot more MHz of vectoring over a shorter length of line needs to be a shorter **distance** to the equipment.
+
 
 ![vectoring](vectoring.jpeg)
 
