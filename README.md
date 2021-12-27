@@ -1,2 +1,10 @@
 # public-gigacom
-Docs and notes about Gigacom
+This folder is my note, thoughts and a record of the [https://www.gigacomm.net.au](https://www.gigacomm.net.au) onboarding journey to their Gigabit Internet service and anything else related to it/them.
+
+## ISP promised and delivers Gigabit over single-pair copper!
+
+Yes, I was sceptical of the claims too but **TL;DR**. It's Gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for apartment complexes from the beginning.
+
+Read on [here](https://github.com/alexanderswift/public-gigacom/blob/main/Ice_Cream_and_Unicorns.md)...
+
+### 
