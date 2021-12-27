@@ -71,17 +71,12 @@ The reason FttB is limited to 100/40Mbps (in my building) is because the frequen
 
 GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard them correctly) **“*<u>a bit of secret source technology</u>*” and that seemed too good to be true!**
 
-I sent GigaComm [a follow up email]() to seek further clarification. 
-
-  **"Hello this all sounds great but when an ISP or telco promises unicorns & ice cream you need to ask more questions because 26AWG copper pair has its physical limits, current vDSL technology is distance constrained and to get a higher speeds the frequency needs to increase. From what you guys as says / not saying it looks like you found a way to get the $ per consumer down with a mix of vectoring and fibre in the building.
-
-  I will order the 1000/100 please, if the line sync cannot hold up I’ll downgrade..** I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
+I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gigacom/blob/main/emails_to_gigacomm.pdf) to seek further clarification basically with a a few more questions if they didn't (they didn't) and stating from what GigaComm are saying it looks like they found a way to get the $ per consumer down with a mix of vectoring and fibre in the building. I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
 
 
 
-![vectoring](vectoring.jpeg)
+### Peering 🤝:
 
-Peering 🤝:
 GigaComm are AS139049 and there's a number of ways to find out who they peer with and good news for me the look to learn the route to WebEx from Vocus and good news for everyone else for company of their size they are will connected and connect with both Equinix peering LAN ASN's giving them access to all the Equinix buildings in the region and connected on the IX Australia NSW & VIC carrier-neutral internet exchanges shortening the distance and time to hundreds of ISP's, MSP's, Amazon & Google clouds and CDN's like Akamai and Cloudflare etc.  
 
     Useful sites to work this out;
