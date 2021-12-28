@@ -151,3 +151,31 @@ Host: tpg.speedtestcustom.com
 2) http://tpg.speedtestcustom.com/result/c08ff4d0-66e0-11ec-90cc-bf087e229683
 3) http://tpg.speedtestcustom.com/result/f28913e0-66e0-11ec-90cc-bf087e229683
 4) http://tpg.speedtestcustom.com/result/0ce4aab0-66e1-11ec-90cc-bf087e229683
+
+
+
+Chasing 1Gbps 
+
+All using a MacBook 
+
+0) https://www.speedtest.net/result/12524797215 APU2 pfSense firewall
+1) https://www.speedtest.net/result/12524842243 DIRECT TO NTU 
+2) https://www.speedtest.net/result/12524854984 TEST FIREWALL (pfSense)
+3) https://www.speedtest.net/result/12524820479 GigaComm Supplied Router
+4) https://www.speedtest.net/result/12525262017 TEST FIREWALL (opnSense)
+
+
+
+
+
+https://adtran.com/web/page/portal/Adtran/group/4504 
+
+https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/ 
+
+https://teklager.se/en/pfsense-hardware/
+
+https://protectli.com/about/ 
+
+https://people.cs.clemson.edu/~westall/853/notes/pres05.pdf
+
+https://docs.netgate.com/pfsense/en/latest/hardware/tune.html 
