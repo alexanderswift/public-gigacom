@@ -1,25 +1,18 @@
 ## Installing the service
 
-Yes, I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast, reliable and 
+### So what's fella up too❓ 
+
+One morning an enthusiast level rusty ex-ISP network engineer is looking out the window while brushing his teeth wondering what's the fella up on the roof doing with that [Siklu EH-ANT-1ft](https://www.siklu.com/product/etherhaul-kilo-series/  ) mmWave receiver🤔. Well, the [ACMA website](https://web.acma.gov.au/rrl/client_search.client_lookup?pCLIENT_NO=20048150) will tell me what's on that roof and the company that holds the licence for 70/80GHz band. The second picture is a zoomed and reflected image of what is on the roof of my building (sorry not great quality). 
+
+![Roof 3](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof3.jpeg)
+
+![Roof 1](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof1.jpeg)
 
 
 
+### So what's fella up too❓
 
-
-
-
-Feedback: You described your technology as (I think I heard) “a bit secret / proprietary technology” 🤷‍♂️. [ACMA website](https://web.acma.gov.au/rrl/client_search.client_lookup?pCLIENT_NO=20048150), you have a licence for 70/80GHz band and as attached pic of ole mate on the roof of the 109 Point St Pyrmont installing a Siklu mmWave / Ethernet antenna.. 
-
-![https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof1.jpeg](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof1.jpeg)
-
-
-
-| https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof1.jpeg |      |      |
-| ------------------------------------------------------------ | ---- | ---- |
-
-
-
-dfsf
+New 
 
 
 
