@@ -19,21 +19,21 @@ All my network equipment will use less than 20watts / 0.5amp of power and has co
 
 Pretty standard devices and I
 
-> - [ ] 2x Apple MacBook Pros (2016 / 2019) with Gigabit Ethernet adapters.
+> - [x] 2x Apple MacBook Pros (2016 / 2019) with Gigabit Ethernet adapters.
 >
-> - [ ] 1x Apple TV (yes you can, iPerf and SpeedTest available from the AppStore).
+> - [x] 1x Apple TV (yes you can, iPerf and SpeedTest available from the AppStore).
 >
-> - [ ] 2x Unifi US-8-60W  switches.
+> - [x] 2x Unifi US-8-60W  switches.
 >
 > - [ ] 1x Unifi UAP-AC-Pro Wi-FI access point.
 >
-> - [ ] 1x pfSense **2.5.2-RELEASE** (amd64) on PC Engines APU2
+> - [x] 1x pfSense **2.5.2-RELEASE** (amd64) on PC Engines APU2
 >
-> - [ ] 1x Netcomm NF18ACV router (GigaComm Supplied)
+> - [x] 1x Netcomm NF18ACV router (GigaComm Supplied)
 >
-> - [ ] 1x AdTran 212MHz Gfast bridge modem
+> - [x] 1x AdTran 212MHz Gfast bridge modem
 >
-> - [ ] 1x AWS EC2  t3.micro instance (https://aws.amazon.com/free/)
+> - [x] 1x AWS EC2  t3.micro instance (https://aws.amazon.com/free/)
 >
 >   
 
