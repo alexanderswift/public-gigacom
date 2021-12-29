@@ -1,6 +1,6 @@
 ## ISP promised and delivers Gigabit over single-pair copper!
 
-Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast and reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿. 
+Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast and reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿.
 
 ### Who is player 1❓
 
@@ -16,13 +16,13 @@ I've been a TPG's FttB (since the pre NBN days) with a vDSL service syncing at 1
 > I've spent weeks in the past pleading with their support to help me improve the 8bit Minecraft like WebEx calls and random dropouts.
 > All rhetorical questions but;
 > - Why does it take a customer to point out issues on the core network before you take a look.
-> - Why customers always feel like they are copping the blame for the issues, 
+> - Why customers always feel like they are copping the blame for the issues,
 > - Why is WebEx traffic routing via the USA from my home in Pyrmont to the WebEx node in Sydney (13445.syd.equinix.com).
 > - Why is the latency on my connection getting worse.
 > - Why do I get dropouts during busy times, why after an interruption does the line sync at a lower speed.
 > - WFH is a thing and why can't the 3rd largest telco in the country just peer directly with AS13445.
-> 
-> The TPG answer, and I quote "it's your router sir, you need to reboot" & "sometime the internet doesn't give the speeds you want" 🤐🤐🤐. 
+>
+> The TPG answer, and I quote "it's your router sir, you need to reboot" & "sometime the internet doesn't give the speeds you want" 🤐🤐🤐.
 > ```
 >
 
@@ -42,19 +42,19 @@ Now that's out of the system I'll move on 🧘🏼
 
 ## **The search for a new provider begins 🚀:**
 
-The phrase ***'It's OK until it’s not OK'*** has never been truer when it comes to the way we now rely upon the Internet because of how and where we work (WFH + 🦠).  Services normally the domian of the corprate like FaceTime, WebEx, Zoom and Netflix (my parents now use daily 🤯) are now being used in the home to stay connected with each other. <u>It's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.</u> 
+The phrase ***'It's OK until it’s not OK'*** has never been truer when it comes to the way we now rely upon the Internet because of how and where we work (WFH + 🦠).  Services normally the domain of the corporates and techies like FaceTime, WebEx, Zoom and Netflix (my parents now use daily 🤯) are now being used in the home to stay connected with each other. <u>It's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.</u>
 
 
 
 > and on a side-note my fingers are crossed for more Aussie consumers thinking this way thus creating a market demand and a better internet for all Australians 🇦🇺.
 
- 
 
-### My building constraints 🏪 ; 
 
-Prior to GigaComm enabling the building the available options are either a NBN retail service provider or TPG Fibre to the Building and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices for low latency Gigabit Internet so I asked the  NBN for a FttP quote 🙅‍♂️. That's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB and it's a lot on money for a consumer to pay, it's almost like I was taking the hit for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on🏃‍♂️. 
+### My building constraints 🏪 ;
 
-At this stage I thought I was stuck with FttB providers and in that case, it's my opinion that Aussie Broadband came out tops in my research and recommendations from friends/colleagues and if I had to choose FttB i'd happliy do so.
+Prior to GigaComm enabling the building the available options are either a NBN retail service provider or TPG Fibre to the Building and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices for low latency Gigabit Internet so I asked the  NBN for a FttP quote 🙅‍♂️. That's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB and it's a lot on money for a consumer to pay, it's almost like I was taking the hit for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on🏃‍♂️.
+
+At this stage I thought I was stuck with FttB providers and in that case, it's my opinion that Aussie Broadband came out tops in my research and recommendations from friends/colleagues and if I had to choose FttB i'd happily do so.
 
 
 
@@ -68,11 +68,11 @@ Oh maybe now is the time to explain my perspective on internet speed = distance/
 
 It's just an analogy but a brewery produces the amber nectar in great volumes and theres pubs & bottle shops that a distribute it for consumption in smaller amounts 'please drink responsibly'.
 
-Thus if you could imagine the journey a single 6-pack has taken to on its way to you it involves packing four 6-packs into a slab, then packing 70 slabs onto a pallets and you can fit about 20 pallets on my beer truck. 
-All these pallets are loaded onto the beer truck at the brewery and driven to pubs & bottle shops because it would be queues arounf the block if you all headed to the brewery to pickup your 6-packs. 
+Thus if you could imagine the journey a single 6-pack has taken to on its way to you it involves packing four 6-packs into a slab, then packing 70 slabs onto a pallets and you can fit about 20 pallets on my beer truck.
+All these pallets are loaded onto the beer truck at the brewery and driven to pubs & bottle shops because it would be queues around the block if you all headed to the brewery to pickup your 6-packs.
 So to be efficient due to the beer truck operating costs they want to mutually agree a delivery frequency and time slots between the brewery, pubs & bottle shops so the cost of delivering 33,600 bottles of amber nectar is bottles is efficient and costs less per bottle delivered.
 
-As we know frequency is generally defined as the number of cycles which occur in a given interval of **time**, lots of delivery cycles (more beer trucks) could deliver more amber nectar per 90min window of time but your costs will increase due to needing more beer trucks and the brewery is still 150km away. 
+As we know frequency is generally defined as the number of cycles which occur in a given interval of **time**, lots of delivery cycles (more beer trucks) could deliver more amber nectar per 90min window of time but your costs will increase due to needing more beer trucks and the brewery is still 150km away.
 Building another brewery closer to me would reduce the **distance** but building a brewery isn't cheap so generally we all agree to share the beer truck and wait **latency**.  
 ```
 
@@ -121,22 +121,21 @@ Useful sites to work this out;
 
 
 
-#### Side note: iCloud Private Relay. 
+#### Side note: iCloud Private Relay.
 
-I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses at the time of writing this I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and these are two very  well connected networks. There's a massive advantage to the iCloud Private Relay because it proxies your request to the destination website and thus when the proxy is the largests network on the Internet with more PoP's that any Telco, ISP or Cloud provider you best of a global network and the local access speed of GigaComm, 🥇🥇🥇 WINNING 🥇🥇🥇. 
+I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses at the time of writing this I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and these are two very well connected networks. There's a massive advantage to the iCloud Private Relay in this scenario because it proxies your request to the destination website. When the proxy is on the Internet largest network with more networking and PoP's that any Telco, ISP or Cloud provider you best of a global hyper-scale network with the local access speed of GigaComm, 🥇🥇🥇 WINNING 🥇🥇🥇.
 
 
 
 ### Ordering 💳:
 
-The quoting and ordering process is on par with the other ISP's they have an automated email and onlce you click to accept a total minimum commitment including once-off and monthly costs a flurry of emails as confirmation of the order and an invite to setup an account for https://myaccount.gigacomm.net.au and enter your payment details etc. 
+The quoting and ordering process is on par with the other ISP's they have an automated email and once you've clicked to accept the minimum commitment including once-off and monthly costs a flurry of emails as confirmation of the order and an invite to setup an account for https://myaccount.gigacomm.net.au and enter your payment details etc.
 
-I recived a follow up email quoting 10 days before a field engineer need to do some jumpering and install a NTD, receive further updates on the progress of your order and the timeframe for installation.
+I received a follow up email quoting 10 days before a field engineer need to do some jumpering and install a NTD, receive further updates on the progress of your order and the timeframe for installation.
 
 ### **Reusing your own router** ♻️
 
 You can reuse your own router with GigaComm service, it will need to support Ethernet WAN and according to their [FAQ](https://www.gigacomm.net.au/faqs/bring-your-own-router)   to achieve the maximum speeds on plans under 1Gbps they suggest upstream traffic shaping settings.
-
 
 
 #### Next up: 👉 [Part 2, install time 🛠](https://github.com/alexanderswift/public-gigacom/blob/main/install_time.md) 👈
