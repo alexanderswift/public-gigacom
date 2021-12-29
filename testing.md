@@ -46,7 +46,7 @@ Pretty standard devices and I
 
 Can a Unifi network with pfSense with a AMD Embedded 1 GHz quad Jaguar core achive 1Gbps at layer 4, if you need reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your network card says it's negotiated with network at that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️. 
 
-I ruled out testing with the Unifi UAP-AC-Pro Wi-F because even though the brochure says 1.7Gbps of Bandwidth the AP is wired to the switch at 1Gbps and although  it has a 5 GHz Radio and a channel width of VHT 80 the MacBook's Tx/Rx Rate is ~800 Mbps in my environment❌.
+Early ruled out testing with the Unifi UAP-AC-Pro Wi-F because even though the brochure says 1.7Gbps of Bandwidth the AP is wired to the switch at 1Gbps and although it has a 5 GHz Radio and a channel width of VHT 80 the MacBook's Tx/Rx Rate is ~800 Mbps in my environment❌.
 
 Here's some useful notes from others on tuning for 1Gbps and what was observed on pfSense/APU2 firewalls: 
 
