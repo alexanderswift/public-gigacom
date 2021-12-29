@@ -20,7 +20,7 @@ I performed a last few SpeedTests on my TPG connection 👋 one at https://www.s
 
 ![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/GigaComm-host-speedtest1.png)
 
-![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-SpeedTest2.png)
+![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-SpeedTest1.png)
 
 
 
