@@ -4,17 +4,51 @@
 
 
 
-Taken over a few days in late December 2021 after the Installation on a new 1Gb internet connection. 
+### Why test❓
 
-The reason for the testing is to see what my local network can do before making judgements on the new internet provider, I've invested in some [Ubiquiti unifi](https://www.ui.com) line of Wi-FI / PoE switches and BYO [pfSense](https://www.pfsense.org/download/) firewall on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, great features per dollar spent and all lower power because power here in Australia is some of the most expensive in the world, all up it's cost under AU$1000 and uses about 20watts / 0.5amp. 
-
-So can pfSense with a AMD Embedded 1 GHz quad Jaguar core achive 1Gbps at layer 4, if you need reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your network card says it's negotiated with network at that speed it doesn't mean you will see the nirvana of 1Gbps 
+Taken over a few days in late December 2021 after the Installation on a new 1Gb internet connection. The reason for the testing is to see what my local network can do before making judgements on the new internet provider, I've invested in [Ubiquiti unifi](https://www.ui.com) Wi-FI / PoE switches and have BYO [pfSense](https://www.pfsense.org/download/) firewall build on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, great features per dollar spent and all are low power devices because utility rates here in Australia is some of the most expensive in the world. 
 
 
 
-Here's some useful notes from others on tuning for 1Gbps 
+> ~~~ 
+> Electricity Usage Per Year = (Watts / 1000) * Hours/Day * Days/Week * Weeks/Year = kWh/year
+> 
+> Electricity Cost Per Year = kWh/year * (cents/kWh / 100) = $/year
+> ~~~
 
 
+
+All up my network equipment uses about 20watts / 0.5amp of power and has cost and estimated AU$850 over the past four years inclusive of the $45pa in power, it is very tempting to go down the graysonline/eBay old Enterprise gear approach for equipment that was once thousands of dollars but IMHO you could 10x that power bill plus the additional noise, heat and the PAT (partner acceptance test) so I went the way I did. 
+
+### Devices for testing: 
+
+Pretty standard devices and I
+
+> - [ ] 2x Apple MacBook Pros (2016 / 2019) with Gigabit Ethernet adapters. 
+>
+> - [ ] 1x Apple TV (yes you can, iPerf and SpeedTest available from the AppStore).
+>
+> - [ ] 2x Unifi US-8-60W  switches.
+>
+> - [ ] 1x Unifi UAP-AC-Pro Wi-FI access point. 
+>
+> - [ ] 1x pfSense **2.5.2-RELEASE** (amd64) on PC Engines APU2
+>
+> - [ ] 1x Netcomm NF18ACV router (GigaComm Supplied)
+>
+> - [ ] 1x AdTran 212MHz Gfast Bridge Modem 
+>
+> - [ ] 1x AWS EC2  t3.micro instance (https://aws.amazon.com/free/)
+>
+>   
+
+### So can it ❓
+
+Can a Unifi network with pfSense with a AMD Embedded 1 GHz quad Jaguar core achive 1Gbps at layer 4, if you need reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your network card says it's negotiated with network at that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️. 
+
+I ruled out testing with the Unifi UAP-AC-Pro Wi-F because even though the brochure says 1.7Gbps of Bandwidth the AP is wired to the switch at 1Gbps and although  it has a 5 GHz Radio and a channel width of VHT 80 the MacBook's Tx/Rx Rate is ~800 Mbps in my environment❌.
+
+Here's some useful notes from others on tuning for 1Gbps and what was observed on pfSense/APU2 firewalls: 
 
 ~~~~ 
 URL;S
@@ -24,25 +58,13 @@ URL;S
 - https://docs.netgate.com/pfsense/en/latest/hardware/tune.html 
 ~~~~
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### IPerf3 testing on my local network to see if I could reach 1Gbps locally. 
 
-IPerf test from the AppleTV to MacBook looking to establish the max possible for the equipment I have thus starting with switching *NOT routing* between the two first.
+##### 
+
+
+
+Starting at the bottom of the OSI stack, we know at layer1 the interfaces are all up at 1000baseT full-duplex so I ran an IPerf test from the AppleTV to MacBook looking to establish the max possible for the equipment I have thus starting with switching *NOT routing* between the two first.
 
 **TEST1** both are connected to the same UniFi 'switch 1'.
 
