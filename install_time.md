@@ -50,7 +50,7 @@ Left to right, TPG then GigaComm.
 
 Quick SpeedTest on the GigaComm connection 🙋‍♂️
 
-WOW
+🏎💨 **WOW**
 
 ![First GigaComm](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-SpeedTest2.png)
 
