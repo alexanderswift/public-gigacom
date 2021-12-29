@@ -1,6 +1,4 @@
-
-
-# A scratch of the test results
+# Test and final thoughts 🧪& 🤔
 
 
 

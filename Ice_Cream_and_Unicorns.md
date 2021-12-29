@@ -1,6 +1,6 @@
 ## ISP promised and delivers Gigabit over single-pair copper!
 
-Yes, I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning.
+Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast and reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿. 
 
 ### Who is player 1❓
 
