@@ -32,6 +32,8 @@ I performed a last few SpeedTests on my TPG connection one at https://www.speedt
 
 
 
+### Wee opportunity for perfect missed 🙊
+
 There was a little bit of delay as I ran-out to get a double socket, I knew I had a 4core 26AWG copper cable but only a single RJ11 (phone socket) in my unit. This was the reason I emailed them during the sales stage after they said *I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit*.
 
 
