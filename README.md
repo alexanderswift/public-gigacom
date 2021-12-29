@@ -5,11 +5,12 @@ This folder is my note, thoughts and a record of the [https://www.gigacomm.net.a
 
 Yes, I was sceptical of the claims too but **TL;DR**. It's Gigabit fast, reliable and IMHO it's a technology approach the NBN could have used for apartment complexes from the beginning.
 
-Read on [here](https://github.com/alexanderswift/public-gigacom/blob/main/Ice_Cream_and_Unicorns.md
+Read on. 
 
-Part 2, installing the service
+- *Part 1, Ice Cream and Unicorns.*
 
-[Part 3, testing and final thoughts](https://github.com/alexanderswift/public-gigacom/blob/main/testing.md)
+- Part 2, installing the service.
+- [Part 3, testing and final thoughts](https://github.com/alexanderswift/public-gigacom/blob/main/testing.md).
 
 
 
