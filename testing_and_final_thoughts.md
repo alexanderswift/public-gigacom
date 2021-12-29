@@ -1,40 +1,37 @@
 # Test and final thoughts 🧪& 🤔
 
 
-
 ### Why test❓
 
-Taken over a few days in late December 2021 after the Installation on a new 1Gb internet connection. The reason for the testing is to see what my local network can do before making judgements on the new internet provider, I've invested in [Ubiquiti unifi](https://www.ui.com) Wi-FI / PoE switches and have BYO [pfSense](https://www.pfsense.org/download/) firewall build on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, great features per dollar spent and all are low power devices because utility rates here in Australia is some of the most expensive in the world. 
+Taken over a few days in late December 2021 after the Installation on a new 1Gb internet connection. The reason for the testing is to see what my local network can do before making judgements on the new internet provider, I've invested in [Ubiquiti unifi](https://www.ui.com) Wi-FI / PoE switches and have BYO [pfSense](https://www.pfsense.org/download/) firewall build on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, great features per dollar spent and all are low power devices because utility rates here in Australia is some of the most expensive in the world.
 
 
-
-> ~~~ 
+> ~~~
 > Electricity Usage Per Year = (Watts / 1000) * Hours/Day * Days/Week * Weeks/Year = kWh/year
-> 
+>
 > Electricity Cost Per Year = kWh/year * (cents/kWh / 100) = $/year
 > ~~~
 
 
+All my network equipment will use less than 20watts / 0.5amp of power and has cost an estimated AU$850 inclusive of the $45pa in power over the past four years. It's very tempting to take the approach of shopping Grays / eBay for old Enterprise equipment that was once tens of thousands of dollars but IMHO you could 20x that power bill plus the additional noise, heat and it risks failing the PAT (partner acceptance test) so I went the way I did.
 
-All up my network equipment uses about 20watts / 0.5amp of power and has cost and estimated AU$850 over the past four years inclusive of the $45pa in power, it is very tempting to go down the graysonline/eBay old Enterprise gear approach for equipment that was once thousands of dollars but IMHO you could 10x that power bill plus the additional noise, heat and the PAT (partner acceptance test) so I went the way I did. 
-
-### Devices for testing: 
+### Devices for testing:
 
 Pretty standard devices and I
 
-> - [ ] 2x Apple MacBook Pros (2016 / 2019) with Gigabit Ethernet adapters. 
+> - [ ] 2x Apple MacBook Pros (2016 / 2019) with Gigabit Ethernet adapters.
 >
 > - [ ] 1x Apple TV (yes you can, iPerf and SpeedTest available from the AppStore).
 >
 > - [ ] 2x Unifi US-8-60W  switches.
 >
-> - [ ] 1x Unifi UAP-AC-Pro Wi-FI access point. 
+> - [ ] 1x Unifi UAP-AC-Pro Wi-FI access point.
 >
 > - [ ] 1x pfSense **2.5.2-RELEASE** (amd64) on PC Engines APU2
 >
 > - [ ] 1x Netcomm NF18ACV router (GigaComm Supplied)
 >
-> - [ ] 1x AdTran 212MHz Gfast Bridge Modem 
+> - [ ] 1x AdTran 212MHz Gfast bridge modem
 >
 > - [ ] 1x AWS EC2  t3.micro instance (https://aws.amazon.com/free/)
 >
@@ -42,23 +39,23 @@ Pretty standard devices and I
 
 ### So can it ❓
 
-Can a Unifi network with pfSense with a AMD Embedded 1 GHz quad Jaguar core achive 1Gbps at layer 4, if you need reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your network card says it's negotiated with network at that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️. 
+Can a Unifi network with pfSense with a AMD Embedded 1 GHz quad Jaguar core achieve 1Gbps at layer 4, if you need reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your network card says it's negotiated with network at layer 2 that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️. 
 
 Early ruled out testing with the Unifi UAP-AC-Pro Wi-F because even though the brochure says 1.7Gbps of Bandwidth the AP is wired to the switch at 1Gbps and although it has a 5 GHz Radio and a channel width of VHT 80 the MacBook's Tx/Rx Rate is ~800 Mbps in my environment❌.
 
-Here's some useful notes from others on tuning for 1Gbps and what was observed on pfSense/APU2 firewalls: 
+Here's some useful notes from others on tuning for 1Gbps and what was observed on pfSense/APU2 firewalls:
 
-~~~~ 
+~~~~
 URL;S
-- https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/ 
+- https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/
 - https://teklager.se/en/pfsense-hardware/
 - https://people.cs.clemson.edu/~westall/853/notes/pres05.pdf
-- https://docs.netgate.com/pfsense/en/latest/hardware/tune.html 
+- https://docs.netgate.com/pfsense/en/latest/hardware/tune.html
 ~~~~
 
-### IPerf3 testing on my local network to see if I could reach 1Gbps locally. 
+### IPerf3 testing on my local network to see if I could reach 1Gbps locally.
 
-##### 
+#####
 
 
 
@@ -81,13 +78,13 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 > [  4]   7.00-8.00   sec   112 MBytes   941 Mbits/sec
 > [  4]   8.00-9.00   sec   112 MBytes   937 Mbits/sec
 > [  4]   9.00-10.00  sec   112 MBytes   941 Mbits/sec
-> 
+>
 > - - - - - - - - - - - - - - - - - - - - - - - - -
-> 
+>
 > [ ID] Interval           Transfer     Bandwidth
 > [  4]   0.00-10.00  sec  1.08 GBytes   931 Mbits/sec                  sender
 > [  4]   0.00-10.00  sec  1.08 GBytes   930 Mbits/sec                  receiver
-> 
+>
 > iperf Done.
 > ~~~
 
@@ -110,17 +107,17 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 > [  4]   7.00-8.00   sec   113 MBytes   951 Mbits/sec
 > [  4]   8.00-9.00   sec   112 MBytes   941 Mbits/sec
 > [  4]   9.00-10.00  sec   111 MBytes   933 Mbits/sec
-> 
+>
 > - - - - - - - - - - - - - - - - - - - - - - - - -
-> 
+>
 > [ ID] Interval           Transfer     Bandwidth
 > [  4]   0.00-10.00  sec  1.09 GBytes   933 Mbits/sec                  sender
 > [  4]   0.00-10.00  sec  1.08 GBytes   932 Mbits/sec                  receiver
-> 
+>
 > iperf Done.
 > ~~~
 >
-> 
+>
 >
 
 **TEST3** AppleTV connected to the same UniFi 'switch 1' and the MacBook connected to the same UniFi 'switch 2'. (just a baseline for test 4)
@@ -140,19 +137,19 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 > [  4]   7.00-8.00   sec   112 MBytes   941 Mbits/sec
 > [  4]   8.00-9.00   sec   112 MBytes   937 Mbits/sec
 > [  4]   9.00-10.00  sec   112 MBytes   941 Mbits/sec
-> 
+>
 > - - - - - - - - - - - - - - - - - - - - - - - - -
-> 
+>
 > [ ID] Interval           Transfer     Bandwidth
 > [  4]   0.00-10.00  sec  1.09 GBytes   940 Mbits/sec                  sender
 > [  4]   0.00-10.00  sec  1.09 GBytes   939 Mbits/sec                  receiver
-> 
+>
 > iperf Done.
 > ~~~
 
 **TEST4** - intra VLAN limit of the 1Gb trunk port hit.
 
-> ~~~ 
+> ~~~
 > me@MacBook Applications % ./iperf3 -c 192.168.40.70 -p 5201
 > Connecting to host 192.168.40.70, port 5201
 > [  4] local 192.168.10.104 port 52588 connected to 192.168.40.70 port 5201
@@ -167,13 +164,13 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 > [  4]   7.00-8.00   sec  43.2 MBytes   362 Mbits/sec
 > [  4]   8.00-9.00   sec  44.1 MBytes   370 Mbits/sec
 > [  4]   9.00-10.00  sec  44.4 MBytes   372 Mbits/sec
-> 
+>
 > - - - - - - - - - - - - - - - - - - - - - - - - -
-> 
+>
 > [ ID] Interval           Transfer     Bandwidth
 > [  4]   0.00-10.00  sec   446 MBytes   374 Mbits/sec                  sender
 > [  4]   0.00-10.00  sec   443 MBytes   372 Mbits/sec                  receiver
-> 
+>
 > iperf Done.
 > ~~~
 
@@ -194,7 +191,7 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 > [ 11]   0.00-10.00  sec   435 MBytes   365 Mbits/sec                  receiver
 > [SUM]   0.00-10.00  sec   942 MBytes   790 Mbits/sec                  sender
 > [SUM]   0.00-10.00  sec   938 MBytes   786 Mbits/sec                  receiver
-> 
+>
 > iperf Done.
 > ~~~
 
@@ -240,12 +237,12 @@ Host: tpg.speedtestcustom.com
 
 
 
-Chasing 1Gbps 
+Chasing 1Gbps
 
-All using a MacBook 
+All using a MacBook
 
 0) https://www.speedtest.net/result/12524797215 APU2 pfSense firewall
-1) https://www.speedtest.net/result/12524842243 DIRECT TO NTU 
+1) https://www.speedtest.net/result/12524842243 DIRECT TO NTU
 2) https://www.speedtest.net/result/12524854984 TEST FIREWALL (pfSense)
 3) https://www.speedtest.net/result/12524820479 GigaComm Supplied Router
 4) https://www.speedtest.net/result/12525262017 TEST FIREWALL (opnSense)
@@ -267,7 +264,7 @@ All using a MacBook
 **TEST1** - intra VLAN limit of the 1Gb trunk port hit.
 
 > ~~~
-> [ec2-user@ip-172-31-9-209 ~]$ iperf3 -s 
+> [ec2-user@ip-172-31-9-209 ~]$ iperf3 -s
 > -----------------------------------------------------------
 > Server listening on 5201
 > -----------------------------------------------------------
@@ -324,16 +321,16 @@ All using a MacBook
 > [ 22]   0.00-60.00  sec   848 MBytes   119 Mbits/sec                  receiver
 > [SUM]   0.00-60.00  sec  5.83 GBytes   835 Mbits/sec  16020             sender
 > [SUM]   0.00-60.00  sec  5.83 GBytes   834 Mbits/sec                  receiver
-> 
+>
 > iperf Done.
 > ~~~~
 >
-> 
+>
 
 
 
 
 
-OTHER 
+OTHER
 
 https://adtran.com/web/page/portal/Adtran/group/4504  
