@@ -139,4 +139,4 @@ You can reuse your own router with GigaComm service, it will need to support Eth
 
 
 
-#### Next up: 👉[Part 2, install time 🛠](https://github.com/alexanderswift/public-gigacom/blob/main/install_time.md)👈
+#### Next up: 👉 [Part 2, install time 🛠](https://github.com/alexanderswift/public-gigacom/blob/main/install_time.md) 👈
