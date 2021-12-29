@@ -40,21 +40,25 @@ Now that's out of the system I'll move on 🧘🏼
 
 
 
-### **The search for a new provider begins 🚀:**
+## **The search for a new provider begins 🚀:**
 
 The phrase ***'It's OK until it’s not OK'*** has never been truer when it comes to the way we now rely upon the Internet because of how and where we work (WFH + 🦠).  Services normally the domian of the corprate like FaceTime, WebEx, Zoom and Netflix (my parents now use daily 🤯) are now being used in the home to stay connected with each other. <u>It's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.</u> 
+
+
 
 > and on a side-note my fingers are crossed for more Aussie consumers thinking this way thus creating a market demand and a better internet for all Australians 🇦🇺.
 
  
 
-#### My building constraints 🏪 ; 
+### My building constraints 🏪 ; 
 
 Prior to GigaComm enabling the building the available options are either a NBN retail service provider or TPG Fibre to the Building and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices for low latency Gigabit Internet so I asked the  NBN for a FttP quote 🙅‍♂️. That's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB and it's a lot on money for a consumer to pay, it's almost like I was taking the hit for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on🏃‍♂️. 
 
 At this stage I thought I was stuck with FttB providers and in that case, it's my opinion that Aussie Broadband came out tops in my research and recommendations from friends/colleagues and if I had to choose FttB i'd happliy do so.
 
-##### So whats this Internet speed = distance/time and the beer truck analogy (optional read)?
+
+
+#### So whats this Internet speed = distance/time and the beer truck analogy (optional read)?
 
 ```
 Oh maybe now is the time to explain my perspective on internet speed = distance/time. I promise I'll try be succinct with this using the beer truck analogy, for this example the beer truck is...
@@ -72,9 +76,13 @@ As we know frequency is generally defined as the number of cycles which occur in
 Building another brewery closer to me would reduce the **distance** but building a brewery isn't cheap so generally we all agree to share the beer truck and wait **latency**.  
 ```
 
+
+
 The network & tech enthusiast in me obviously upgraded the iPhone when Telstra 5G was launched and thus my mobile internet is 4x faster than my fixed-line internet 🤷‍♂️ and latency is about par on but on both latency is variable. I've also seen via technology news sites the auctions of the mmWave (pronounced as millimetre wave) 5G spectrum has completed, well network providers have paid all that money so someone must be selling a short-range (distance), high-frequency (time) network technology that delivers higher speeds.
 
-### Early GigaComm Scepticism 🤔:
+
+
+## Early GigaComm Scepticism 🤔:
 
 Researching who and whats available I discovered what looks like a smaller but experienced & growing company who are combining mmWave and optical fibre technology to build "a network built for the Gigabit Age".  
 
@@ -96,7 +104,9 @@ I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gig
 
 ### Peering 🤝:
 
-GigaComm are AS139049 and there's a number of ways to find out who they peer with and good news for me the look to learn the route to WebEx from Vocus and good news for everyone else for company of their size they are well connected via both Equinix peering LANs ASN's giving them access to all the Equinix buildings in the region and they are aso connected on the IX Australia NSW & VIC carrier-neutral internet exchanges shortening the distance and time to hundreds of ISP's, MSP's, Amazon & Google clouds and CDN's like Akamai and Cloudflare etc.  
+GigaComm are GIGACOMM-AS-AP / AS139049 and there's a number of ways to find out who they peer with and good news for me the look to learn the routes for WebEx from Vocus and good news for everyone else for company of their size they are well connected via both Equinix peering LANs ASN's giving them access to all the Equinix buildings in the region and they are also connected on the IX Australia NSW & VIC carrier-neutral internet exchanges shortening the distance and time to hundreds of ISP's, MSP's, Amazon & Google clouds and CDN's like Akamai and Cloudflare etc.  
+
+
 
 ```
 Useful sites to work this out;
@@ -109,8 +119,24 @@ Useful sites to work this out;
 - AS139049 traffic on the IX https://metrics.ix.asn.au/d/fY3FT5Mnk/ix-peer?orgId=2&var-Customer=746&var-polling_interval=1m&var-Device=All&var-ASN=AS139049&var-ASNRAW=139049
 ```
 
-Slight side-topic, I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses at the time of writing this I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and these are two very  well connected networks so I get the best of a global AS and the access speed of GigaComm. 
+
+
+#### Side note: iCloud Private Relay. 
+
+I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses at the time of writing this I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and these are two very  well connected networks. There's a massive advantage to the iCloud Private Relay because it proxies your request to the destination website and thus when the proxy is the largests network on the Internet with more PoP's that any Telco, ISP or Cloud provider you best of a global network and the local access speed of GigaComm, 🥇🥇🥇 WINNING 🥇🥇🥇. 
 
 
 
-##### 
+### Ordering 💳:
+
+The quoting and ordering process is on par with the other ISP's they have an automated email and onlce you click to accept a total minimum commitment including once-off and monthly costs a flurry of emails as confirmation of the order and an invite to setup an account for https://myaccount.gigacomm.net.au and enter your payment details etc. 
+
+I recived a follow up email quoting 10 days before a field engineer need to do some jumpering and install a NTD, receive further updates on the progress of your order and the timeframe for installation.
+
+### **Reusing your own router** ♻️
+
+You can reuse your own router with GigaComm service, it will need to support Ethernet WAN and according to their [FAQ](https://www.gigacomm.net.au/faqs/bring-your-own-router)   to achieve the maximum speeds on plans under 1Gbps they suggest upstream traffic shaping settings.
+
+
+
+#### Next up: 👉[Part 2, install time 🛠](https://github.com/alexanderswift/public-gigacom/blob/main/install_time.md)👈
