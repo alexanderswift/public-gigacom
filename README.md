@@ -9,7 +9,7 @@ Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **
 
 Read on. 
 
-- [Part 1, Ice Cream and Unicorns 🍦& 🦄 ](https://github.com/alexanderswift/public-gigacom/blob/main/Ice_Cream_and_Unicorns.md)
+- [Part 1, Ice Cream and Unicorns 🍦& 🦄 ](https://github.com/alexanderswift/public-gigacom/blob/main/ice_cream_and_unicorns.md)
 
 - [Part 2, install time 🛠](https://github.com/alexanderswift/public-gigacom/blob/main/install_time.md)
 - [Part 3, testing and final thoughts 🧪& 🤔](https://github.com/alexanderswift/public-gigacom/blob/main/testing_and_final_thoughts.md).
