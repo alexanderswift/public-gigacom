@@ -90,8 +90,6 @@ GigaComm even said I could run my NBN / current internet provider side-by-side A
 
 I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gigacom/blob/main/emails_to_gigacomm.pdf) to seek further clarification basically with a a few more questions if they didn't (an they did not mind, professional and speedy reply) and stating from what GigaComm are saying it looks like they found a way to get the $ per consumer down with a mix of vectoring and fibre in the building. I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
 
-
-
 ### Peering 🤝:
 
 GigaComm are AS139049 and there's a number of ways to find out who they peer with and good news for me the look to learn the route to WebEx from Vocus and good news for everyone else for company of their size they are well connected via both Equinix peering LANs ASN's giving them access to all the Equinix buildings in the region and they are aso connected on the IX Australia NSW & VIC carrier-neutral internet exchanges shortening the distance and time to hundreds of ISP's, MSP's, Amazon & Google clouds and CDN's like Akamai and Cloudflare etc.  
@@ -111,36 +109,4 @@ Slight side-topic, I use Apple devices with iCloud Private Relay (iCloud subscri
 
 
 
-### The install and what i've tested so far 🔎:
-
-
-
-Install pics and whats this additional box❓
-
-testing side by side 🧪and Adtron
-
-
-
-##### Consider whats required to get to Gigabit speeds 🧐.
-
-##### Testing my 
-
-```
-My own speed testing comparing the old and the new.
-From TPG
-Host: speedtest.net (selected GigaComm Pty Ltd Host a server)
-0) https://www.speedtest.net/result/12509282802
-1) https://www.speedtest.net/result/12505837863
-2) https://www.speedtest.net/result/12505887301
-3) https://www.speedtest.net/result/12505889645
-4) https://www.speedtest.net/result/12505892027
-5) https://www.speedtest.net/result/12505894579
-
-Host: tpg.speedtestcustom.com
-0) http://tpg.speedtestcustom.com/result/fe5e6de0-6452-11ec-b50d-5754f75e3cf4
-1) http://tpg.speedtestcustom.com/result/1a41b560-63bf-11ec-8bed-9336fa9df5d4
-2) http://tpg.speedtestcustom.com/result/293d6490-63c1-11ec-8bed-9336fa9df5d4
-3) http://tpg.speedtestcustom.com/result/489253f0-63c1-11ec-8bed-9336fa9df5d4
-4) http://tpg.speedtestcustom.com/result/63e08820-63c1-11ec-8bed-9336fa9df5d4
-5) http://tpg.speedtestcustom.com/result/7caf8b80-63c1-11ec-8bed-9336fa9df5d4
-```
+##### 
