@@ -1,3 +1,7 @@
+---
+typora-root-url: ./pics
+---
+
 ## ISP promised and delivers Gigabit over single-pair copper!
 
 Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast and reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿. 
@@ -84,7 +88,7 @@ Researching who and whats available I discovered what looks like a smaller but e
 
 The reason FttB is limited to 100/40Mbps (in my building) is because the frequency used by vDSL profile 17a is 17 MHz and the distance to the brewery sorry the DSLAM equipment in the MDF room to my unit an estimated 220 to 250 meters when the max is considered to be 300 meters and in some apartment complexes that could be the full 300 meters. To deliver a 1000/100Mbps service with low latency service needs more MHz of frequency (**time**) using a common method called vectoring (the V in vDSL) and the length of line between me and the to the GigaComm equipment needs to be a much shorter **distance**.
 
-![](vectoring.jpeg)
+![Vectoring ](/vectoring.jpeg)
 
 GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard them correctly) **“*<u>a bit of secret source technology</u>*” and that all seemed too good to be true!**
 
