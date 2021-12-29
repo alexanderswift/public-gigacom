@@ -4,21 +4,37 @@
 
 
 
-Taken over a few days in December 2021 after the Installation on a new internet connection. 
+Taken over a few days in late December 2021 after the Installation on a new 1Gb internet connection. 
+
+The reason for the testing is to see what my local network can do before making judgements on the new internet provider, I've invested in some [Ubiquiti unifi](https://www.ui.com) line of Wi-FI / PoE switches and BYO [pfSense](https://www.pfsense.org/download/) firewall on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, great features per dollar spent and all lower power because power here in Australia is some of the most expensive in the world, all up it's cost under AU$1000 and uses about 20watts / 0.5amp. 
+
+So can pfSense with a AMD Embedded 1 GHz quad Jaguar core achive 1Gbps at layer 4, if you need reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your network card says it's negotiated with network at that speed it doesn't mean you will see the nirvana of 1Gbps 
 
 
 
-https://adtran.com/web/page/portal/Adtran/group/4504 
+Here's some useful notes from others on tuning for 1Gbps 
 
-https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/ 
 
-https://teklager.se/en/pfsense-hardware/
 
-https://protectli.com/about/ 
+~~~~ 
+URL;S
+- https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/ 
+- https://teklager.se/en/pfsense-hardware/
+- https://people.cs.clemson.edu/~westall/853/notes/pres05.pdf
+- https://docs.netgate.com/pfsense/en/latest/hardware/tune.html 
+~~~~
 
-https://people.cs.clemson.edu/~westall/853/notes/pres05.pdf
 
-https://docs.netgate.com/pfsense/en/latest/hardware/tune.html 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -293,3 +309,11 @@ All using a MacBook
 > ~~~~
 >
 > 
+
+
+
+
+
+OTHER 
+
+https://adtran.com/web/page/portal/Adtran/group/4504  
