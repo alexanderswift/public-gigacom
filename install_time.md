@@ -12,13 +12,13 @@ The below artical is about the an US inicitive called the Rural Digital Opportun
 
 
 
-- [ ] RDOF article & Specs - https://go.siklu.com/blog/custom-blog/the-abc-of-wireless-rdof 
+- [x] RDOF article & Specs - https://go.siklu.com/blog/custom-blog/the-abc-of-wireless-rdof 
 
-- [ ] Use of wireless / mmWave for backhaul - https://go.siklu.com/blog/custom-blog/mmwave-more-essential-than-ever-for-all-backhaul-requirements
+- [x] Use of wireless / mmWave for backhaul - https://go.siklu.com/blog/custom-blog/mmwave-more-essential-than-ever-for-all-backhaul-requirements
 
-- [ ] Lowering the cost of the Brewery - https://go.siklu.com/blog/custom-blog/deliver-gigabit-service-for-less-than-50-per-home-passed
+- [x] Lowering the cost of the Brewery - https://go.siklu.com/blog/custom-blog/deliver-gigabit-service-for-less-than-50-per-home-passed
 
-- [ ] Mesh in the City - https://go.siklu.com/blog/custom-blog/mesh-in-the-city
+- [x] Mesh in the City - https://go.siklu.com/blog/custom-blog/mesh-in-the-city
 
   
 
@@ -28,8 +28,8 @@ So one morning a rusty ex-ISP network engineer is looking out the window while b
 
 
 
-- [ ] mmWave equipment on the roof https://www.siklu.com/product/etherhaul-kilo-series/ 
-- [ ] ACMA website https://web.acma.gov.au/rrl/client_search.client_lookup?pCLIENT_NO=20048150 
+- [x] mmWave equipment on the roof https://www.siklu.com/product/etherhaul-kilo-series/ 
+- [x] ACMA website https://web.acma.gov.au/rrl/client_search.client_lookup?pCLIENT_NO=20048150 
 
 
 
@@ -55,8 +55,8 @@ Howere I do wonder if heavy winds on a pole and/or magpie's 🦅 could cause fut
 
  
 
-- [ ] mmWave and Weather – https://go.siklu.com/blog/mmwave-and-weather
-- [ ] mmWave in the troppics (humidity and water in the air) - https://go.siklu.com/blog/mmwave-and-the-tropics) 
+- [x] mmWave and Weather – https://go.siklu.com/blog/mmwave-and-weather
+- [x] mmWave in the troppics (humidity and water in the air) - https://go.siklu.com/blog/mmwave-and-the-tropics) 
 
 
 

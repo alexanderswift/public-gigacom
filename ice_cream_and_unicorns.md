@@ -104,7 +104,7 @@ I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gig
 
 
 
-🪄🪄**In summary I made a statement 'it looks you guys found a way to get the $ per consumer down with a mix of microwave, vectoring and fibre in the building.'**🪄🪄
+🪄🪄**In summary I made a statement 'it looks you guys found a way to get the $ per consumer down with a mix of vectoring and fibre in the building.'**🪄🪄
 
 
 
