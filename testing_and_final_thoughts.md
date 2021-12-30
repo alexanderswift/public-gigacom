@@ -212,11 +212,13 @@ When both hosts are in the same vlan the hosts boadcast and then communicated di
 
 That doesn't mean I can't get 1Gbps from my connection it means a single host with a few threads including the TCP overhead  used in my tests has a limit of about 930 Mbits/sec. 
 
-### Internet Speed Tests sites 🌏
 
-These sites are an indication of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
 
-##### **From TPGGigaComm**
+## Internet Speed Tests sites 🌏
+
+Using the GigaComm connection but these sites are an indication of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
+
+##### All tests performed with a MacBook connected  ⚠️ DIRECTLY TO THE NTU ⚠️ AND I DO NOT RECOMMEND THIS ⚠️ 
 
 | Host                                             | Ping (Latency) | Down       | Up         | URL                                                          |
 | ------------------------------------------------ | -------------- | ---------- | ---------- | ------------------------------------------------------------ |
@@ -227,28 +229,31 @@ These sites are an indication of your download speed but you've no idea whatelse
 | Speedtest.net (selected GigaComm Pty Ltd Sydney) | 2ms            | 935.34Mbps | 97.59Mbps  | https://www.speedtest.net/result/12520811933                 |
 | Speedtest.net (selected Digital Pacific Sydney)  | 3ms            | 937.99Mbps | 100.11Mbps | https://www.speedtest.net/result/12509282802                 |
 | TPG Speedtest Sydney                             | 3ms            | 930.8Mbps  | 100.2Mbps  | http://tpg.speedtestcustom.com/result/fe5e6de0-6452-11ec-b50d-5754f75e3cf4 |
-| TPG Speedtest Sydney                             | 3ms            | 934.9      | 99.2       | http://tpg.speedtestcustom.com/result/80c0f700-66e0-11ec-90cc-bf087e229683 |
-| TPG Speedtest Sydney                             | 2ms            | 940.4      | 99.9       | http://tpg.speedtestcustom.com/result/9c9cec40-66e0-11ec-90cc-bf087e229683 |
-| TPG Speedtest Sydney                             | 2ms            | 917.8      | 99.8       | http://tpg.speedtestcustom.com/result/c08ff4d0-66e0-11ec-90cc-bf087e229683 |
-| TPG Speedtest Sydney                             | 3ms            | 941.2      | 98.8       | http://tpg.speedtestcustom.com/result/f28913e0-66e0-11ec-90cc-bf087e229683 |
-| TPG Speedtest Sydney                             | 3ms            | 934.0      | 99.2       | http://tpg.speedtestcustom.com/result/0ce4aab0-66e1-11ec-90cc-bf087e229683 |
-|                                                  |                |            |            |                                                              |
+| TPG Speedtest Sydney                             | 3ms            | 934.9Mbps  | 99.2Mbps   | http://tpg.speedtestcustom.com/result/80c0f700-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 2ms            | 940.4Mbps  | 99.9Mbps   | http://tpg.speedtestcustom.com/result/9c9cec40-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 2ms            | 917.8Mbps  | 99.8Mbps   | http://tpg.speedtestcustom.com/result/c08ff4d0-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 3ms            | 941.2Mbps  | 98.8Mbps   | http://tpg.speedtestcustom.com/result/f28913e0-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 3ms            | 934.0Mbps  | 99.2Mbps   | http://tpg.speedtestcustom.com/result/0ce4aab0-66e1-11ec-90cc-bf087e229683 |
 
+##### Summary: 
 
-
-Chasing 1Gbps.  
-
-All using a MacBook
-
-0) https://www.speedtest.net/result/12524797215 APU2 pfSense firewall
-1) https://www.speedtest.net/result/12524842243 DIRECT TO NTU
-2) https://www.speedtest.net/result/12524854984 TEST FIREWALL (pfSense)
-3) https://www.speedtest.net/result/12524820479 GigaComm Supplied Router
-4) https://www.speedtest.net/result/12525262017 TEST FIREWALL (opnSense)
+I reckon the MacBook going downhill with a trailing wind can only do 940Mbps.. 
 
 
 
 
+
+### Chasing 1Gbps 🏃‍♂️.  
+
+All the below test sing a MacBook
+
+| Host                                             | Device                                                    | Ping (Latency) | Down       | UP        | URL                                          |
+| ------------------------------------------------ | --------------------------------------------------------- | -------------- | ---------- | --------- | -------------------------------------------- |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | APU2 pfSense firewall                                     | 2ms            | 572.72Mbps | 90.93Mbps | https://www.speedtest.net/result/12524797215 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | DIRECT TO NTU                                             | 2ms            | 879.28Mbps | 94.26Mbps | https://www.speedtest.net/result/12524842243 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | TEST FIREWALL dual NIC PC16GB RAM and 4Ghz CPU (pfSense)  | 1ms            | 896.28Mbps | 90.53Mbps | https://www.speedtest.net/result/12524854984 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | TEST FIREWALL dual NIC PC16GB RAM and 4Ghz CPU (opnSense) | 2ms            | 879.51Mbps | 90.75Mbps | https://www.speedtest.net/result/12525262017 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | GigaComm Supplied Router                                  | 2ms            | 825.25Mbps | 97.83Mbps | https://www.speedtest.net/result/12524820479 |
 
 
 
