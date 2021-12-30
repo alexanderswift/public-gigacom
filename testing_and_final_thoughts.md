@@ -216,13 +216,13 @@ That doesn't mean I can't get 1Gbps from my connection it means a single host wi
 
 ## Internet Speed Tests sites 🌏
 
-Before we get into the GigaComm results here's a quick speed test from my iPhone on 5G at home, you can see why **it's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.** The silliness of having TPG FttB in an age of Gigabit but why I didn't just use a 4G/5G modem, the latency advantages of GigaComm mmWave are clear when you look at the latency differences.
+Before we get into the GigaComm results here's a quick speed test from my iPhone on 5G at home, you can see why **it's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.** The silliness of having TPG FttB in an age of Gigabit but also why I didn't just use a 4G/5G modem, the latency advantages of GigaComm mmWave are clear when you look at the latency differences.
 
 | Host             | Ping (Latency) | Down   | Up    | URL                                           |
 | ---------------- | -------------- | ------ | ----- | --------------------------------------------- |
 | Telstra (Sydney) | **16ms**       | 946.96 | 85.67 | https://www.speedtest.net/result/i/4924116319 |
 
-Using the GigaComm connection but these sites are an indication of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
+Using the GigaComm connection but these public speed test sites are an indication ONLY of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
 
 ##### All tests performed with a MacBook connected  ⚠️ DIRECTLY TO THE NTU ⚠️ AND I DO NOT RECOMMEND THIS ⚠️ 
 
@@ -245,9 +245,11 @@ Using the GigaComm connection but these sites are an indication of your download
 
 I reckon the MacBook going downhill with a trailing wind can only do 940Mbps. 
 
+
+
 ### Chasing 1Gbps 🏃‍♂️.  
 
-All the below testa are using a MacBook connected to my Unifi network directly to a device mentioned in the column "Device"
+All the below testa are using a MacBook connected to my Unifi network directly to a device mentioned in the column "Device".
 
 | Host                                             | Device                                                    | Ping (Latency) | Down       | UP        | URL                                          |
 | ------------------------------------------------ | --------------------------------------------------------- | -------------- | ---------- | --------- | -------------------------------------------- |
@@ -261,17 +263,17 @@ All the below testa are using a MacBook connected to my Unifi network directly t
 
 ##### Summary: 
 
-I reckon the MacBook going downhill with a trailing wind can only do 940Mbps. 
-
-### 
+I hope why you can see I stated these public speed test sites are an indication ONLY of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users. However it shows that theres a need to tune or replace the APU2 pfSense firewall because it looks like it's hitting limits as described by TekLager in their artical '[How to fine-tune pfSense for 1Gbit throughput on APU2](https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/)' and ''[what hardware to buy for pfSense router in 2021](https://teklager.se/en/pfsense-hardware/)' I look to be hitting the single connection performance limits.
 
 
 
-### AWS - Chasing 1Gb and we're going to need a bigger boat🦈;
+### AWS - Chasing 1Gb and I think we're going to need a bigger boat🦈;
+
+So befor I rush out and buy a bigger ~~boat~~ firewall I wanted to test with a host I know can do upwards of 10Gbps used a tool of my current day job and deployed an AWS EC2 instance and performed a test making my pfSense firewall the -s (server) and AWS the -c  (client) and vice-versa. 
 
 
 
-**TEST1** - intra VLAN limit of the 1Gb trunk port hit.
+**TEST1** - EC2 as the -s (server) to test upload from the APU2 firewall.
 
 > ~~~
 > [ec2-user@ip-172-31-9-209 ~]$ iperf3 -s
@@ -303,7 +305,7 @@ I reckon the MacBook going downhill with a trailing wind can only do 940Mbps.
 
 
 
-**TEST5** - intra VLAN limit of the 1Gb trunk port hit.
+**TEST2* - EC2 as the -c (client)  to test download to the APU2 firewall.
 
 > ~~~~
 > [ec2-user@ip-172-31-9-209 ~]$ iperf3 -c 103.138.245.113 -P 10 -d -t 60
@@ -335,7 +337,12 @@ I reckon the MacBook going downhill with a trailing wind can only do 940Mbps.
 > iperf Done.
 > ~~~~
 >
->
+
+
+
+##### Summary: 
+
+Yep, I think we're going to need a bigger boat🦈 while the APU2 based firewall has provided outstanding reliability, performance and a great features per dollar ratio while having the benifit of all being low power device it looks like it's got a limit of about 900Mbps. I thought about trying to bond two interfaces from the Firewall to the Switch to try improve the bandwidth between the two but the options between the two are LAG (link-aggregation) and while that would help with multiple devices the algorithm used in this implementation of LAG uses the senders and receivers HWaddress to decide on the physical media to send the Ethernet frames via a link thus isn't going to increase speed, only the capacity.
 
 
 
