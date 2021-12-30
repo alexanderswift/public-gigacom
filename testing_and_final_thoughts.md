@@ -1,4 +1,4 @@
-# Test and final thoughts 🧪& 🤔
+# Testing and final thoughts 🧪& 🤔
 
 
 ### Why test❓
@@ -43,27 +43,13 @@ Pretty standard devices.
 
 Early eject on tesing with the Unifi UAP-AC-Pro Wi-F because even though the brochure says 1.7Gbps of Bandwidth the AP is wired to the switch at 1Gbps and although it has a 5 GHz Radio and a channel width of VHT 80 the MacBook's Tx/Rx Rate is ~800 Mbps in my environment❌.
 
---- 
+---
 
 ![](https://github.com/alexanderswift/public-gigacom/blob/main/pics/side-by-side-test.jpeg)
 
 ### So can we hit 1Gbps❓
 
 Can a Unifi network with a pfSense firewall built on a low power AMD Embedded 1GHz quad Jaguar core achieve 1Gbps at layer 4, I'm sure I can switch traffic and route traffic at 1Gbps but can I match, inspect and forward (Firewalling) at 1Gbps❓. A quick reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your switch / router / network card says it's negotiated a layer 2 at that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️.
-
-
-
-Here's some useful notes from others on tuning for 1Gbps and what was observed on pfSense/APU2 firewalls:
-
-~~~~
-URL;S
-- https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/
-- https://teklager.se/en/pfsense-hardware/
-- https://people.cs.clemson.edu/~westall/853/notes/pres05.pdf
-- https://docs.netgate.com/pfsense/en/latest/hardware/tune.html
-~~~~
-
-
 
 ### IPerf3 testing on my local network to see if I could reach 1Gbps locally.
 
@@ -190,7 +176,7 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 
 
 
-**TEST5** - intra VLAN limit of the 1Gb trunk port hit so I'm experimenting with the -P (parallel) to simultaneously test with 4 threads to see if the intel NICs in the APU2 and use more processing threads.. 
+**TEST5** - the intra VLAN limit of the 1Gb trunk port was hit so I'm experimenting with the -P (parallel) to simultaneously test with 4 threads to see if the intel NICs in the APU2 and use more processing threads.. 
 
 > ~~~
 > alexs@Alexs-MacBook Downloads % iperf3 -c 192.168.40.102 -P 4      
@@ -218,6 +204,18 @@ When both hosts are in the same vlan the hosts boadcast and then communicated di
  (  ADD UDP TEST6) 
 
 That doesn't mean I can't get 1Gbps from my connection it means a single host with a few threads including the TCP overhead  used in my tests has a limit of about 930 Mbits/sec. 
+
+Here are some useful notes from others on tuning pfSense for 1Gbps and what was observed on pfSense/APU2 firewalls:
+
+~~~~
+URL;S
+- https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/
+- https://teklager.se/en/pfsense-hardware/
+- https://people.cs.clemson.edu/~westall/853/notes/pres05.pdf
+- https://docs.netgate.com/pfsense/en/latest/hardware/tune.html
+~~~~
+
+
 
 
 
@@ -256,9 +254,9 @@ I reckon the MacBook going downhill with a trailing wind can only do 940Mbps.
 
 ### Chasing 1Gbps 🏃‍♂️.  
 
-All the below testa are using a MacBook connected to my Unifi network directly to a device mentioned in the column "Device".
+All the below tests are using a MacBook connected to my Unifi network directly to a device mentioned in the column "Device".
 
-| Host                                             | Device                                                    | Ping (Latency) | Down       | UP        | URL                                          |
+| Host                                             | Device                                                    | Ping (Latency) | Down       | UP        | SpeedTest URL                                |
 | ------------------------------------------------ | --------------------------------------------------------- | -------------- | ---------- | --------- | -------------------------------------------- |
 | Speedtest.net (selected GigaComm Pty Ltd Sydney) | APU2 pfSense firewall                                     | 2ms            | 572.72Mbps | 90.93Mbps | https://www.speedtest.net/result/12524797215 |
 | Speedtest.net (selected GigaComm Pty Ltd Sydney) | DIRECT TO NTU                                             | 2ms            | 879.28Mbps | 94.26Mbps | https://www.speedtest.net/result/12524842243 |
@@ -268,10 +266,17 @@ All the below testa are using a MacBook connected to my Unifi network directly t
 
 
 
-Testing with Cloudflare  
+### Testing with Cloudflare ☁️: 
 
-- [ ]  APU2 pfSense firewall https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png 
-- [ ] DIRECT TO NTU - 
+All the below tests are using a MacBook connected to my Unifi network directly to a the device  mentioned and while the test results are simular final numbers if you look closely you can see once again if you push the APU2 pfSense firewall with a higher number of smaller packets the speed drops by 2/3rd's. 
+
+- [x]  APU2 pfSense firewall - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png 
+- [x] DIRECT TO NTU - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-Direct-To-NTU.png
+- [x] TEST FIREWALL (pfSense) - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-TestFirewall.png
+- [x] TEST FIREWALL opnfSense) - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-TestFirewallOPNSense.png
+- [x] GigaComm Supplied Router - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-GigaCommRouter.png
+
+-----
 
 ##### Summary: 
 
@@ -281,7 +286,7 @@ I hope why you can see I stated these public speed test sites are an indication 
 
 ### AWS - Chasing 1Gb and I think we're going to need a bigger boat🦈;
 
-So befor I rush out and buy a bigger ~~boat~~ firewall I wanted to test with a host I know can do upwards of 10Gbps used a tool of my current day job and deployed an AWS EC2 instance and performed a test making my pfSense firewall the -s (server) and AWS the -c  (client) and vice-versa. 
+So before I rush out and buy a bigger **~~boat~~** firewall I wanted to test with a host I know is capable and in my current day job i'd deploy an AWS EC2 t3.micro (1GiB) instance with up to 5 Gigabits of network performed to  test my pfSense firewall the -s (server) and AWS the -c  (client) and vice-versa. 
 
 
 
@@ -317,7 +322,7 @@ So befor I rush out and buy a bigger ~~boat~~ firewall I wanted to test with a h
 
 
 
-**TEST2* - EC2 as the -c (client)  to test download to the APU2 firewall.
+**TEST2** - EC2 as the -c (client)  to test download to the APU2 firewall.
 
 > ~~~~
 > [ec2-user@ip-172-31-9-209 ~]$ iperf3 -c 103.138.245.113 -P 10 -d -t 60
@@ -349,6 +354,38 @@ So befor I rush out and buy a bigger ~~boat~~ firewall I wanted to test with a h
 > iperf Done.
 > ~~~~
 >
+
+
+
+![](https://github.com/alexanderswift/public-gigacom/blob/main/pics/aws-to-ap2-firewall-iperf.png)
+
+
+
+**TEST3** - EC2 as the -c (client)  to test download to the APU2 firewall but this time I switched to UDP to see what is possible without the TCP handshake. .
+
+~~~
+[ec2-user@ip-172-31-47-176 ~]$ iperf3 -c 103.138.245.119 -P 5  -u -i 1 -d -b 250M -t 120
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Jitter    Lost/Total Datagrams
+[  4]   0.00-120.00 sec  3.49 GBytes   250 Mbits/sec  0.033 ms  631827/2588270 (24%)  
+[  4] Sent 2588270 datagrams
+[  6]   0.00-120.00 sec  3.49 GBytes   250 Mbits/sec  0.046 ms  631132/2588264 (24%)  
+[  6] Sent 2588264 datagrams
+[  8]   0.00-120.00 sec  3.49 GBytes   250 Mbits/sec  0.043 ms  637851/2588269 (25%)  
+[  8] Sent 2588269 datagrams
+[ 10]   0.00-120.00 sec  3.49 GBytes   250 Mbits/sec  0.050 ms  634072/2588270 (24%)  
+[ 10] Sent 2588270 datagrams
+[ 12]   0.00-120.00 sec  3.49 GBytes   250 Mbits/sec  0.045 ms  631607/2588265 (24%)  
+[ 12] Sent 2588265 datagrams
+[SUM]   0.00-120.00 sec  17.5 GBytes  1.25 Gbits/sec  0.043 ms  3166489/12941338 (24%)  
+
+iperf Done.
+[ec2-user@ip-172-31-47-176 ~]$ 
+~~~
+
+
+
+![](https://github.com/alexanderswift/public-gigacom/blob/main/pics/EC2-to-firewall-UDP.png)
 
 
 
