@@ -206,53 +206,33 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 
 #### Layer 2/3 iPerf3 testing summary 📈: 
 
-When both hosts are in the same vlan the hosts boadcast and then communicated directly with each outher and the results show 930 Mbits/sec switched and when I route via the firewall using multiple threads the max is about 790 Mbits/sec. It looks like my devices have some limits and TCP overhead  (****  ADD UDP TEST6****) 
+When both hosts are in the same vlan the hosts boadcast and then communicated directly with each outher and the results show 930 Mbits/sec switched and when I route via the firewall using multiple threads the max is about 790 Mbits/sec. 
 
-That doesn't mean I can't get 1Gbps from my connection it means a single host with a a few threads and TCP used in my tests has  limits. 
+ (  ADD UDP TEST6) 
 
+That doesn't mean I can't get 1Gbps from my connection it means a single host with a few threads including the TCP overhead  used in my tests has a limit of about 930 Mbits/sec. 
 
+### Internet Speed Tests sites 🌏
 
-Internet Speed Tests sites
+These sites are an indication of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
 
-These sites are an indication of your download speed but you've no idea 
+##### **From TPGGigaComm**
 
-### **From TPG**
-
-Host: speedtest.net (selected GigaComm Pty Ltd Host a server)
-
-0) https://www.speedtest.net/result/12509282802
-1) https://www.speedtest.net/result/12505837863
-2) https://www.speedtest.net/result/12505887301
-3) https://www.speedtest.net/result/12505889645
-4) https://www.speedtest.net/result/12505892027
-
-
-Host: tpg.speedtestcustom.com
-
-0) http://tpg.speedtestcustom.com/result/fe5e6de0-6452-11ec-b50d-5754f75e3cf4
-1) http://tpg.speedtestcustom.com/result/1a41b560-63bf-11ec-8bed-9336fa9df5d4
-2) http://tpg.speedtestcustom.com/result/293d6490-63c1-11ec-8bed-9336fa9df5d4
-3) http://tpg.speedtestcustom.com/result/489253f0-63c1-11ec-8bed-9336fa9df5d4
-4) http://tpg.speedtestcustom.com/result/63e08820-63c1-11ec-8bed-9336fa9df5d4
-
-### **From GigaComm**
-
-Host: speedtest.net (selected GigaComm Pty Ltd Host a server)
-
-0) https://www.speedtest.net/result/12520801875
-1) https://www.speedtest.net/result/12520804304
-2) https://www.speedtest.net/result/12520807098
-3) https://www.speedtest.net/result/12520809756
-4) https://www.speedtest.net/result/12520811933
-
-Host: tpg.speedtestcustom.com
-
-
-0) http://tpg.speedtestcustom.com/result/80c0f700-66e0-11ec-90cc-bf087e229683
-1) http://tpg.speedtestcustom.com/result/9c9cec40-66e0-11ec-90cc-bf087e229683
-2) http://tpg.speedtestcustom.com/result/c08ff4d0-66e0-11ec-90cc-bf087e229683
-3) http://tpg.speedtestcustom.com/result/f28913e0-66e0-11ec-90cc-bf087e229683
-4) http://tpg.speedtestcustom.com/result/0ce4aab0-66e1-11ec-90cc-bf087e229683
+| Host                                             | Ping (Latency) | Down       | Up         | URL                                                          |
+| ------------------------------------------------ | -------------- | ---------- | ---------- | ------------------------------------------------------------ |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | 2ms            | 932.83Mbps | 98.36Mbps  | https://www.speedtest.net/result/12520801875                 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | 3ms            | 933.24Mbps | 98.82Mbps  | https://www.speedtest.net/result/12520804304                 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | 3ms            | 939.66Mbs  | 99.36Mbps  | https://www.speedtest.net/result/12520807098                 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | 3ms            | 936.41Mbps | 99.18Mbps  | https://www.speedtest.net/result/12520809756                 |
+| Speedtest.net (selected GigaComm Pty Ltd Sydney) | 2ms            | 935.34Mbps | 97.59Mbps  | https://www.speedtest.net/result/12520811933                 |
+| Speedtest.net (selected Digital Pacific Sydney)  | 3ms            | 937.99Mbps | 100.11Mbps | https://www.speedtest.net/result/12509282802                 |
+| TPG Speedtest Sydney                             | 3ms            | 930.8Mbps  | 100.2Mbps  | http://tpg.speedtestcustom.com/result/fe5e6de0-6452-11ec-b50d-5754f75e3cf4 |
+| TPG Speedtest Sydney                             | 3ms            | 934.9      | 99.2       | http://tpg.speedtestcustom.com/result/80c0f700-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 2ms            | 940.4      | 99.9       | http://tpg.speedtestcustom.com/result/9c9cec40-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 2ms            | 917.8      | 99.8       | http://tpg.speedtestcustom.com/result/c08ff4d0-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 3ms            | 941.2      | 98.8       | http://tpg.speedtestcustom.com/result/f28913e0-66e0-11ec-90cc-bf087e229683 |
+| TPG Speedtest Sydney                             | 3ms            | 934.0      | 99.2       | http://tpg.speedtestcustom.com/result/0ce4aab0-66e1-11ec-90cc-bf087e229683 |
+|                                                  |                |            |            |                                                              |
 
 
 
@@ -353,3 +333,27 @@ All using a MacBook
 OTHER
 
 https://adtran.com/web/page/portal/Adtran/group/4504  
+
+
+
+#### TPG connection tests run at the same time 🐢
+
+~~~ 
+Host: www.speedtest.net
+0) https://www.speedtest.net/result/12505837863
+1) https://www.speedtest.net/result/12505887301
+2) https://www.speedtest.net/result/12505889645
+3) https://www.speedtest.net/result/12505892027
+
+Host: tpg.speedtestcustom.com
+0) http://tpg.speedtestcustom.com/result/1a41b560-63bf-11ec-8bed-9336fa9df5d4
+1) http://tpg.speedtestcustom.com/result/293d6490-63c1-11ec-8bed-9336fa9df5d4
+2) http://tpg.speedtestcustom.com/result/489253f0-63c1-11ec-8bed-9336fa9df5d4
+3) http://tpg.speedtestcustom.com/result/63e08820-63c1-11ec-8bed-9336fa9df5d4
+~~~
+
+
+
+
+
+### 
