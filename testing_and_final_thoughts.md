@@ -16,9 +16,9 @@ Over a few rainy days in late December 2021 I decided to create a baseline of th
 
 
 
-The combined power total of all my equipment is less than 20watts / 0.5amp of power at an estimated $45pa and including the purchase cost has cost an estimated AU$850 over the past four years. It's was very tempting to take the approach of shopping Grays / eBay for old Enterprise equipment that was once tens of thousands of dollars but IMHO you could 20x that power bill then you have to deal with the additional noise, heat and it risk failing the PAT (partner acceptance test) so I went the way I did.
+The combined power total of all my equipment is less than 20watts / 0.5amp of power at an estimated $45pa and including the purchase cost has cost an estimated AU$850 over the past four years. It's was very tempting to take the approach of shopping Grays / eBay for old Enterprise equipment that was once tens of thousands of dollars but IMHO you could 20x that power bill then you have to deal with the additional noise, heat and it risks failing the PAT (partner acceptance test) so I went the way I did.
 
-### Devices for testing: 
+### Devices for testing:
 
 Pretty standard devices. 
 
@@ -41,13 +41,17 @@ Pretty standard devices.
 
 
 
+Early eject on tesing with the Unifi UAP-AC-Pro Wi-F because even though the brochure says 1.7Gbps of Bandwidth the AP is wired to the switch at 1Gbps and although it has a 5 GHz Radio and a channel width of VHT 80 the MacBook's Tx/Rx Rate is ~800 Mbps in my environment❌.
+
+--- 
+
 ![](https://github.com/alexanderswift/public-gigacom/blob/main/pics/side-by-side-test.jpeg)
 
 ### So can we hit 1Gbps❓
 
-Can a Unifi network with a pfSense firewall built on a low power AMD Embedded 1GHz quad Jaguar core achieve 1Gbps at layer 4, I'm sure I can switch traffic and route traffic and 1Gbps but can I match, inspect and forward (Firewalling) at 1Gbps. A quick reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and the switch / router / network card says it's negotiated a layer 2 that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️.
+Can a Unifi network with a pfSense firewall built on a low power AMD Embedded 1GHz quad Jaguar core achieve 1Gbps at layer 4, I'm sure I can switch traffic and route traffic at 1Gbps but can I match, inspect and forward (Firewalling) at 1Gbps❓. A quick reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your switch / router / network card says it's negotiated a layer 2 at that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️.
 
-Early eject on tesing with the Unifi UAP-AC-Pro Wi-F because even though the brochure says 1.7Gbps of Bandwidth the AP is wired to the switch at 1Gbps and although it has a 5 GHz Radio and a channel width of VHT 80 the MacBook's Tx/Rx Rate is ~800 Mbps in my environment❌.
+
 
 Here's some useful notes from others on tuning for 1Gbps and what was observed on pfSense/APU2 firewalls:
 
