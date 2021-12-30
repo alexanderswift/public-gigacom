@@ -100,7 +100,15 @@ The reason FttB is limited to 100/40Mbps (in my building) is because the frequen
 
 GigaComm even said I could run my NBN / current internet provider side-by-side AND they use the current copper-pair from the basement to my unit! I gave them a call and they described the technology as (think I heard them correctly) **“*<u>a bit of secret source technology</u>*” and that all seemed too good to be true!**
 
-I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gigacom/blob/main/emails_to_gigacomm.pdf) to seek further clarification basically with a a few more questions if they didn't (an they did not mind, professional and speedy reply) and stating from what GigaComm are saying it looks like they found a way to get the $ per consumer down with a mix of vectoring and fibre in the building. I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
+I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gigacom/blob/main/pics/emailtogigacom.pdf) to seek further clarification basically with a a few more questions if they didn't (an they did not mind, professional and speedy reply) and stating from what GigaComm are saying it looks like they found a way to get the $ per consumer down with a mix of vectoring and fibre in the building. I also asked GigaComm to confirm their ASN so I could research their network and peering to avoid a repeat of the WebEx issues (20+ hours a week on WebEx you need it to work flawlessly).
+
+
+
+🪄🪄**In summary I made a statement 'it looks you guys found a way to get the $ per consumer down with a mix of microwave, vectoring and fibre in the building.'**🪄🪄
+
+
+
+
 
 ### Peering 🤝:
 
@@ -116,7 +124,7 @@ Useful sites to work this out;
 - Cloudflare https://bgp.he.net/AS13335
 - Vocus https://bgp.he.net/AS4826#_peers
 - Another option is https://www.peeringdb.com/
-- AS139049 traffic on the IX https://metrics.ix.asn.au/d/fY3FT5Mnk/ix-peer?orgId=2&var-Customer=746&var-polling_interval=1m&var-Device=All&var-ASN=AS139049&var-ASNRAW=139049
+- AS139049 traffic on the IX https://metrics.ix.asn.au/
 ```
 
 
