@@ -80,7 +80,7 @@ GigaComm had already sent me an email saying they'd be back in touch in the seco
 
 ### Ahhh this makes sense now❗️
 
-So all along i've wondered how are you getting the Distance/ Time to deliver the speed and theres a NTU used to deliver the service... Thank you for the Mhz I guess you would say 
+So all along i've wondered how are you getting the Distance/Time to deliver the speed and theres no  discussion of a NTU during the sales process, thank you for the addtional  Mhz I guess. 
 
 ![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/IMG_1120.jpeg)
 
