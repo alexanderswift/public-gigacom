@@ -282,6 +282,10 @@ All the below tests are using a MacBook connected to my Unifi network directly t
 
 I hope why you can see I stated these public speed test sites are an indication ONLY of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users. However it shows that theres a need to tune or replace the APU2 pfSense firewall because it looks like it's hitting limits as described by TekLager in their artical '[How to fine-tune pfSense for 1Gbit throughput on APU2](https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/)' and ''[what hardware to buy for pfSense router in 2021](https://teklager.se/en/pfsense-hardware/)' I look to be hitting the single connection performance limits.
 
+~~~ 
+The big takeaway for me is you should ignore the headline download speeds and look at all the above tests on Cloudflare focuing on the size of the orange bars because the smaller spread of the bar indicates a better and more consistent performance overall.
+~~~
+
 
 
 ### AWS - Chasing 1Gb and I think we're going to need a bigger boat🦈;
