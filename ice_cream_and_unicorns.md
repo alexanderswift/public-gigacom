@@ -42,7 +42,7 @@ Now that's out of the system I'll move on 🧘🏼
 
 ## **The search for a new provider begins 🚀:**
 
-The phrase ***'It's OK until it’s not OK'*** has never been truer when it comes to the way we now rely upon the Internet because of how and where we work (WFH + 🦠).  Services normally the domain of the corporates and techies like FaceTime, WebEx, Zoom and Netflix (my parents now use daily 🤯) are now being used in the home to stay connected with each other. <u>It's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.</u>
+The phrase ***'It's OK until it’s not OK'*** has never been truer when it comes to the way we now rely upon the Internet because of how and where we work (WFH + 🦠).  Services normally the domain of the corporates and techies like FaceTime, WebEx, Zoom and Netflix (my parents now use daily 🤯) are now being used in the home to stay connected with each other. **It's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.**
 
 
 

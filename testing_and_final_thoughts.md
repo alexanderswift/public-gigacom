@@ -216,17 +216,13 @@ That doesn't mean I can't get 1Gbps from my connection it means a single host wi
 
 ## Internet Speed Tests sites 🌏
 
-Using the GigaComm connection but these sites are an indication of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
-
-Before we get into the GigaComm results here's a quick speed test from my iPhone on 5G at home, as you can see the silliness of having TPG FttB in an age of Gigabit 5G, the latency advantages of mmWave of normal 5G are clear when you look at the latency.
+Before we get into the GigaComm results here's a quick speed test from my iPhone on 5G at home, you can see why **it's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.** The silliness of having TPG FttB in an age of Gigabit but why I didn't just use a 4G/5G modem, the latency advantages of GigaComm mmWave are clear when you look at the latency differences.
 
 | Host             | Ping (Latency) | Down   | Up    | URL                                           |
 | ---------------- | -------------- | ------ | ----- | --------------------------------------------- |
 | Telstra (Sydney) | **16ms**       | 946.96 | 85.67 | https://www.speedtest.net/result/i/4924116319 |
 
-https://www.speedtest.net/result/i/4924116319
-
-
+Using the GigaComm connection but these sites are an indication of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
 
 ##### All tests performed with a MacBook connected  ⚠️ DIRECTLY TO THE NTU ⚠️ AND I DO NOT RECOMMEND THIS ⚠️ 
 
@@ -247,15 +243,11 @@ https://www.speedtest.net/result/i/4924116319
 
 ##### Summary: 
 
-I reckon the MacBook going downhill with a trailing wind can only do 940Mbps.. 
-
-
-
-
+I reckon the MacBook going downhill with a trailing wind can only do 940Mbps. 
 
 ### Chasing 1Gbps 🏃‍♂️.  
 
-All the below test sing a MacBook
+All the below testa are using a MacBook connected to my Unifi network directly to a device mentioned in the column "Device"
 
 | Host                                             | Device                                                    | Ping (Latency) | Down       | UP        | URL                                          |
 | ------------------------------------------------ | --------------------------------------------------------- | -------------- | ---------- | --------- | -------------------------------------------- |
@@ -267,7 +259,11 @@ All the below test sing a MacBook
 
 
 
+##### Summary: 
 
+I reckon the MacBook going downhill with a trailing wind can only do 940Mbps. 
+
+### 
 
 
 
