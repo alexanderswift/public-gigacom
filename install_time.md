@@ -78,7 +78,11 @@ Howere I do wonder if heavy winds on a pole and/or magpie's 🦅 could cause fut
 
 GigaComm had already sent me an email saying they'd be back in touch in the second week of Jan to book and install in due to the holidays etc so a little more that the normal 10 days before a field engineer could do some jumpering and install a NTD. I got a nice surprise however (1hr notice) because they were in the building to do a neighbours install. A very knowledgeable and professional guy (Sam) did the install.
 
+### Ahhh this makes sense now❗️
 
+![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-SpeedTest1.png)
+
+Equipment i suspect is in the building https://adtran.com/web/page/portal/Adtran/group/4504  
 
 ### Last few SpeedTests👋 
 

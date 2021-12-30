@@ -38,7 +38,10 @@ Pretty standard devices.
 >
 > - [x] 1x AWS EC2  t3.micro instance (https://aws.amazon.com/free/)
 >
->   
+
+
+
+![](https://github.com/alexanderswift/public-gigacom/blob/main/pics/side-by-side-test.jpeg)
 
 ### So can we hit 1Gbps❓
 
@@ -346,11 +349,13 @@ Yep, I think we're going to need a bigger boat🦈 while the APU2 based firewall
 
 
 
+## TBC....
 
 
-OTHER
 
-https://adtran.com/web/page/portal/Adtran/group/4504  
+#### Other Information:
+
+- [ ] Equipment i suspect is in the building https://adtran.com/web/page/portal/Adtran/group/4504  
 
 
 
