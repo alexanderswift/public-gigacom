@@ -80,9 +80,11 @@ GigaComm had already sent me an email saying they'd be back in touch in the seco
 
 ### Ahhh this makes sense now❗️
 
-![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-SpeedTest1.png)
+So all along i've wondered how are you getting the Distance/ Time to deliver the speed and theres a NTU used to deliver the service... Thank you for the Mhz I guess you would say 
 
-Equipment i suspect is in the building https://adtran.com/web/page/portal/Adtran/group/4504  
+![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/IMG_1120.jpeg)
+
+Also I suspect the other side of this NTU is this Adtran equipment https://adtran.com/web/page/portal/Adtran/group/4504  
 
 ### Last few SpeedTests👋 
 
