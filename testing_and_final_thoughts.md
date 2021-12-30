@@ -264,6 +264,11 @@ All the below testa are using a MacBook connected to my Unifi network directly t
 
 
 
+Testing with Cloudflare  
+
+- [ ]  APU2 pfSense firewall https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png 
+- [ ] DIRECT TO NTU - 
+
 ##### Summary: 
 
 I hope why you can see I stated these public speed test sites are an indication ONLY of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users. However it shows that theres a need to tune or replace the APU2 pfSense firewall because it looks like it's hitting limits as described by TekLager in their artical '[How to fine-tune pfSense for 1Gbit throughput on APU2](https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/)' and ''[what hardware to buy for pfSense router in 2021](https://teklager.se/en/pfsense-hardware/)' I look to be hitting the single connection performance limits.
