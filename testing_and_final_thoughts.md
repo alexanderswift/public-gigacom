@@ -18,7 +18,7 @@ Over a few rainy days in late December 2021 I decided to create a baseline of th
 
 The combined power total of all my equipment is less than 20watts / 0.5amp of power at an estimated $45pa and including the purchase cost has cost an estimated AU$850 over the past four years. It's was very tempting to take the approach of shopping Grays / eBay for old Enterprise equipment that was once tens of thousands of dollars but IMHO you could 20x that power bill then you have to deal with the additional noise, heat and it risk failing the PAT (partner acceptance test) so I went the way I did.
 
-### Devices for testing:
+### Devices for testing: 
 
 Pretty standard devices. 
 
