@@ -201,8 +201,6 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 
 When both hosts are in the same vlan the hosts boadcast and then communicated directly with each outher and the results show 930 Mbits/sec switched and when I route via the firewall using multiple threads the max is about 790 Mbits/sec. 
 
- (  ADD UDP TEST6) 
-
 That doesn't mean I can't get 1Gbps from my connection it means a single host with a few threads including the TCP overhead  used in my tests has a limit of about 930 Mbits/sec. 
 
 Here are some useful notes from others on tuning pfSense for 1Gbps and what was observed on pfSense/APU2 firewalls:
@@ -214,8 +212,6 @@ URL;S
 - https://people.cs.clemson.edu/~westall/853/notes/pres05.pdf
 - https://docs.netgate.com/pfsense/en/latest/hardware/tune.html
 ~~~~
-
-
 
 
 
