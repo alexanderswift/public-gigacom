@@ -78,13 +78,17 @@ Howere I do wonder if heavy winds on a pole and/or magpie's 🦅 could cause fut
 
 GigaComm had already sent me an email saying they'd be back in touch in the second week of Jan to book and install in due to the holidays etc so a little more that the normal 10 days before a field engineer could do some jumpering and install a NTD. I got a nice surprise however (1hr notice) because they were in the building to do a neighbours install. A very knowledgeable and professional guy (Sam) did the install.
 
-### Ahhh this makes sense now❗️
+### Ahhh this all makes sense now❗️
 
 So all along i've wondered how are you getting the Distance/Time to deliver the speed and theres no  discussion of a NTU during the sales process, thank you for the addtional  Mhz I guess. 
 
+👇👇👇👇👇👇👇👇👇
+
 ![Last TPG](https://github.com/alexanderswift/public-gigacom/blob/main/pics/IMG_1120.jpeg)
 
-Also I suspect the other side of this NTU is this Adtran equipment https://adtran.com/web/page/portal/Adtran/group/4504  
+☝️☝️☝️☝️☝️☝️☝️☝️☝️
+
+**And incase you missed my point the about ordinary looking cardboard box is how GigaComm are delivering 1000/100Mbps over a single copper-pair.** Also I suspect the other side of this NTU is this Adtran equipment https://adtran.com/web/page/portal/Adtran/group/4504  
 
 ### Last few SpeedTests👋 
 
