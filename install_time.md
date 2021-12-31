@@ -80,7 +80,7 @@ GigaComm had already sent me an email saying they'd be back in touch in the seco
 
 ### Ahhh this all makes sense now❗️
 
-So all along i've wondered how are you getting the Distance/Time to deliver the speed and theres no  discussion of a NTU during the sales process, thank you for the addtional  Mhz I guess. 
+So all along i've wondered how are GigaComm decreasing the **Distance** and increase the frequency (**Time**) to deliver the **Speed** and because theres no discussion of a NTU during the sales process (that I could remember or point too) this is IMHO why there was some early GigaComm scepticism🤷‍♂️ SO I guess thank you for the addtional Mhz on the wire I guess. 
 
 👇👇👇👇👇👇👇👇👇
 

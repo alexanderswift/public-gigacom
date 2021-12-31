@@ -391,7 +391,17 @@ iperf Done.
 
 ##### Summary: 
 
-Yep, I think we're going to need a bigger boat🦈 while the APU2 based firewall has provided outstanding reliability, performance and a great features per dollar ratio while having the benifit of all being low power device it looks like it's got a limit of about 900Mbps. I thought about trying to bond two interfaces from the Firewall to the Switch to try improve the bandwidth between the two but the options between the two are LAG (link-aggregation) and while that would help with multiple devices the algorithm used in this implementation of LAG uses the senders and receivers HWaddress to decide on the physical media to send the Ethernet frames via a link thus isn't going to increase speed, only the capacity.
+What I started with was TL;DR and thanks for reading my notes was <u>*"it's a low latency gigabit fast and reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿"*</u> 
+
+All along i've wondered how are GigaComm decreasing the **Distance** and increase the frequency (**Time**) to deliver the **Speed** and because theres no discussion of a NTU during the sales process (that I could remember or point too) this is IMHO why there was some early GigaComm scepticism🤷‍♂️ and i've written back to GigaComm to say thank you for the support to get me online but if they had just said on their site <u>***we use mmWave to connect your building to us and inside you building Gfast and FttDP I would have signed up in half the time.***</u>. 
+
+
+
+Anyway thank you for the addtional Mhz on the wire I guess. 
+
+
+
+Re the APU2 firewall. Yep, I think we're going to need a bigger boat🦈 while the APU2 based firewall has provided outstanding reliability, performance and a great features per dollar ratio while having the benifit of all being low power device it looks like it's got a limit of about 900Mbps. I thought about trying to bond two interfaces from the Firewall to the Switch to try improve the bandwidth between the two but my options are to use LAG (link-aggregation) and while that would help with multiple devices the algorithm used in this implementation of LAG uses the senders and receivers HWaddress to decide on the physical media to send the Ethernet frames via a link thus isn't going to increase speed for a single device only the capacity, looks like an upgrade (will start saving now) for some 2.5G over RJ45 ethernet interfaces to take full advantage of 1Gb while firewalling. 
 
 
 
