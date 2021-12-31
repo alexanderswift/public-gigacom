@@ -104,9 +104,7 @@ I sent GigaComm [a follow up email](https://github.com/alexanderswift/public-gig
 
 
 
-🪄🪄**In summary I made a statement 'it looks you guys found a way to get the $ per consumer down with a mix of vectoring and fibre in the building.'**🪄🪄
-
-
+**In summary I made a statement 'it looks you guys found a way to get the $ per consumer down with a mix of vectoring and fibre in the building.'**
 
 
 
@@ -131,7 +129,9 @@ Useful sites to work this out;
 
 #### Side note: iCloud Private Relay.
 
-I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses at the time of writing this I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and these are two very well connected networks. There's a massive advantage to the iCloud Private Relay in this scenario because it proxies your request to the destination website. When the proxy is on the Internet largest network with more networking and PoP's that any Telco, ISP or Cloud provider you best of a global hyper-scale network with the local access speed of GigaComm, 🥇🥇🥇 WINNING 🥇🥇🥇.
+I use Apple devices with iCloud Private Relay (iCloud subscription required) and the public IP addresses at the time of writing this I've observed have been 2606:54c0:820:b0::1a:7f, 104.28.125.4 (Cloudflare) and 172.225.60.23 (Akamai) and between these two networks and they're participation on IX (Internet eXchanges) https://bgp.he.net/report/exchanges#_participants it ranks them in the global top10. 
+
+There's a massive advantage to the iCloud Private Relay in this scenario because it proxies your web requests to the destination websites and when your proxy is on a network with more IX's, PoP's than any Telco, ISP or Cloud provider you gain the best of a global hyper-scale network with the local access speed of GigaComm, 🥇🥇🥇 WINNING 🥇🥇🥇.
 
 
 

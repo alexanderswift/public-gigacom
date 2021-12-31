@@ -266,11 +266,11 @@ All the below tests are using a MacBook connected to my Unifi network directly t
 
 All the below tests are using a MacBook connected to my Unifi network directly to a the device  mentioned and while the test results are simular final numbers if you look closely you can see once again if you push the APU2 pfSense firewall with a higher number of smaller packets the speed drops by 2/3rd's. 
 
-- [x]  APU2 pfSense firewall - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png 
-- [x] DIRECT TO NTU - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-Direct-To-NTU.png
-- [x] TEST FIREWALL (pfSense) - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-TestFirewall.png
-- [x] TEST FIREWALL opnfSense) - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-TestFirewallOPNSense.png
-- [x] GigaComm Supplied Router - https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-GigaCommRouter.png
+- [x]  APU2 pfSense firewall - [result](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png ).  
+- [x] DIRECT TO NTU - [result](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-Direct-To-NTU.png).  
+- [x] TEST FIREWALL (pfSense) - [result](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-TestFirewall.png). 
+- [x] TEST FIREWALL opnfSense) - [result](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-TestFirewallOPNSense.png).  
+- [x] GigaComm Supplied Router - [result](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-GigaCommRouter.png). 
 
 -----
 
@@ -401,7 +401,7 @@ Yep, I think we're going to need a bigger boat🦈 while the APU2 based firewall
 
 #### Other Information:
 
-- [ ] Equipment i suspect is in the building https://adtran.com/web/page/portal/Adtran/group/4504  
+- [x] Equipment i suspect is in the building https://adtran.com/web/page/portal/Adtran/group/4504  
 
 
 
