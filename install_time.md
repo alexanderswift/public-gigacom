@@ -8,11 +8,11 @@ GigaComm had leaflet dropped my apartment block a few months ago and dropped the
 
 I've done some reading into the use of wireless / mmWave for backhaul (the connection back to the ISP) and Gigabit services and I've linked the ones for the company behind the technology used so read them knowing it's a vendors position. Breifly going back to the beer truck analogy and brewries and a statement made in my email to GigaComm have found a way way to shorten the distance to the brewery while lowering the cost of the building more breweries aka ehe cost of Gigabit per home. I assume the costs mentioned in the vendors artlce are in USD and uses cost structure fromt the US domestic market but still if Gigacom could get under AU$500 per customer this will work out for everyone.
 
-The below artical is about the an US inicitive called the Rural Digital Opportunity Fund auction but gives a useful insight into delivering Gigabit capacity with low latency using both 60GHz (V Band) and/or 70/80 GHz (E Band) spectrum (in the USA) and some specs for the equipment I suspect is installed on the roof of buildings. 
+The below artical is about the an US inicitive called the Rural Digital Opportunity Fund auction but gives a useful insight into delivering Gigabit capacity with low latency using both 60GHz (V Band) and/or 70/80 GHz (E Band) spectrum (in the USA) and some specs for the equipment I suspect is installed on the roof of buildings.
 
 
 
-- [x] RDOF article & Specs - https://go.siklu.com/blog/custom-blog/the-abc-of-wireless-rdof 
+- [x] RDOF article & Specs - https://go.siklu.com/blog/custom-blog/the-abc-of-wireless-rdof
 
 - [x] Use of wireless / mmWave for backhaul - https://go.siklu.com/blog/custom-blog/mmwave-more-essential-than-ever-for-all-backhaul-requirements
 
@@ -20,16 +20,16 @@ The below artical is about the an US inicitive called the Rural Digital Opportun
 
 - [x] Mesh in the City - https://go.siklu.com/blog/custom-blog/mesh-in-the-city
 
-  
+
 
 ---
 
-So one morning a rusty ex-ISP network engineer is looking out the window while brushing his teeth wondering what's the fella up on the roof doing with that mmWave receiver🤔, I wonder if thats GigaComm? Well the Australian Communications and Media Authority (ACMA) website will tell me what's on that roof and who is the company that holds the 70/80GHz band licence. 
+So one morning a rusty ex-ISP network engineer is looking out the window while brushing his teeth wondering what's the fella up on the roof doing with that mmWave receiver🤔, I wonder if thats GigaComm? Well the Australian Communications and Media Authority (ACMA) website will tell me what's on that roof and who is the company that holds the 70/80GHz band licence.
 
 
 
-- [x] mmWave equipment on the roof https://www.siklu.com/product/etherhaul-kilo-series/ 
-- [x] ACMA website https://web.acma.gov.au/rrl/client_search.client_lookup?pCLIENT_NO=20048150 
+- [x] mmWave equipment on the roof https://www.siklu.com/product/etherhaul-kilo-series/
+- [x] ACMA website https://web.acma.gov.au/rrl/client_search.client_lookup?pCLIENT_NO=20048150
 
 
 
@@ -39,7 +39,7 @@ The pictures are zoomed, cropped, exported and even a reflected image (sorry not
 
 ![Roof 3](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof3.jpeg)
 
--- 
+--
 
 ![Roof 1](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof1.jpeg)
 
@@ -47,16 +47,16 @@ The pictures are zoomed, cropped, exported and even a reflected image (sorry not
 
 
 
-##### Update: 
+##### Update:
 
-What's the fella up on the roof doing, again? We had some heavy rain, thunder and wind over the past few days and there was a drop in the service for about 1min and I don't  believe I would have noticed but because it was raining outside I was inside doing some speed tests and writing up these notes. Don't get worried about mmWave and weather, here's some good facts and myths busting again I have linked the ones for the company behind the technology used so read them knowing it's a vendors position. 
+What's the fella up on the roof doing, again? We had some heavy rain, thunder and wind over the past few days and there was a drop in the service for about 1min and I don't  believe I would have noticed but because it was raining outside I was inside doing some speed tests and writing up these notes. Don't get worried about mmWave and weather, here's some good facts and myths busting again I have linked the ones for the company behind the technology used so read them knowing it's a vendors position.
 
 Howere I do wonder if heavy winds on a pole and/or magpie's 🦅 could cause future problems 🤔.
 
- 
+
 
 - [x] mmWave and Weather – https://go.siklu.com/blog/mmwave-and-weather
-- [x] mmWave in the troppics (humidity and water in the air) - https://go.siklu.com/blog/mmwave-and-the-tropics) 
+- [x] mmWave in the troppics (humidity and water in the air) - https://go.siklu.com/blog/mmwave-and-the-tropics)
 
 
 
@@ -64,11 +64,11 @@ Howere I do wonder if heavy winds on a pole and/or magpie's 🦅 could cause fut
 
 ![Roof 4](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof3.jpeg)
 
--- 
+--
 
 ![Roof 5](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof4.jpeg)
 
--- 
+--
 
 ![Roof 6](https://github.com/alexanderswift/public-gigacom/blob/main/pics/roof5.jpeg)
 
@@ -80,7 +80,7 @@ GigaComm had already sent me an email saying they'd be back in touch in the seco
 
 ### Ahhh this all makes sense now❗️
 
-So all along i've wondered how are GigaComm decreasing the **Distance** and increase the frequency (**Time**) to deliver the **Speed** and because theres no discussion of a NTU during the sales process (that I could remember or point too) this is IMHO why there was some early GigaComm scepticism🤷‍♂️ SO I guess thank you for the addtional Mhz on the wire I guess. 
+So all along i've wondered how are GigaComm decreasing the **Distance** and increase the frequency (**Time**) to deliver the **Speed** and because theres no discussion of a NTU during the sales process (that I could remember or point too) this is IMHO why there was some early GigaComm scepticism🤷‍♂️ SO I guess thank you for the addtional Mhz on the wire I guess.
 
 👇👇👇👇👇👇👇👇👇
 
@@ -90,7 +90,7 @@ So all along i've wondered how are GigaComm decreasing the **Distance** and incr
 
 **And incase you missed my point the about ordinary looking cardboard box is how GigaComm are delivering 1000/100Mbps over a single copper-pair.** Also I suspect the other side of this NTU is this Adtran equipment https://adtran.com/web/page/portal/Adtran/group/4504  
 
-### Last few SpeedTests👋 
+### Last few SpeedTests👋
 
 I performed a last few SpeedTests on my TPG connection one at https://www.speedtest.net and the other at https://speed.cloudflare.com, more on the Cloudflare test to come but the second normally gives a lower speed but gives you a more realistic result IMHO.
 
@@ -122,7 +122,7 @@ Left to right, TPG then GigaComm.
 
 Quick SpeedTest on the GigaComm connection 🙋‍♂️
 
-🏎💨 **WOW**
+🏎💨 **WOW IT'S Gfast**
 
 ![First GigaComm](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-SpeedTest2.png)
 
@@ -132,7 +132,7 @@ Quick SpeedTest on the GigaComm connection 🙋‍♂️
 
 ### Summary ✅
 
-A smooth service to get to this point, highly recommend GigaComm 
+A smooth service to get to this point, highly recommend GigaComm
 
 
 
