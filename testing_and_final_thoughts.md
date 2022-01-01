@@ -2,10 +2,19 @@
 
 ## Testing and Final Thoughts 🧪& 🤔
 
-
 #### Why test❓
 
-Over a few rainy days in late December 2021 I decided to create a baseline of the new service with the default configuration and a single device writing it  down along the way (how these documents started) . The reason for baselining my local network is so I understand the limits of my equipment before making judgements on the new internet provider, it's easy to measure how you are going if you know from where you came. I've invested in [Ubiquiti unifi](https://www.ui.com) Wi-FI / PoE switches and a BYO [pfSense](https://www.pfsense.org/download/) firewall built on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, performance and a great features per dollar ratio while having the benifit of all being low power devices because utility rates here in Australia are some of the most expensive in the world.
+Over a few rainy days in late December 2021 I decided to create a baseline of the new service with the default configuration and a single device writing it  down along the way (how these documents started) . The reason for baselining my local network is so I understand the limits of my equipment before making judgements on the new internet provider, You can't optimize it until you can measure it. I've invested in [Ubiquiti unifi](https://www.ui.com) Wi-FI / PoE switches and a BYO [pfSense](https://www.pfsense.org/download/) firewall built on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, performance and a great features per dollar ratio while having the benifit of all being low power devices because utility rates here in Australia are some of the most expensive in the world.
+
+
+
+~~~  
+													TL;DR “You can't optimise it until you can measure it”!!
+~~~
+
+
+
+The combined power total of all my equipment is less than 20watts / 0.5amp of power at an estimated $45pa and including the purchase cost has cost an estimated AU$850 over the past four years. It's was very tempting to take the approach of shopping Grays / eBay for old Enterprise equipment that was once tens of thousands of dollars but IMHO you could 20x that power bill then you have to deal with the additional noise, heat and it risks failing the PAT (partner acceptance test) so I went the way I did.
 
 
 
@@ -18,7 +27,7 @@ Over a few rainy days in late December 2021 I decided to create a baseline of th
 
 
 
-The combined power total of all my equipment is less than 20watts / 0.5amp of power at an estimated $45pa and including the purchase cost has cost an estimated AU$850 over the past four years. It's was very tempting to take the approach of shopping Grays / eBay for old Enterprise equipment that was once tens of thousands of dollars but IMHO you could 20x that power bill then you have to deal with the additional noise, heat and it risks failing the PAT (partner acceptance test) so I went the way I did.
+
 
 #### Devices for testing:
 
