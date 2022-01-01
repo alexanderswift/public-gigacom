@@ -4,7 +4,7 @@ Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **
 
 ### Who is player 1❓
 
-An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said '*we are fanatical about support*', so yes average customer support gets my back up, but anyway the point of mentioning this is those ISP/telco fundamentals of a **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** the **beer truck analogy** of packets and transmission,  **Internet speed = distance/time (frequency )** and that **💩 in = 💩 out** has not been forgotten.
+An enthusiast level rusty ex-ISP network engineer and ~15 years ago I stopped cat herding for an ISP/telco and started herding cats a public cloud company because they said '*we are fanatical about support*', so yes average customer support gets my back up, but anyway the point of mentioning this is those ISP/telco fundamentals of a **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** the **beer truck analogy** of packets and transmission,  **Internet speed = distance/time (frequency )** and that **💩 in = 💩 out** have not been forgotten.
 
 ### The previous ISP 👋:
 
@@ -50,7 +50,7 @@ The phrase ***'It's OK until it’s not OK'*** has never been truer when it come
 
 
 
-### My building constraints 🏪 ;
+## My building constraints 🏪 ;
 
 Prior to GigaComm enabling the building the available options are either a NBN retail service provider or TPG Fibre to the Building and from the MDF room to my unit it's an estimated 220 to 250 meters of 4core 26AWG copper cable and a single RJ11 (phone socket). Not great choices for low latency Gigabit Internet so I asked the  NBN for a FttP quote 🙅‍♂️. That's a big fat NOPE and in my opinion that's an unethical amount of money for a building that already has NBN FttB and it's a lot on money for a consumer to pay, it's almost like I was taking the hit for an MDF room upgrade and optic fibre cable for all my neighbours needless to say NBN can jog-on🏃‍♂️.
 
@@ -135,13 +135,13 @@ There's a massive advantage to the iCloud Private Relay in this scenario because
 
 
 
-### Ordering 💳:
+## Ordering 💳:
 
 The quoting and ordering process is on par with the other ISP's they have an automated email and once you've clicked to accept the minimum commitment including once-off and monthly costs a flurry of emails as confirmation of the order and an invite to setup an account for https://myaccount.gigacomm.net.au and enter your payment details etc.
 
 I received a follow up email quoting 10 days before a field engineer need to do some jumpering and install a NTD, receive further updates on the progress of your order and the timeframe for installation.
 
-### **Reusing your own router** ♻️
+#### **Reusing your own router** ♻️
 
 You can reuse your own router with GigaComm service, it will need to support Ethernet WAN and according to their [FAQ](https://www.gigacomm.net.au/faqs/bring-your-own-router)   to achieve the maximum speeds on plans under 1Gbps they suggest upstream traffic shaping settings.
 

@@ -1,7 +1,9 @@
-# Testing and final thoughts 🧪& 🤔
 
 
-### Why test❓
+## Testing and final thoughts 🧪& 🤔
+
+
+#### Why test❓
 
 Over a few rainy days in late December 2021 I decided to create a baseline of the new service with the default configuration and a single device writing it  down along the way (how these documents started) . The reason for baselining my local network is so I understand the limits of my equipment before making judgements on the new internet provider, it's easy to measure how you are going if you know from where you came. I've invested in [Ubiquiti unifi](https://www.ui.com) Wi-FI / PoE switches and a BYO [pfSense](https://www.pfsense.org/download/) firewall built on [PC Engines APU2](https://www.pcengines.ch/apu2.htm) hardware and for the previous 100/40Mbs internet it has provided outstanding reliability, performance and a great features per dollar ratio while having the benifit of all being low power devices because utility rates here in Australia are some of the most expensive in the world.
 
@@ -18,7 +20,7 @@ Over a few rainy days in late December 2021 I decided to create a baseline of th
 
 The combined power total of all my equipment is less than 20watts / 0.5amp of power at an estimated $45pa and including the purchase cost has cost an estimated AU$850 over the past four years. It's was very tempting to take the approach of shopping Grays / eBay for old Enterprise equipment that was once tens of thousands of dollars but IMHO you could 20x that power bill then you have to deal with the additional noise, heat and it risks failing the PAT (partner acceptance test) so I went the way I did.
 
-### Devices for testing:
+#### Devices for testing:
 
 Pretty standard devices. 
 
@@ -47,11 +49,13 @@ Early eject on tesing with the Unifi UAP-AC-Pro Wi-F because even though the bro
 
 ![](https://github.com/alexanderswift/public-gigacom/blob/main/pics/side-by-side-test.jpeg)
 
-### So can we hit 1Gbps❓
+
+
+## So can we hit 1Gbps❓
 
 Can a Unifi network with a pfSense firewall built on a low power AMD Embedded 1GHz quad Jaguar core achieve 1Gbps at layer 4, I'm sure I can switch traffic and route traffic at 1Gbps but can I match, inspect and forward (Firewalling) at 1Gbps❓. A quick reminder of the **[Paper Shop That Never Delivers Papers](https://en.wikipedia.org/wiki/OSI_model),** but the TL;DR version is just because your ISP has delivered a 1Gb service and your switch / router / network card says it's negotiated a layer 2 at that speed it doesn't mean you will see the nirvana of 1Gbps ⚠️.
 
-### IPerf3 testing on my local network to see if I could reach 1Gbps locally.
+#### IPerf3 testing on my local network to see if I could reach 1Gbps locally.
 
 Starting at the bottom of the OSI stack, we know at layer1 the interfaces are all up at 1000baseT full-duplex so I ran an IPerf test from the AppleTV to MacBook looking to establish the max possible for the equipment I have thus starting with switching *NOT routing* between the TV and MacBook first.
 
@@ -199,13 +203,16 @@ Starting at the bottom of the OSI stack, we know at layer1 the interfaces are al
 
 #### Layer 2/3 iPerf3 testing summary 📈: 
 
-When both hosts are in the same vlan the hosts boadcast and then communicated directly with each outher and the results show 930 Mbits/sec switched and when I route via the firewall using multiple threads the max is about 790 Mbits/sec. 
+When both hosts are in the same vlan the hosts boadcast and then communicated directly with each outher and the results show. 
 
-That doesn't mean I can't get 1Gbps from my connection it means a single host with a few threads including the TCP overhead  used in my tests has a limit of about 930 Mbits/sec. 
+✅ 940Mbps for switched and routed traffic and although this isn't 1000Mbps it is correct, more on that below. 
 
-Here are some useful notes from others on tuning pfSense for 1Gbps and what was observed on pfSense/APU2 firewalls:
+❌ 790 Mbps for multiple streams and as low as 370Mbps for a single stream when traffic is routed via the firewall. 
+
+This doesn't mean I can't get 1Gbps from my Internet connection it means a single host with a few threads including the TCP overhead  used in my tests has a limit of about 940 Mbits/sec. 
 
 ~~~~
+Here are some useful notes from others on tuning pfSense for 1Gbps and what was observed on pfSense/APU2 firewalls:
 URL;S
 - https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/
 - https://teklager.se/en/pfsense-hardware/
@@ -215,15 +222,15 @@ URL;S
 
 
 
-## Internet Speed Tests sites 🌏
+## Internet Speed Test websites 🌏
 
-Before we get into the GigaComm results here's a quick speed test from my iPhone on 5G at home, you can see why **it's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.** The silliness of having TPG FttB in an age of Gigabit but also why I didn't just use a 4G/5G modem, the latency advantages of GigaComm mmWave are clear when you look at the latency differences.
+Before we get into the GigaComm results here's a quick speed test from my iPhone on Telstra 5G at home, you can see why **it's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.** There's a silliness of having TPG FttB in an age of Gigabit but as you can see below mobile 5G latency is also why I didn't just use a 4G/5G modem, the low latency advantages of GigaComm mmWave are clear when you look at the latency differences.
 
 | Host             | Ping (Latency) | Down   | Up    | URL                                           |
 | ---------------- | -------------- | ------ | ----- | --------------------------------------------- |
 | Telstra (Sydney) | **16ms**       | 946.96 | 85.67 | https://www.speedtest.net/result/i/4924116319 |
 
-Using the GigaComm connection but these public speed test sites are an indication ONLY of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users and theres a fair chance some of them are also doing a speed test also.
+Using the GigaComm connection with speed test websites are ONLY an indication of your download speed because you've no idea what else is happening on the internet, it's a network you share with millions of other users in Australia.
 
 ##### All tests performed with a MacBook connected  ⚠️ DIRECTLY TO THE NTU ⚠️ AND I DO NOT RECOMMEND THIS ⚠️ 
 
@@ -242,25 +249,16 @@ Using the GigaComm connection but these public speed test sites are an indicatio
 | TPG Speedtest Sydney                             | 3ms            | 941.2Mbps  | 98.8Mbps   | http://tpg.speedtestcustom.com/result/f28913e0-66e0-11ec-90cc-bf087e229683 |
 | TPG Speedtest Sydney                             | 3ms            | 934.0Mbps  | 99.2Mbps   | http://tpg.speedtestcustom.com/result/0ce4aab0-66e1-11ec-90cc-bf087e229683 |
 
-##### Summary: 
-
-I reckon the MacBook going downhill with a trailing wind can only do 940Mbps. 
 
 
-
-### Chasing 1Gbps 🏃‍♂️.  
-
-All the below tests are using a MacBook connected to my Unifi network directly to a device mentioned in the column "Device".
+All the below tests are using a MacBook connected to directly to each device mentioned, as the point of this is i'm creating a baseline and as I've said before Player 1's ISP/telco fundamentals have not been forgotten. When you are creating a baseline or even troubleshooting a network problem you should always breakdown the components and test (in this case) by moving the MacBook along the line starting with the NTU then the router then the firewall etc.
 
 | Host                                             | Device                                                    | Ping (Latency) | Down       | UP        | SpeedTest URL                                |
 | ------------------------------------------------ | --------------------------------------------------------- | -------------- | ---------- | --------- | -------------------------------------------- |
 | Speedtest.net (selected GigaComm Pty Ltd Sydney) | APU2 pfSense firewall                                     | 2ms            | 572.72Mbps | 90.93Mbps | https://www.speedtest.net/result/12524797215 |
-| Speedtest.net (selected GigaComm Pty Ltd Sydney) | DIRECT TO NTU                                             | 2ms            | 879.28Mbps | 94.26Mbps | https://www.speedtest.net/result/12524842243 |
 | Speedtest.net (selected GigaComm Pty Ltd Sydney) | TEST FIREWALL dual NIC PC16GB RAM and 4Ghz CPU (pfSense)  | 1ms            | 896.28Mbps | 90.53Mbps | https://www.speedtest.net/result/12524854984 |
 | Speedtest.net (selected GigaComm Pty Ltd Sydney) | TEST FIREWALL dual NIC PC16GB RAM and 4Ghz CPU (opnSense) | 2ms            | 879.51Mbps | 90.75Mbps | https://www.speedtest.net/result/12525262017 |
 | Speedtest.net (selected GigaComm Pty Ltd Sydney) | GigaComm Supplied Router                                  | 2ms            | 825.25Mbps | 97.83Mbps | https://www.speedtest.net/result/12524820479 |
-
-
 
 ### Testing with Cloudflare ☁️: 
 
@@ -276,19 +274,29 @@ All the below tests are using a MacBook connected to my Unifi network directly t
 
 ##### Summary: 
 
-I hope why you can see I stated these public speed test sites are an indication ONLY of your download speed but you've no idea whatelse is happening on the internet you share with millions of other users. However it shows that theres a need to tune or replace the APU2 pfSense firewall because it looks like it's hitting limits as described by TekLager in their artical '[How to fine-tune pfSense for 1Gbit throughput on APU2](https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/)' and ''[what hardware to buy for pfSense router in 2021](https://teklager.se/en/pfsense-hardware/)' I look to be hitting the single connection performance limits.
+The MacBook can deliver about 940Mbps for switched and routed traffic and although this isn't 1000Mbps / 1Gbps it is correct and it doesn't mean I can't get 1Gbps from my Internet connection it means a single host with a MTU of 1500 commanding four to ten threads including frame and IP overheads equals 1Gbps, I'll try expanding on this in the chasing 1Gbps below.
 
-~~~ 
-The big takeaway for me is you should ignore the headline download speeds and look at all the above tests on Cloudflare focuing on the size of the orange bars because the smaller spread of the bar indicates a better and more consistent performance overall.
-~~~
+I hope why you can see I stated internet speed test websites are an indication ONLY of your download speed. The takeaway for me is looking at the Cloudflare tests in detail because they show you a breakdown of your results by size of the payload (Data) and (I believe) give you a weighted max speed vs an overall max speed of speedtest.net and you can see a bit of this during speedtest.net tests as the dial makes it's way to the top speed. 
 
 
+
+🍿🕑 You should ignore the headline download speeds and look at all the above tests on Cloudflare focuing on the size of the orange bars because the further to the right and a more condensed bar indicates a consistent performance and speed overall.
+
+
+
+💸 However it does show I need to try tune or replace the APU2 pfSense firewall because it looks like it's hitting limits as described by TekLager in their artical '[How to fine-tune pfSense for 1Gbit throughput on APU2](https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/)' and ''[what hardware to buy for pfSense router in 2021](https://teklager.se/en/pfsense-hardware/)' I look to be hitting the single connection performance limits.
+
+
+
+
+
+## Chasing 1Gbps 🏃‍♂️.  
+
+All the below tests are using a MacBook connected to my Unifi network directly to a device mentioned in the column "Device".
 
 ### AWS - Chasing 1Gb and I think we're going to need a bigger boat🦈;
 
-So before I rush out and buy a bigger **~~boat~~** firewall I wanted to test with a host I know is capable and in my current day job i'd deploy an AWS EC2 t3.micro (1GiB) instance with up to 5 Gigabits of network performed to  test my pfSense firewall the -s (server) and AWS the -c  (client) and vice-versa. 
-
-
+So before I rush out and buy a bigger **~~boat~~** firewall I wanted to test a few things with a host I know is capable thus I deployed an Amazon Web Services EC2 t3.micro (1GiB) instance with up to 5 Gigabits of network performed to test my pfSense firewall the -s (server) mode and AWS the -c  (client) and then vice-versa. 
 
 **TEST1** - EC2 as the -s (server) to test upload from the APU2 firewall.
 
@@ -361,7 +369,7 @@ So before I rush out and buy a bigger **~~boat~~** firewall I wanted to test wit
 
 
 
-**TEST3** - EC2 as the -c (client)  to test download to the APU2 firewall but this time I switched to UDP to see what is possible without the TCP handshake. .
+**TEST3** - EC2 as the -c (client)  to test download to the APU2 firewall but this time **I switched to UDP** to see what is possible without the TCP handshake. .
 
 ~~~
 [ec2-user@ip-172-31-47-176 ~]$ iperf3 -c 103.138.245.119 -P 5  -u -i 1 -d -b 250M -t 120
