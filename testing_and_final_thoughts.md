@@ -27,8 +27,6 @@ The combined power total of all my equipment is less than 20watts / 0.5amp of po
 
 
 
-
-
 #### Devices for testing:
 
 Pretty standard devices. 
