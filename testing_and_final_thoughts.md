@@ -64,7 +64,7 @@ Can a Unifi network with a pfSense firewall built on a low power AMD Embedded 1G
 
 #### IPerf3 testing on my local network to see if I could reach 1Gbps locally.
 
-Starting at the bottom of the OSI stack, we know at layer1 the interfaces are all up at 1000baseT full-duplex so I ran an IPerf test from the AppleTV to MacBook looking to establish the max possible for the equipment I have thus starting with switching *NOT routing* between the TV and MacBook first.
+Starting at the bottom of the OSI stack, we know at layer1 the interfaces are all up at 1000baseT full-duplex so I ran an IPerf test from the AppleTV to MacBook looking to establish the max possible for the equipment I have thus starting with **switching *NOT routing*** between the TV and MacBook first.
 
 #### iPerf3 tests:
 
@@ -231,13 +231,13 @@ URL;S
 
 ## Internet Speed Test websites 🌏
 
-Before we get into the GigaComm results here's a quick speed test from my iPhone on Telstra 5G at home, you can see why **it's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.** There's a silliness of having TPG FttB in an age of Gigabit but as you can see below mobile 5G latency is also why I didn't just use a 4G/5G modem, the low latency advantages of GigaComm mmWave are clear when you look at the latency differences.
+Before we get into the GigaComm results here's a quick speed test from my iPhone on Telstra 5G at home, you can see why **it's my opinion that we need more from an Internet provider than "typical evening speeds", a reliable low latency connection is of greater value to me than typical evening speeds.** There's a silliness of having TPG FttB vDSL profile 17a in an age of Gigabit but as you can see below mobile 5G latency is also why I didn't just use a 4G/5G modem, the low latency advantages of GigaComm mmWave are clear when you look at the latency differences.
 
 | Host             | Ping (Latency) | Down   | Up    | URL                                           |
 | ---------------- | -------------- | ------ | ----- | --------------------------------------------- |
 | Telstra (Sydney) | **16ms**       | 946.96 | 85.67 | https://www.speedtest.net/result/i/4924116319 |
 
-Using the GigaComm connection with speed test websites are ONLY an indication of your download speed because you've no idea what else is happening on the internet, it's a network you share with millions of other users in Australia.
+Using the GigaComm connection with speed test websites are ONLY an indication of your speed because you've no idea what else is happening on the internet, it's a network you share with 24 million Australians and maybe 100+ million devices in Australia.
 
 ##### All tests performed with a MacBook connected  ⚠️ DIRECTLY TO THE NTU ⚠️ AND I DO NOT RECOMMEND THIS ⚠️ 
 
@@ -281,19 +281,25 @@ All the below tests are using a MacBook connected to my Unifi network directly t
 
 ##### Summary: 
 
-The MacBook can deliver about 940Mbps for switched and routed traffic and although this isn't 1000Mbps / 1Gbps it is correct and it doesn't mean I can't get 1Gbps from my Internet connection it means a single host with a MTU of 1500 commanding four to ten threads including frame and IP overheads equals 1Gbps, I'll try expanding on this in the chasing 1Gbps below.
+The MacBook can deliver about 940Mbps for switched and routed traffic and although this isn't 1000Mbps / 1Gbps it is correct. It doesn't mean I can't get 1Gbps from my Internet connection it means a single host with a MTU of 1500 commanding four to ten threads including frame and IP overheads equals 1Gbps, I'll try expanding on this in the chasing 1Gbps below.
 
-I hope why you can see I stated internet speed test websites are an indication ONLY of your download speed. The takeaway for me is looking at the Cloudflare tests in detail because they show you a breakdown of your results by size of the payload (Data) and (I believe) give you a weighted max speed vs an overall max speed of speedtest.net and you can see a bit of this during speedtest.net tests as the dial makes it's way to the top speed. 
-
-
-
-🍿🕑 You should ignore the headline download speeds and look at all the above tests on Cloudflare focuing on the size of the orange bars because the further to the right (note the graph lables are scalled) and a more condensed bar indicates a consistent performance and speed overall.
+I hope why you can see I stated internet speed test websites are an indication ONLY of your speed. The takeaway for me is looking at the Cloudflare tests in detail because they show you a breakdown of your results by size of the payload (Data) and (I believe) give you a weighted max speed vs a peak speed of speedtest.net. You can see during the below speedtest.net screenshots the upload speed is roughtly the same but the greater the area of the graph thats left while the slower overall performance. 
 
 
 
-💸 However it does show I need to try tune or replace the APU2 pfSense firewall because it looks like it's hitting limits as described by TekLager in their artical '[How to fine-tune pfSense for 1Gbit throughput on APU2](https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/)' and ''[what hardware to buy for pfSense router in 2021](https://teklager.se/en/pfsense-hardware/)' I look to be hitting the single connection performance limits.
+[Slow ramp to 99Mbps](https://github.com/alexanderswift/public-gigacom/blob/main/pics/slowramp.png) 
+
+Vs 
+
+[Fast ramp to 99Mbps](https://github.com/alexanderswift/public-gigacom/blob/main/pics/fastramp.png)
 
 
+
+🍿🕑 You should ignore the headline download speeds and look at all the above tests from Cloudflare focuing on the size of the orange bars because and there scale, a higher bumber with a condensed bar indicates a more consistent performance and speed overall.
+
+
+
+💸 However, so-so news for me, it does show I need to try tune or replace the APU2 pfSense firewall because it looks like the APU2 is hitting performance limits as described by TekLager in their artical '[How to fine-tune pfSense for 1Gbit throughput on APU2](https://teklager.se/en/knowledge-base/apu2-1-gigabit-throughput-pfsense/)' and ''[what hardware to buy for pfSense router in 2021](https://teklager.se/en/pfsense-hardware/)'.
 
 
 
@@ -406,7 +412,7 @@ iperf Done.
 
 ##### Summary: 
 
-What I observed is by turning up the iPerf testing to 1Gbps then 1.25Gbps and switching to UDP I was starting to reach a diminishing return as the devices started to queue and/or discard frames thus leading to a slower 835Mbps. 
+What I observed is by turning up the iPerf testing to 1Gbps then 1.25Gbps and switching to UDP I reached a diminishing return as the devices started to queue and/or discard frames thus leading to a slower 835Mbps. 
 
 ```
  iperf3 -c x.x.x.x -P 5 -u -i 1 -d -b 250M -t 120
@@ -416,7 +422,7 @@ What I observed is by turning up the iPerf testing to 1Gbps then 1.25Gbps and sw
 
 ##### Overheads using a the Beer Truck Analogy, 1 slab = 1 byte.
 
-The truck has a capacity of 1500 slabs of beer but you deduct bottles to make way for necessary items like fuel, engine, lashing and a consignment note etc they all add up in most cases to about 60 slabs for TCP and 48 slabs for UPD and these are "encapsulated" into the payload thus subtracting from the capacity THEN we have a Frame size of 46 bytes added as overheads 🤷‍♂️. 
+The truck has a capacity of 1500 slabs of beer but you deduct bottles to make way for necessary items like fuel, engine, lashing and a consignment note etc and they all subtract in most cases to about 60 slabs for TCP and 48 slabs for UPD and these are "encapsulated" into the payload thus subtracting from the capacity of the Payload THEN we have a Frame size of 46 bytes as overheads 🤷‍♂️, the GPS and directions maybe. 
 
 ~~~ 
 Parent interface MTU: 1500 
@@ -438,7 +444,7 @@ Parent interface MTU: 9000 🐘
  Note UDP would be 8 bytes
 ~~~
 
-What about JumboFrames 🐘 then, the obvious benefit is the extra 7500 slabs on the Beer Truck but it's like real trucking, if the truck is too big, a good comparison would be a road train vs a ute there's places a road tain just cannot go. i've tried a local test with equipment lifting the MTU from 1500 to 9000 for all the devices I can administer but for JumboFrames implementation to be successful **ALL** the devices (ntu, router, firewall, switch, iPerf client & server) must be configured with the MTU of 9000 and because some of these devices are AppleTV's and GigaComm supplied etc this would  slow things down as one device sends Jumbo Frames and the other device has to send a message back asking for smaller ~~Beer Trucks~~ frames on the wire. 
+What about JumboFrames 🐘 then, the obvious benefit is the extra 7500 slabs on the Beer Truck but it's like in real world trucking if the truck is too big, a good comparison would be a road train vs a ute there's places a road train just cannot go. I've tried a local network test with equipment lifting the MTU from 1500 to 9000 <u>**for all the devices I can**</u> but for JumboFrames implementation to be successful **ALL** the devices (ntu, router, firewall, switch, iPerf client & server) must be configured with the MTU of 9000. Some of the devices one the network are AppleTV's and GigaComm supplied NTU's etc this could slow things down as one device sends Jumbo Frames and the other device has to send a message back asking for smaller ~~Beer Trucks~~ frames on the wire, it's like the delay you'd if the truck had to return to the brewery and unload and reload onto ute's. 
 
 
 
@@ -448,7 +454,7 @@ What about JumboFrames 🐘 then, the obvious benefit is the extra 7500 slabs on
 
 What started with was TL;DR (and thank you for reading my ramblings) was <u>*"it's a low latency gigabit fast and reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿"*</u> 
 
-All along i've wondered how are GigaComm decreasing the **Distance** and increase the frequency (**Time**) to deliver the **Speed** and because theres no discussion of a NTU during the sales process (that I could remember or point too) this is IMHO why there was some early GigaComm scepticism🤷‍♂️ and i've written back to GigaComm to say thank you for the support to get me online but if they had just said on their site <u>***we use mmWave to connect your building to us and inside you building Gfast and FttDP I would have signed up in half the time.***</u>. 
+All along i've wondered how are GigaComm decreasing the **Distance** and increase the frequency (**Time**) to deliver the **Speed** because theres no discussion of a NTU or G.fast 212Mhz during the sales process of web information that I could remember or reference and this is IMHO why there was some early GigaComm scepticism🤷‍♂️.  I've written back to GigaComm to say thank you for the support to get me online but if they had just said on their site <u>***we use mmWave to connect your building to us and inside you building G.fast and FttDP I would have signed up in half the time.***</u>. 
 
 
 
@@ -456,14 +462,19 @@ Anyway thank you for the addtional Mhz on the wire I guess.
 
 
 
-Re the APU2 firewall, I think we're going to need a bigger boat🦈 while the APU2 based firewall has provided outstanding reliability, performance and a great features per dollar ratio while having the benifit of being a low power device it looks like it's got a limits once it's in position in my network. Going back to the Cloudflare tests ocuing on the size of the orange bars because the further to the right (note the graph lables are scalled) and a more condensed bar indicates a consistent performance and  overall speed.
+Re the APU2 firewall 🔥🧱, I think we're going to need a bigger boat🦈 while the APU2 based firewall has provided outstanding reliability, performance, features per dollar ratio and being a low power device it looks like it's got a limits at it's in position in my network. Going back to the Cloudflare tests they indicates a consistent performance and overall speed needs a bit more processing power for when the NIC offloads to the CPU.
 
 [APU2 Firewall](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png) Vs an [i7 multi-core Firewall](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png) the latter does better across all measurements from 100kB to 100MB.
 
-I thought about trying to bond two interfaces from the Firewall to the Switch to try improve the bandwidth between the firewall and switch for two reasons. 
 
-1) The way pfSense handles frames (ver 2.5+) is to spread frames over the processors on the Intel NICs (a reason why you should use Intel NICs for this type of build) but it takes some offloading to the main CPU of the firewall and this is where you start to hit limits IMHO. 
-2) More ports = more bandwidth right(?) but my options are to use LAG (link-aggregation) and while that would help with bandwidth for multiple devices the algorithm used in this implementation of LAG uses the senders and receivers HWaddress to decide on the physical media to send the Ethernet frames via a link thus isn't going to increase speed for a single device,  looks like an upgrade (will start saving now) for some 10G over RJ45 ethernet interfaces to take full advantage of a consistent performance and overall speed.
+
+I thought about trying to bond two interfaces from the Firewall to the Switch to improve the bandwidth between the firewall and switch for two reasons. 
+
+1) The way pfSense handles frames (ver 2.5+) is to spread frames over the processors on the Intel NICs (the reason why you should use Intel NICs for this type of BYO firewall) but it takes some offloading to the main CPU.
+
+2) More ports = more bandwidth right(?) but my options are to use LAG (link-aggregation) and while that would help with bandwidth for multiple devices because the algorithm used creates a calculation using the senders and receivers HWaddress to decide on the physical link to send those ethernet frames over thus isn't going to increase speed for a single device. 
+
+   Looks like an upgrade (will start saving now) to some 10G over RJ45 ethernet interfaces and/or an [i7 multi-core Firewall](https://github.com/alexanderswift/public-gigacom/blob/main/pics/CF-AP2-Firewall.png) with more NICs and Cores for a consistent performance and to take full advantage of 1Gbps. 
 
 
 
