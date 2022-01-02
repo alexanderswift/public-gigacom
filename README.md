@@ -1,5 +1,5 @@
 # public-gigacom
-In this folder are my note, thoughts and a record of the [https://www.gigacomm.net.au](https://www.gigacomm.net.au) onboarding journey for their Gigabit Internet service and anything else related to it/them.
+In this folder are my notes, thoughts and a record of the [https://www.gigacomm.net.au](https://www.gigacomm.net.au) onboarding journey for their Gigabit Internet service and anything else related to it/them.
 
 ## ISP promised and delivers Gigabit over single-pair copper!
 
