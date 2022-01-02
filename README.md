@@ -1,9 +1,9 @@
 # public-gigacom
-This folder is my note, thoughts and a record of the [https://www.gigacomm.net.au](https://www.gigacomm.net.au) onboarding journey to their Gigabit Internet service and anything else related to it/them.
+In this folder are my note, thoughts and a record of the [https://www.gigacomm.net.au](https://www.gigacomm.net.au) onboarding journey for their Gigabit Internet service and anything else related to it/them.
 
 ## ISP promised and delivers Gigabit over single-pair copper!
 
-Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast and reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿.
+Ice cream and unicorns 🍦& 🦄 , yes I was sceptical of the claims too but **TL;DR**. It's a low latency gigabit fast, reliable service and IMHO it's a technology approach the NBN could have used for apartment complexes from the very beginning 🍿.
 
 Read on.
 - [Part 1, Ice Cream and Unicorns 🍦& 🦄 ](https://github.com/alexanderswift/public-gigacom/blob/main/ice_cream_and_unicorns.md)
