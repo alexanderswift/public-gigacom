@@ -112,3 +112,7 @@ It's **<u>possible</u>** that some traffic shaping is slowing down traffic and i
 ##### 7th Jan 2021: 
 
 TBC.. [GigaComm Support email](https://github.com/alexanderswift/public-gigacom/blob/main/pics/emailtogigacomm-6thJan22.pdf) said; *Thanks for this information Alex, I've run some tests and can see some errors and packet loss on the link that was recently connected. We are prioritizing getting someone out to resolve the errors. I'll keep you updated on progress of this.*
+
+
+
+[GigaComm Planned Network Outage ](https://github.com/alexanderswift/public-gigacom/blob/main/pics/emailtogigacomm-6thJan22.pdf) 
