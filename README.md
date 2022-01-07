@@ -9,6 +9,7 @@ Read on.
 - [Part 1, Ice Cream and Unicorns 🍦& 🦄 ](https://github.com/alexanderswift/public-gigacom/blob/main/ice_cream_and_unicorns.md)
 - [Part 2, install time 🛠](https://github.com/alexanderswift/public-gigacom/blob/main/install_time.md)
 - [Part 3, testing and final thoughts 🧪& 🤔](https://github.com/alexanderswift/public-gigacom/blob/main/testing_and_final_thoughts.md).
+- [Part 4, a few weeks later](https://github.com/alexanderswift/public-gigacom/blob/main/a_few_weeks_later.md) 🪞
 
 
 If you found this Information useful please consider paying if forward with a donation to a charity I support, the [Wayside Chapel](https://www.waysidechapel.org.au) or if wish to contribute to these notes you can submit a PR.
