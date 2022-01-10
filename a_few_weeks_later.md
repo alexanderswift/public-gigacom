@@ -20,9 +20,9 @@ I noticed my VPN's (work) dropped and pausing / dropping in my online streaming 
 
 
 
-<img src="/Users/alexs/Documents/GitHub/public-gigacom/pics/packet-loss-28thDec21.png" alt="packet-loss-28thDec21" style="zoom: 67%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/packet-loss-28thDec21.png" alt="packet-loss-28thDec21" style="zoom: 67%;" />
 
-<img src="/Users/alexs/Documents/GitHub/public-gigacom/pics/slow-upload-28thDec21.png" alt="slow-upload-28thDec21" style="zoom:67%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/slow-upload-28thDec21.png" alt="slow-upload-28thDec21" style="zoom:67%;" />
 
 
 
@@ -32,7 +32,7 @@ Surprise text from GC Support! I always appreciate the transparency, it's the fi
 
 
 
-<img src="/Users/alexs/Documents/GitHub/public-gigacom/pics/gigacomm-txt-4thJan22.jpeg" alt="gigacomm-txt-4thJan22" style="zoom:33%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/gigacomm-txt-4thJan22.jpeg" alt="gigacomm-txt-4thJan22" style="zoom:33%;" />
 
 ##### 5th to 6th Jan 2021:
 
@@ -90,13 +90,13 @@ So I've plugged in my usual toolkit a PoE powered ASUS Tinker Board running [Die
 
 - Firewall / Router stats show a utilised but okay firewall.
 
-![7thJan2021-24hr-firewall-stat](/Users/alexs/Documents/GitHub/public-gigacom/pics/7thJan2021-24hr-firewall-stat.png)
+![7thJan2021-24hr-firewall-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/7thJan2021-24hr-firewall-stat.png)
 
 
 
 - SpeedTest stats show the results of one test every sixty minutes to the best available SpeedTest server.
 
-![7thJan2021-24hr-speedtest-stat](/Users/alexs/Documents/GitHub/public-gigacom/pics/7thJan2021-24hr-speedtest-stat.png)
+![7thJan2021-24hr-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/7thJan2021-24hr-speedtest-stat.png)
 
 
 
@@ -121,11 +121,11 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 
 - Ping shows zero loss% so it looks like the GigaComm has fixed the problem 🤞
 
-![10th-Jan-evening](/Users/alexs/Documents/GitHub/public-gigacom/pics/10th-Jan-evening.png)
+![10th-Jan-evening](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10th-Jan-evening.png)
 
 - SpeedTest stats show the results of one test every one hundred and twenty minutes to the best available SpeedTest server.
 
-![10thJan2021-12hr-speedtest-stat](/Users/alexs/Documents/GitHub/public-gigacom/pics/10thJan2021-12hr-speedtest-stat.png)
+![10thJan2021-12hr-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10thJan2021-12hr-speedtest-stat.png)
 
 
 
