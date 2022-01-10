@@ -102,7 +102,13 @@ So I've plugged in my usual toolkit a PoE powered ASUS Tinker Board running [Die
 
 #### Are GigaComm traffic shaping the service❓
 
-It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is slowing down traffic and if I had the take a guess **based on my traceroute etc** it's in the core of the GigaComm network.
+TL;DR they state in there [Acceptable & Fair Use Policy](https://www.gigacomm.net.au/hubfs/GigaComm%20Website/PDF%20Fact%20Sheets/GigaComm-Acceptable-Fair-Use-Policy-21102020.pdf) "we may"
+
+![](https://github.com/alexanderswift/public-gigacom/blob/main/pics/GigaComm-Acceptable-Fair-Use-Policy-21102020.png)
+
+
+
+It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is slowing down my traffic during tests and if so I'd take a guess **based on my traceroute etc** it's in the core of the GigaComm network.
 
 - If there was congestion on a network the latency / ping times would increase because by design and router/firewall software implementations of ICMP means ICMP is treated as low priority thus the latency and jitter increases.  
 - Traffic to some hosts like the Launtel Melbourne & Sydney SpeedTest servers are not slowed down because they are connected to GigaComm over the equinix peering lan and it's my understanding (**and I could be wrong**) that traffic shaping is not often required or even discouraged on open-peering networks (not billed) thus the route to Launtel in Melbourne routes via Launtel's network. During **[my testing](https://github.com/alexanderswift/public-gigacom/blob/main/pics/6th-Jan-evening.png)** I captured the IP address (you're looking for many connections on :8080) and performing a traceroute to each hosts when that host was not connected via equinix peering lan the speed was significantly reduced.
@@ -111,7 +117,9 @@ It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is
 
 ##### 7th Jan 2021 - 16:30:
 
-Well another positive for GigaComm, they're responsive and they're owning it 👍. I've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱my day. I still have my TPG line connected as a backup but have submitted my cancellation.
+Well ok not traffic shaping and on another positive for GigaComm, they're transparent, responsive and they're owning it 👍. 
+
+I've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱my day. I still have my TPG line connected as a backup but have submitted my cancellation.
 
 
 
