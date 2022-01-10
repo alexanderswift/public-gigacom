@@ -8,7 +8,7 @@ The TL;DR version, in short not great but credit to GigaComm(GC) they appear to 
 
 
 
-I'm ok with problems as technology & network problems after-all solving tech problems has been my 'bread and butter' for many years. Theres always point though where you need to see an improvement or you must consider the return on effort and when to call it quits and find another option.
+I'm ok with problems because technology & network problems, after-all solving tech problems has been my 'bread and butter' for many years but theres always point though where you need to see an improvement or you must consider the return on effort / when to call it quits and find another option.
 
 
 
@@ -111,8 +111,24 @@ It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is
 
 ##### 7th Jan 2021 - 16:30:
 
-Well another positive is how responsive GigaComm are and they're owning it 👍, i've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱my day. I still have my TPG line connected as a backup but have submitted my cancellation.
+Well another positive for GigaComm, they're responsive and they're owning it 👍. I've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱my day. I still have my TPG line connected as a backup but have submitted my cancellation.
+
+
+
+##### 10th Jan 2021
+
+GigaComm emailed back to say "*confirming we've successfully rectified the errors and packet loss issues here. If your still having issues let us know so we can investigate further*". Looking at the results of a ping test and Grafana pannel for the past 12 hours it looks like a significant improvement..  
+
+- Ping shows zero loss% so it looks like the GigaComm has fixed the problem 🤞
+
+![10th-Jan-evening](/Users/alexs/Documents/GitHub/public-gigacom/pics/10th-Jan-evening.png)
+
+- SpeedTest stats show the results of one test every one hundred and twenty minutes to the best available SpeedTest server.
+
+![10thJan2021-12hr-speedtest-stat](/Users/alexs/Documents/GitHub/public-gigacom/pics/10thJan2021-12hr-speedtest-stat.png)
 
 
 
 **TBC...**
+
+I'll update again if a few days time with a bit more data and observations. 
