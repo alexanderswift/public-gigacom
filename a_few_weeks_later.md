@@ -12,7 +12,7 @@ I'm ok with problems because technology & network problems, after-all solving te
 
 
 
-##### 28th Dec 2021:
+#### 28th Dec 2021:
 
 I noticed my VPN's (work) dropped and pausing / dropping in my online streaming pausing, The thing with Internet so fast you notice the slightest pauses 🤷‍♂️. Problems started during the morning and my upload speed had taken noticeable hit. Tests indicted the line is limited to 50Mbps then drops off.
 
@@ -26,7 +26,7 @@ I noticed my VPN's (work) dropped and pausing / dropping in my online streaming 
 
 
 
-##### 4th Jan 2022:
+#### 4th Jan 2022:
 
 Surprise text from GC Support! I always appreciate the transparency, it's the first time an ISP has sent me a text about service. 👏
 
@@ -34,9 +34,9 @@ Surprise text from GC Support! I always appreciate the transparency, it's the fi
 
 <img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/gigacomm-txt-4thJan22.jpeg" alt="gigacomm-txt-4thJan22" style="zoom:25%;" />
 
-##### 5th to 6th Jan 2022:
+#### 5th to 6th Jan 2022:
 
-More problems on the service (and yes everything has had a reboot), I noticed more dropouts and the youtube ‘wheel of wait’ from about 8pm on the 5th Jan. This time there was a slight oddity that the speedtest.net site thinks I’m in Melbourne and selects a Melbourne server and the speed is woeful, as low as 20Mbps.
+More problems on the service (and yes everything has had a reboot), I noticed more dropouts and the youtube ‘wheel of wait’ from about 8pm on the 5th Jan. This time there was a slight oddity that the speedtest.net site thinks I’m in Melbourne and selects a Melbourne server and the speed is woeful, **as low as 20Mbps.**
 
 
 
@@ -44,7 +44,7 @@ So I started to perform a few tests and from my observation it looks like it's j
 
 
 
-Tests
+**Tests**
 
 ~~~
 To the GigaComm Sydney SpeedTest server.
@@ -78,7 +78,7 @@ As I'd expect on a 1Gbps connection.
 
 
 
-##### 7th Jan 2022:
+#### 7th Jan 2022:
 
 As I've said before...
 
@@ -115,7 +115,7 @@ It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is
 
 
 
-##### 7th Jan 2022 - 16:30:
+#### **7th Jan 2022 - 16:30:**
 
 Well ok **GigaComm are not traffic shaping** slowing and down my traffic during testsand, on another positive for GigaComm, they're transparent, responsive and they're owning it 👍. 
 
@@ -123,7 +123,7 @@ I've received a [GigaComm Planned Network Outage](https://github.com/alexandersw
 
 
 
-##### 10th Jan 2021
+#### 10th Jan 2021
 
 GigaComm emailed back to say "*confirming we've successfully rectified the errors and packet loss issues here. If your still having issues let us know so we can investigate further*". Looking at the results of a ping test and Grafana pannel for the past 12 hours it looks like a significant improvement..  
 
@@ -137,7 +137,7 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 
 
 
-##### 16th Jan 2022
+#### 16th Jan 2022
 
 Looking back 7 days and there's a significant improvement in the speed and there's no unknown drops in service. 
 
@@ -145,6 +145,6 @@ Looking back 7 days and there's a significant improvement in the speed and there
 
 ![16th Jan 7 day uptime](https://github.com/alexanderswift/public-gigacom/blob/main/pics/16thJan2021-7d-uptime.png)
 
-**TBC...**
+#### **TBC...**
 
 I'll update again if a few days time with a bit more data and observations. 
