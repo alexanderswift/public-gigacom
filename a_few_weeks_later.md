@@ -26,7 +26,7 @@ I noticed my VPN's (work) dropped and pausing / dropping in my online streaming 
 
 
 
-##### 4th Jan 2021:
+##### 4th Jan 2022:
 
 Surprise text from GC Support! I always appreciate the transparency, it's the first time an ISP has sent me a text about service. 👏
 
@@ -34,7 +34,7 @@ Surprise text from GC Support! I always appreciate the transparency, it's the fi
 
 <img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/gigacomm-txt-4thJan22.jpeg" alt="gigacomm-txt-4thJan22" style="zoom:33%;" />
 
-##### 5th to 6th Jan 2021:
+##### 5th to 6th Jan 2022:
 
 More problems on the service (and yes everything has had a reboot), I noticed more dropouts and the youtube ‘wheel of wait’ from about 8pm on the 5th Jan. This time there was a slight oddity that the speedtest.net site thinks I’m in Melbourne and selects a Melbourne server and the speed is woeful, as low as 20Mbps.
 
@@ -78,7 +78,7 @@ As I'd expect on a 1Gbps connection.
 
 
 
-##### 7th Jan 2021:
+##### 7th Jan 2022:
 
 As I've said before...
 
@@ -115,7 +115,7 @@ It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is
 
 
 
-##### 7th Jan 2021 - 16:30:
+##### 7th Jan 2022 - 16:30:
 
 Well ok **GigaComm are not traffic shaping** slowing and down my traffic during testsand, on another positive for GigaComm, they're transparent, responsive and they're owning it 👍. 
 
@@ -137,7 +137,7 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 
 
 
-
+16th Jan 202
 
 **TBC...**
 
