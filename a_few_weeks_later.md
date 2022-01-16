@@ -20,9 +20,9 @@ I noticed my VPN's (work) dropped and pausing / dropping in my online streaming 
 
 
 
-<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/packet-loss-28thDec21.png" alt="packet-loss-28thDec21" style="zoom: 33%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/packet-loss-28thDec21.png" alt="packet-loss-28thDec21" style="zoom: 25%;" />
 
-<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/slow-upload-28thDec21.png" alt="slow-upload-28thDec21" style="zoom:33%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/slow-upload-28thDec21.png" alt="slow-upload-28thDec21" style="zoom:25%;" />
 
 
 
@@ -32,7 +32,7 @@ Surprise text from GC Support! I always appreciate the transparency, it's the fi
 
 
 
-<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/gigacomm-txt-4thJan22.jpeg" alt="gigacomm-txt-4thJan22" style="zoom:33%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/gigacomm-txt-4thJan22.jpeg" alt="gigacomm-txt-4thJan22" style="zoom:25%;" />
 
 ##### 5th to 6th Jan 2022:
 
