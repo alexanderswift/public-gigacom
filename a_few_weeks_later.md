@@ -117,7 +117,7 @@ It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is
 
 ##### 7th Jan 2021 - 16:30:
 
-Well ok not traffic shaping and on another positive for GigaComm, they're transparent, responsive and they're owning it 👍. 
+Well ok **GigaComm are not traffic shaping** slowing and down my traffic during testsand, on another positive for GigaComm, they're transparent, responsive and they're owning it 👍. 
 
 I've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱my day. I still have my TPG line connected as a backup but have submitted my cancellation.
 
@@ -134,6 +134,8 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 - SpeedTest stats show the results of one test every one hundred and twenty minutes to the best available SpeedTest server.
 
 ![10thJan2021-12hr-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10thJan2021-12hr-speedtest-stat.png)
+
+
 
 
 
