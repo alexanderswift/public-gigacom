@@ -133,12 +133,20 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 
 - SpeedTest stats show the results of one test every one hundred and twenty minutes to the best available SpeedTest server.
 
-![10thJan2021-12hr-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10thJan2021-12hr-speedtest-stat.png)
+![10thJan2021-12hr-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10thJan2022-12hr-speedtest-stat.png)
 
 
 
-16th Jan 202
+##### 16th Jan 2022
 
-**TBC...**
+Looking back 7 days (because I throw away logs)
+
+![16thJan2021-7d-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/16thJan2021-7d-speedtest-stat.png)
+
+
+
+**T**
+
+**BC...**
 
 I'll update again if a few days time with a bit more data and observations. 
