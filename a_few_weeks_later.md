@@ -20,9 +20,9 @@ I noticed my VPN's (work) dropped and pausing / dropping in my online streaming 
 
 
 
-<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/packet-loss-28thDec21.png" alt="packet-loss-28thDec21" style="zoom: 67%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/packet-loss-28thDec21.png" alt="packet-loss-28thDec21" style="zoom: 33%;" />
 
-<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/slow-upload-28thDec21.png" alt="slow-upload-28thDec21" style="zoom:67%;" />
+<img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/slow-upload-28thDec21.png" alt="slow-upload-28thDec21" style="zoom:33%;" />
 
 
 
