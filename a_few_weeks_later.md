@@ -90,13 +90,13 @@ So I've plugged in my usual toolkit a PoE powered ASUS Tinker Board running [Die
 
 - Firewall / Router stats show a utilised but okay firewall.
 
-![7thJan2021-24hr-firewall-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/7thJan2021-24hr-firewall-stat.png)
+![7th Jan 24hr firewall](https://github.com/alexanderswift/public-gigacom/blob/main/pics/7thJan2021-24hr-firewall-stat.png)
 
 
 
 - SpeedTest stats show the results of one test every sixty minutes to the best available SpeedTest server.
 
-![7thJan2021-24hr-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/7thJan2021-24hr-speedtest-stat.png)
+![7th Jan 24hr speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/7thJan2021-24hr-speedtest-stat.png)
 
 
 
@@ -129,24 +129,22 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 
 - Ping shows zero loss% so it looks like the GigaComm has fixed the problem 🤞
 
-![10th-Jan-evening](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10th-Jan-evening.png)
+![10th Jan ping](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10th-Jan-evening.png)
 
 - SpeedTest stats show the results of one test every one hundred and twenty minutes to the best available SpeedTest server.
 
-![10thJan2021-12hr-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10thJan2022-12hr-speedtest-stat.png)
+![10th Jan 12hr speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10thJan2022-12hr-speedtest-stat.png)
 
 
 
 ##### 16th Jan 2022
 
-Looking back 7 days (because I throw away logs)
+Looking back 7 days and there's a significant improvement in the speed and there's no unknown drops in service. 
 
-![16thJan2021-7d-speedtest-stat](https://github.com/alexanderswift/public-gigacom/blob/main/pics/16thJan2021-7d-speedtest-stat.png)
+![16th Jan 7d speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/16thJan2021-7d-speedtest-stat.png)
 
+![16th Jan 7 day uptime](https://github.com/alexanderswift/public-gigacom/blob/main/pics/16thJan2021-7d-uptime.png)
 
-
-**T**
-
-**BC...**
+**TBC...**
 
 I'll update again if a few days time with a bit more data and observations. 
