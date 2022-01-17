@@ -117,15 +117,15 @@ It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is
 
 #### **7th Jan 2022 - 16:30:**
 
-Well ok **GigaComm are not traffic shaping** slowing and down my traffic during testsand, on another positive for GigaComm, they're transparent, responsive and they're owning it 👍. 
+Well ok **GigaComm are not traffic shaping** slowing and down my traffic during tests and, on another positive for GigaComm, they're transparent, responsive and they're owning it 👍.
 
-I've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱my day. I still have my TPG line connected as a backup but have submitted my cancellation.
+I've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱 my day. I still have my TPG line connected as a backup but have submitted my cancellation.
 
 
 
 #### 10th Jan 2021
 
-GigaComm emailed back to say "*confirming we've successfully rectified the errors and packet loss issues here. If your still having issues let us know so we can investigate further*". Looking at the results of a ping test and Grafana pannel for the past 12 hours it looks like a significant improvement..  
+GigaComm emailed back to say "*confirming we've successfully rectified the errors and packet loss issues here. If you're still having issues let us know so we can investigate further*". Looking at the results of a ping test and Grafana panel for the past 12 hours it looks like a significant improvement..  
 
 - Ping shows zero loss% so it looks like the GigaComm has fixed the problem 🤞
 
@@ -139,7 +139,7 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 
 #### 16th Jan 2022
 
-Looking back 7 days and there's a significant improvement in the speed and there's no unknown drops in service. 
+Looking back 7 days and there's a significant improvement in the speed and there's no unknown drops in service.
 
 ![16th Jan 7d speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/16thJan2021-7d-speedtest-stat.png)
 
@@ -147,4 +147,4 @@ Looking back 7 days and there's a significant improvement in the speed and there
 
 #### **TBC...**
 
-I'll update again if a few days time with a bit more data and observations. 
+I'll update again if a few days time with a bit more data and observations.
