@@ -4,19 +4,17 @@
 
 #### How's the service going❓
 
-The TL;DR version, in short not great but credit to GigaComm(GC) they appear to be transparent, responsive and showing a lot more ownership than previous ISPs have. Hopefully GC get this one resolved soon because i'm back working from home and a reliable low latency connection is required.
+**TL;DR good not great but credit to GigaComm they were transparent, responsive and showed a lot more ownership than my previous ISPs have.** 
 
+I'm ok with problems because cloud, technology, network and solving problems has been my 'bread and butter' for many years, we'll just say twenty years so I don't feel as old as I am.... Below is a journal for the period 28th Dec 21 to 20th Jan 22, I believe it is a fair and balanced view. There were some small problems that GigaComm got all over and fixed along with a firewall upgrade as predicted in [part3](https://github.com/alexanderswift/public-gigacom/blob/main/testing_and_final_thoughts.md).
 
-
-I'm ok with problems because technology & network problems, after-all solving tech problems has been my 'bread and butter' for many years but theres always point though where you need to see an improvement or you must consider the return on effort / when to call it quits and find another option.
-
-
+----
 
 #### 28th Dec 2021:
 
-I noticed my VPN's (work) dropped and pausing / dropping in my online streaming pausing, The thing with Internet so fast you notice the slightest pauses 🤷‍♂️. Problems started during the morning and my upload speed had taken noticeable hit. Tests indicted the line is limited to 50Mbps then drops off.
+I noticed my VPN's (work) dropped and pausing / dropping in my online streaming pausing, The thing with Internet so fast you notice the slightest pauses 🤷‍♂️. Problems started during the morning and my upload speed had taken noticeable hit. 
 
-[GigaComm Support email](https://github.com/alexanderswift/public-gigacom/blob/main/pics/emailtogigacomm-28thDec2021.pdf) said; *"We’ve had some issues overnight with a link that was running errors."*
+Tests indicted the line is limited to 50Mbps then drops off so I contacted [GigaComm via there Support email](https://github.com/alexanderswift/public-gigacom/blob/main/pics/emailtogigacomm-28thDec2021.pdf) and they said; *"We’ve had some issues overnight with a link that was running errors."*
 
 
 
@@ -24,7 +22,7 @@ I noticed my VPN's (work) dropped and pausing / dropping in my online streaming 
 
 <img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/slow-upload-28thDec21.png" alt="slow-upload-28thDec21" style="zoom:25%;" />
 
-
+---
 
 #### 4th Jan 2022:
 
@@ -34,13 +32,13 @@ Surprise text from GC Support! I always appreciate the transparency, it's the fi
 
 <img src="https://github.com/alexanderswift/public-gigacom/blob/main/pics/gigacomm-txt-4thJan22.jpeg" alt="gigacomm-txt-4thJan22" style="zoom:25%;" />
 
+---
+
 #### 5th to 6th Jan 2022:
 
-More problems on the service (and yes everything has had a reboot), I noticed more dropouts and the youtube ‘wheel of wait’ from about 8pm on the 5th Jan. This time there was a slight oddity that the speedtest.net site thinks I’m in Melbourne and selects a Melbourne server and the speed is woeful, **as low as 20Mbps.**
+More problems on the service (and yes everything has had a reboot), I noticed more dropouts and the youtube ‘*wheel of wait*’ from about 8pm on the 5th Jan. This time there was a slight oddity that the speedtest.net site thinks I’m in Melbourne and selects a Melbourne server and the speed is woeful, **as low as 20Mbps.**
 
-
-
-So I started to perform a few tests and from my observation it looks like it's just a few paths through the GigaComm network where there's potential issues. It's the case that in my testing locally and interstate on the Launtel Sydney is as i'd expect for a Gigabit service but to the GigaComm Sydney and Melbourne speed test servers returned some woeful speeds.
+Time to perform a few tests and from my observation it looked like a problem on just a few paths through the GigaComm network. During my testing (locally and interstate) selecting the Launtel Sydney & Melbourne speed test servers the results are as you'd expect for a Gigabit service but to the GigaComm Sydney and Melbourne speed test servers, eek, they returned some woeful speeds.
 
 
 
@@ -76,17 +74,19 @@ As I'd expect on a 1Gbps connection.
 
 [GigaComm Support email](https://github.com/alexanderswift/public-gigacom/blob/main/pics/emailtogigacomm-6thJan22.pdf) said; *Thanks for this information Alex, I've run some tests and can see some errors and packet loss on the link that was recently connected. We are prioritising getting someone out to resolve the errors. I'll keep you updated on progress of this.*
 
+---
 
+#### 7th Jan 2022 - 09:30:
 
-#### 7th Jan 2022:
-
-##### As I've said before...
+##### As the saying goes...
 
 ~~~
 		“You can't optimise it until you can measure it”!!
 ~~~
 
-So I've plugged in my usual toolkit a PoE powered ASUS Tinker Board running [DietPI](https://dietpi.com), it's a Telegraf collector / InfluxDB open-source time series database that is the data source for Grafana (observability platform, integrating metrics, traces and logs). Hot tip: Grafana Cloud offers a [free tier](https://grafana.com/products/cloud/pricing/) option and this means you don't need the 'home server' running up that power bill. There's also no additional noise, heat, it's PAT (partner acceptance test) certified and you can learn skills in a popular cloud tool.
+I dusted off and plugged in my usual network troubleshooting toolkit, a PoE powered ASUS Tinker Board running [DietPI](https://dietpi.com), it's a [Telegraf collector](https://docs.influxdata.com/influxdb/v2.1/write-data/no-code/use-telegraf/) and an open-source time series database [InfluxDB](https://www.influxdata.com/products/influxdb/) that is the data for [Grafana](https://grafana.com) (observability platform). In simple terms the raspberry pi device monitors and tests using the [speedtest cli](https://www.speedtest.net/apps/cli) a single test every two hours and writes the results in to a lightweight database and the graphs are produced as you'll see below. 
+
+Hot tip: You can get an ASUS Tinker Board kit for about A$75, Influx & Telegraf open source and Grafana Cloud offers a [free tier](https://grafana.com/products/cloud/pricing/) option and this means you don't need the 'home server' running up that power bill. There's also no additional noise, heat, it's PAT (partner acceptance test) certified and you can learn skills in a popular cloud tool stacks along the way.
 
 - Firewall / Router stats show a utilised but okay firewall.
 
@@ -98,9 +98,9 @@ So I've plugged in my usual toolkit a PoE powered ASUS Tinker Board running [Die
 
 ![7th Jan 24hr speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/7thJan2021-24hr-speedtest-stat.png)
 
+---
 
-
-#### Are GigaComm traffic shaping the service❓
+#### **7th Jan 2022 - 14:00:** Are GigaComm traffic shaping the service❓
 
 TL;DR they state in there [Acceptable & Fair Use Policy](https://www.gigacomm.net.au/hubfs/GigaComm%20Website/PDF%20Fact%20Sheets/GigaComm-Acceptable-Fair-Use-Policy-21102020.pdf) "we may"
 
@@ -113,15 +113,15 @@ It's **<u>possible</u>** (**and I could be wrong**) that some traffic shaping is
 - If there was congestion on a network the latency / ping times would increase because by design and router/firewall software implementations of ICMP means ICMP is treated as low priority thus the latency and jitter increases.  
 - Traffic to some hosts like the Launtel Melbourne & Sydney SpeedTest servers are not slowed down because they are connected to GigaComm over the equinix peering lan and it's my understanding (**and I could be wrong**) that traffic shaping is not often required or even discouraged on open-peering networks (not billed) thus the route to Launtel in Melbourne routes via Launtel's network. During **[my testing](https://github.com/alexanderswift/public-gigacom/blob/main/pics/6th-Jan-evening.png)** I captured the IP address (you're looking for many connections on :8080) and performing a traceroute to each hosts when that host was not connected via equinix peering lan the speed was significantly reduced.
 
-
+---
 
 #### **7th Jan 2022 - 16:30:**
 
-Well ok **GigaComm are not traffic shaping** slowing and down my traffic during tests and, on another positive for GigaComm, they're transparent, responsive and they're owning it 👍.
+**I was wrong GigaComm aren't traffic shaping** or slowing and down my traffic during tests. On another positive for GigaComm, they're transparent, responsive and they're owning it 👍.
 
 I've received a [GigaComm Planned Network Outage](https://github.com/alexanderswift/public-gigacom/blob/main/pics/PlannedNetworkOutage-10thJan22.pdf) notification for Monday 10th Jan 2021, eek lots more WFH this year so 🤞this goes well and doesn't 🧱 my day. I still have my TPG line connected as a backup but have submitted my cancellation.
 
-
+---
 
 #### 10th Jan 2021
 
@@ -135,7 +135,7 @@ GigaComm emailed back to say "*confirming we've successfully rectified the error
 
 ![10th Jan 12hr speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/10thJan2022-12hr-speedtest-stat.png)
 
-
+---
 
 #### 16th Jan 2022
 
@@ -145,6 +145,27 @@ Looking back 7 days and there's a significant improvement in the speed and there
 
 ![16th Jan 7 day uptime](https://github.com/alexanderswift/public-gigacom/blob/main/pics/16thJan2021-7d-uptime.png)
 
-#### **TBC...**
+---
 
-I'll update again if a few days time with a bit more data and observations.
+#### 20th Jan 2022
+
+Looking back 14 days there's few things to note in the graphs, 
+
+- The scale on the graph, the first bar is 250Mb/s so although there was an issue I still had a very usable ~100Mbps in both directions.
+- 7th to 10th Jan the period where GigaComm acknowledged there was an issue in upthe improvement on the 10th Jan 22
+- 14th Jan my new firewall arrived, thus the as discussed and predicted in [part3](https://github.com/alexanderswift/public-gigacom/blob/main/testing_and_final_thoughts.md) there's a difference between switching, routing and inspecting (firewall) traffic at 1Gbps. 
+
+![19th Jan 7d speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/19thJan2022-7d-speedtest-stat.png)
+
+![19th Jan 14d speedtest](https://github.com/alexanderswift/public-gigacom/blob/main/pics/19thJan2022-14d-speedtest-stat.png)
+
+---
+
+
+
+### Summary 
+
+I still highly recommend GigaComm as a provider because they are transparent, responsive and owned their (small) problems and I believe it's how you respond and learn from problems that builds a better network and experience for your customers. 
+
+The low latency, zero point nothing jitter and Gigabit speed enabled by their infrastructure approach is awesome for domestic and international video calling, working from home, uploading / downloading my work from the Cloud and 🤞subtrtacting a few days ~7th to 10th Jan it has been reliable and fast.
+
