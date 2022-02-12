@@ -167,5 +167,5 @@ Looking back 14 days there's few things to note in the graphs,
 
 I still highly recommend GigaComm as a provider because they are transparent, responsive and owned their (small) problems and I believe it's how you respond and learn from problems that builds a better network and experience for your customers. 
 
-The low latency, zero point nothing jitter and Gigabit speed enabled by their infrastructure approach is awesome for domestic and international video calling, working from home, uploading / downloading my work from the Cloud and 🤞subtrtacting a few days ~7th to 10th Jan it has been reliable and fast.
+The low latency, zero point nothing jitter and Gigabit speed enabled by their infrastructure approach is awesome for domestic and international video calling, working from home, uploading / downloading my work from the Cloud and 🤞subtracting a few days ~7th to 10th Jan it has been reliable and fast.
 
