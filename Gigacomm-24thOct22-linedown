@@ -1,0 +1,33 @@
+Phoned support (Kurt) 28th Oct 2022 at 16:24
+Spoken and we confirmed WAN_DHCP gateway 180.200.236.1 is down..
+Will talk to engineers and call me back.. 16:30
+
+======
+alexs@alexs-MacBookPro ~ % ping -c 2 180.200.236.17
+PING 180.200.236.17 (180.200.236.17): 56 data bytes
+64 bytes from 180.200.236.17: icmp_seq=0 ttl=64 time=1.336 ms
+64 bytes from 180.200.236.17: icmp_seq=1 ttl=64 time=7.744 ms
+
+--- 180.200.236.17 ping statistics ---
+2 packets transmitted, 2 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.336/4.540/7.744/3.204 ms
+alexs@alexs-MacBookPro ~ %
+
+alexs@alexs-MacBookPro ~ % ping -c 2 180.200.236.1
+PING 180.200.236.1 (180.200.236.1): 56 data bytes
+Request timeout for icmp_seq 0
+
+--- 180.200.236.1 ping statistics ---
+2 packets transmitted, 0 packets received, 100.0% packet loss
+alexs@alexs-MacBookPro ~ %
+
+======
+alexs@alexs-MacBookPro ~ % host google.com
+Host google.com not found: 2(SERVFAIL)
+alexs@alexs-MacBookPro ~ % host lab26.io
+Host lab26.io not found: 2(SERVFAIL)
+alexs@alexs-MacBookPro ~ % host int.lab26.io
+int.lab26.io has address 192.168.99.1
+alexs@alexs-MacBookPro ~ %
+
+======
