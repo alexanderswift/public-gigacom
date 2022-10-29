@@ -63,4 +63,13 @@ It's an awesome commitment to service and 💩 happens as they say hardware fail
 
 ### Saturday 29th Oct 
 
-I'm expecting the field engineer at about 4pm today.
+I was expecting the field engineer at about 4pm and the service engineer texted an ETA 👏, 🥇again great communication and service to even make a service call at the weekend. He arrived with the replacement AdTran but unfortunately no 🎲, same as with the old NTU when I pugged in DHCP assigned x.x.x.238 and again many devices broadcasting ARP and x.x.x.1 was not responding. 
+
+![Screenshot 2022-10-29 at 21.48.46](/pics/Screenshot 2022-10-29 at 21.48.46.png)
+
+For comparison (not actual device I captured another router) with a functioning ARP broadcast and response as below, one device says [*Who has 192.168.20.3? Tell 192.168.20.1* and the next line is *192.168.20.3 is at 58:ef: 68:7c: c3:27*] . 
+
+![Screenshot 2022-10-29 at 21.58.16](/pics/Screenshot 2022-10-29 at 21.58.16.png)
+
+Time to call GigaComm but unfortunately they 
+
