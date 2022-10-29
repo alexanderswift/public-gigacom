@@ -7,11 +7,8 @@ Very specific I know thats benefit on top of the obvious security + learning of 
 > Oct 28 16:24:59  kernel    igb0: link state changed to DOWN
 
 So on the phone I get to GigaComm support and let them do their thing, they could logon too their NTU & G.Fast bridge  so they must have an out of band method from their equipment in the MDF room.  We spoke for a while and confirmed that the my firewall WAN_DHCP gateway X.X.X.1 is down and the support person will talk to engineers and call me back.. (16:30)
-$$
-
-$$
-
-> ====== Outside of firewall ✅
+> Outside of firewall ✅
+>
 > alexs@alexs-MacBookPro ~ % ping -c 2 x.x.x.17
 > PING x.x.x.17 (x.x.x.17): 56 data bytes
 > 64 bytes from x.x.x.17: icmp_seq=0 ttl=64 time=1.336 ms
