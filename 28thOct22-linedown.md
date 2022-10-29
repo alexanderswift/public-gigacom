@@ -65,11 +65,11 @@ It's an awesome commitment to service and 💩 happens as they say hardware fail
 
 I was expecting the field engineer at about 4pm and the service engineer texted an ETA 👏, 🥇again great communication and service to even make a service call at the weekend. He arrived with the replacement AdTran but unfortunately no 🎲, same as with the old NTU when I pugged in DHCP assigned x.x.x.238 and again many devices broadcasting ARP and x.x.x.1 was not responding. 
 
-![Screenshot 2022-10-29 at 21.48.46](/pics/Screenshot 2022-10-29 at 21.48.46.png)
+![Screenshot-1](/pics/screenshot-2022-10-29-1.png)
 
 For comparison (not actual device I captured another router) with a functioning ARP broadcast and response as below, one device says [*Who has 192.168.20.3? Tell 192.168.20.1* and the next line is *192.168.20.3 is at 58:ef: 68:7c: c3:27*] . 
 
-![Screenshot 2022-10-29 at 21.58.16](/pics/Screenshot 2022-10-29 at 21.58.16.png)
+![Screenshot-2](/pics/screenshot-2022-10-29-2.png)
 
 Time to call GigaComm but unfortunately they have a support line open at the weekends, but they clearly do work weekends.. Anyway the field engineer jumped on when I assume is an internal chat tool and the the on call engineer was troubleshooting with the field engineer, they tested my line to the MDF and even moved the router to the MDF and unfortunately more of the same, no 🎲.
 
