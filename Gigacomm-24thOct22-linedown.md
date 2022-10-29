@@ -4,33 +4,38 @@
 
 Very specific I know thats benefit on top of the obvious security + learning of having your own pfSense firewall (or other) device at the edge of your network...
 
-> Oct 28 16:24:59  kernel    igb0: link state changed to DOWN
+```
+Oct 28 16:24:59  kernel    igb0: link state changed to DOWN
+```
 
 So on the phone I get to GigaComm support and let them do their thing, they could logon too their NTU & G.Fast bridge  so they must have an out of band method from their equipment in the MDF room.  We spoke for a while and confirmed that the my firewall WAN_DHCP gateway X.X.X.1 is down and the support person will talk to engineers and call me back.. (16:30)
-> Outside of firewall ✅
->
-> alexs@alexs-MacBookPro ~ % ping -c 2 x.x.x.17
-> PING x.x.x.17 (x.x.x.17): 56 data bytes
-> 64 bytes from x.x.x.17: icmp_seq=0 ttl=64 time=1.336 ms
-> 64 bytes from x.x.x.17: icmp_seq=1 ttl=64 **time=7.744 ms <<< Umm**
->
-> --- x.x.x.17 ping statistics ---
-> 2 packets transmitted, 2 packets received, 0.0% packet loss
-> round-trip min/avg/max/stddev = **1.336/4.540/7.744/3.204 ms <<< Umm**
-> alexs@alexs-MacBookPro ~ %
->
-> ====== GigaComm router 🌵
-> alexs@alexs-MacBookPro ~ % ping -c 2 x.x.x.1
-> PING x.x.x.1 (x.x.x.1): 56 data bytes
-> Request timeout for icmp_seq 0
->
-> --- x.x.x.1 ping statistics ---
-> 2 packets transmitted, 0 packets received, **100.0% packet loss <<< Ohhh**
-> alexs@alexs-MacBookPro ~ %
->
-> ====== DNS 🌵
-> alexs@alexs-MacBookPro ~ % host google.com
-> Host google.com not found: 2(**SERVFAIL**)
+
+```
+-- Outside of firewall ✅
+alexs@alexs-MacBookPro ~ % ping -c 2 x.x.x.17
+PING x.x.x.17 (x.x.x.17): 56 data bytes
+64 bytes from x.x.x.17: icmp_seq=0 ttl=64 time=1.336 ms
+64 bytes from x.x.x.17: icmp_seq=1 ttl=64 **time=7.744 ms <<< Umm**
+
+--- x.x.x.17 ping statistics ---
+2 packets transmitted, 2 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = **1.336/4.540/7.744/3.204 ms <<< Umm**
+alexs@alexs-MacBookPro ~ %
+
+-- GigaComm router 🌵
+alexs@alexs-MacBookPro ~ % ping -c 2 x.x.x.1
+PING x.x.x.1 (x.x.x.1): 56 data bytes
+Request timeout for icmp_seq 0
+
+--- x.x.x.1 ping statistics ---
+2 packets transmitted, 0 packets received, **100.0% packet loss <<< Ohhh**
+alexs@alexs-MacBookPro ~ %
+
+-- DNS 🌵
+alexs@alexs-MacBookPro ~ % host google.com
+Host google.com not found: 2(**SERVFAIL**)
+
+```
 
 ### 16:51
 
@@ -48,7 +53,7 @@ The engineer de-provision and re-provision the service the interface was DHCP as
 
 What you should be seeing in the below capture is response to the ARP broadcast 'Who has x.x.x.1? Tell x.x.x.58', curiously though I don't own a Synology!! I guess the service is a EtherHaul to the ISP's gateways BUT yep, thats a Synology with a Public IP address 🤯 (⚠️rant coming⚠️) data breaches happen in Australia because humans do human things like plug it in and call it done (she'll be right), is someone even hacking you if you aren't even trying to keep data safe?
 
-![capture-28thOct2022](/Users/alexs/Documents/GitHub/public-gigacom/pics/capture-28thOct2022.png)
+![capture-28thOct2022](/pics/capture-28thOct2022.png)
 
 ### End of Play - Friday 28th Oct (so I thought). 
 
