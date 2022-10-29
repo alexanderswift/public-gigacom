@@ -71,5 +71,9 @@ For comparison (not actual device I captured another router) with a functioning 
 
 ![Screenshot 2022-10-29 at 21.58.16](/pics/Screenshot 2022-10-29 at 21.58.16.png)
 
-Time to call GigaComm but unfortunately they 
+Time to call GigaComm but unfortunately they have a support line open at the weekends, but they clearly do work weekends.. Anyway the field engineer jumped on when I assume is an internal chat tool and the the on call engineer was troubleshooting with the field engineer, they tested my line to the MDF and even moved the router to the MDF and unfortunately more of the same, no 🎲.
+
+
+
+
 
