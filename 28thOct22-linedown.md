@@ -73,7 +73,12 @@ For comparison (not actual device I captured another router) with a functioning 
 
 Time to call GigaComm but unfortunately they have a support line open at the weekends, but they clearly do work weekends.. Anyway the field engineer jumped on when I assume is an internal chat tool and the the on call engineer was troubleshooting with the field engineer, they tested my line to the MDF and even moved the router to the MDF and unfortunately more of the same, no 🎲.
 
+They even tried to re-jumper and provision the service on a new port but nothing, we even connected the router they supplied to go with the NTU. By this point there was a bit of head scratching  but what was concerning me a little I kept asking although I have an IP address that doesn't mean the gateway and the DCHP host are the same device so what and where is the gateway. 
 
+They seemed a little confused because they could logon to the supplied router (likely through TR-069 Device Management) so it threw them a red-herring I suspect because the on-call engineer was falling back to it's and issue with your laptop, ok we've plugged in the supplied router and your field engineer is using his own laptop, no 🎲.
 
+By this point someone else in my building had logged a support ticket with the same problem so they put my line back to it's original state and went off validate if the same was happening for my neighbour. 
 
+And thats where it was left today. 
 
+End of Play - Saturday  29th Oct 
