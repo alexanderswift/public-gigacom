@@ -4,9 +4,7 @@
 
 Very specific I know thats benefit on top of the obvious security + learning of having your own pfSense firewall (or other) device at the edge of your network...
 
-| Oct 28 16:24:59 | kernel |      | igb0: link state changed to DOWN |
-| :-------------: | ------ | ---- | -------------------------------- |
-|                 |        |      |                                  |
+> Oct 28 16:24:59  kernel    igb0: link state changed to DOWN
 
 So on the phone I get to GigaComm support and let them do their thing, they could logon too their NTU & G.Fast bridge  so they must have an out of band method from their equipment in the MDF room.  We spoke for a while and confirmed that the my firewall WAN_DHCP gateway X.X.X.1 is down and the support person will talk to engineers and call me back.. (16:30)
 $$
