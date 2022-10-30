@@ -43,7 +43,7 @@ Support called back for a light check on the NTU modem and router, OK we've been
 
 I emailed in a screenshot and photos (phone on 5G) of the current simple setup.
 
-<img src="/pics/IMG_3524.jpeg" alt="IMG_3524" style="zoom:50%;" />
+<img src="/pics/IMG_3524.jpeg" alt="IMG_3524" style="zoom:33%;" />
 
 ### Friday 18:10
 
@@ -109,13 +109,13 @@ As expected with a working internet connection the ARP broadcasts are as I expec
 
 I don't think it's fixed yet but it's a great temporary fix :laughing: whatever GigaComm has done! 
 
-![speedtest-30oct2022](/Users/alexs/Documents/GitHub/public-gigacom/pics/speedtest-30oct2022.png)
+![speedtest-30oct2022](/pics/speedtest-30oct2022.png)
 
 Well that answers the question what speed is possible on the on the FttDP and Fixed Wireless service:question:, it will do 1Gbps symmetrical :rocket: :rocket::rocket:
 
 :rofl: That's looks to have been a 1.5Gb iPhone backup in 3min flat with a symmetrical upload.. 
 
-<img src="/Users/alexs/Documents/GitHub/public-gigacom/pics/IMG_3558.jpeg" alt="IMG_3558" style="zoom:25%;" /><img src="/Users/alexs/Documents/GitHub/public-gigacom/pics/IMG_3561.jpeg" alt="IMG_3561" style="zoom:25%;" />
+<img src="/pics/IMG_3558.jpeg" alt="IMG_3558" style="zoom:25%;" /><img src="/pics/IMG_3561.jpeg" alt="IMG_3561" style="zoom:25%;" />
 
 
 
