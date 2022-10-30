@@ -113,13 +113,7 @@ I don't think it's fixed yet but it's a great temporary fix :laughing: whatever 
 
 Well that answers the question what speed is possible on the on the FttDP and Fixed Wireless service:question:, it will do 1Gbps symmetrical :rocket: :rocket::rocket:
 
-:rofl: That's looks to have been a 1.5Gb iPhone backup in 3min flat with a symmetrical upload.. 
-
-<img src="/pics/IMG_3558.jpeg" alt="IMG_3558" style="zoom:5%;" /><img src="/pics/IMG_3561.jpeg" alt="IMG_3561" style="zoom:5%;" />
-
-
-
-### Sunday 16:30
+### Sunday 16:30 
 
 That's me for today I'm heading to the pub for a late Sunday Roast :plate_with_cutlery: :chicken: + :beer:. 
 
