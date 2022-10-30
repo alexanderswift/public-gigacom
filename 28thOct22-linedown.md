@@ -89,7 +89,7 @@ And thats where it was left today, the original AdTran NTU and NF18ACV router co
 
 ### Sunday 14:30 
 
-I've not heard anything from GigaComm but when I got home this afternoon I noticed the activity lights on the NF18ACV router flashing as normal,  we have 🎲 and a working connection :rocket:. Checking the router time it's about a hour off so the line came back at 12:18. 
+I've not heard anything from GigaComm but when I got home this afternoon I noticed the activity lights on the NF18ACV router flashing as normal,  we have 🎲 and a working internet connection :rocket:. Checking the router time it's about a hour off so the line came back at 12:18 and DHCP assigned x.x.x..164
 
 ```
 Oct 30 11:18:56
@@ -97,7 +97,15 @@ kernel: Intrusion -> IN=eth4.1 OUT= MAC=f8:ca:59:4c:e1:6d:22:22:22:22:00:11:08:0
 SRC=157.230.230.103 DST=x.x.x.164 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=36397 PR
 ```
 
-RightO, so now to connect my MacBook directly to the NTU again because I'm curious what broadcasts I can see on that segment. 
+RightO (great Aussie saying), so now to connect my MacBook directly to the NTU again because I'm curious what ARP broadcasts I can see on that segment. 
 
 **BRB**
+
+As expected with a working internet connection the ARP broadcasts are as I expected, [*Who has x.x.x.1? Tell x.x.x..164* and the reply *x.x.x..164 is at 22:22:22:22:00:11*] . I'm still curious as to *CiscoMer 62:ed: 85* broadcasting maybe that a PoE injector for the fixed wireless equipment Or it's another customer on the same L2 segment:eyes:, hope not :crossed_fingers: because I'd be hoping for L2 isolation but then again that's why I have a pfSense firewall between me and my ISP... 
+
+![screenshot-2022-10-30-1](/pics/screenshot-2022-10-30-1.png)
+
+
+
+
 
