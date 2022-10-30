@@ -1,6 +1,6 @@
 # Random outage - 28th Oct 2022 at 16:24
 
-### 16:24 
+### Friday 16:24 
 
 Very specific I know thats benefit on top of the obvious security + learning of having your own pfSense firewall (or other) device at the edge of your network...
 
@@ -37,15 +37,15 @@ Host google.com not found: 2(**SERVFAIL**)
 
 ```
 
-### 16:51
+### Friday 16:51
 
-Support called back for a light check on the NTU, routers and modem, OK we've been here but if it helps the tech get their flow and my line up lets go! We rebooted and disconnected everything and (my choice) I connected a laptop direct to the AdTran and the interface was DHCP assigned x.x.x.37 but still not internet or ping reply from x.x.x.1 and we faffed about for a while and call was handed over to I assume level X support of engineer. 
+Support called back for a light check on the NTU modem and router, OK we've been here but if it helps the tech get their flow and my line up lets go! We rebooted and disconnected everything and (my choice) I connected a laptop direct to the AdTran and the interface was DHCP assigned x.x.x.37 but still not internet or ping reply from x.x.x.1 and we faffed about for a while and call was handed over to I assume level X support of engineer. 
 
 I emailed in a screenshot and photos (phone on 5G) of the current simple setup.
 
 <img src="/pics/IMG_3524.jpeg" alt="IMG_3524" style="zoom:50%;" />
 
-### 18:10
+### Friday 18:10
 
 Engineer phoned at 18:10 and they had seen the support emails and photos so asked if I was running pfSense was technical, nice to see they aren't phoning cold. I explained I'd started at the bottom of the stack trouble shooting upwards and tried two devices, different ethernet dongles and cables and we got the supplied router our of the cupboard and connected to it to the AdTran and no 🌮. 
 
@@ -61,9 +61,11 @@ Field Engineer called 7pm and said he could come out and drop another AdTran for
 
 It's an awesome commitment to service and 💩 happens as they say hardware fails so it's all good from my perspective, we spent a bit of time on the phone but they were fairly .
 
-### Saturday 29th Oct 
+------
 
-I was expecting the field engineer at about 4pm and the service engineer texted an ETA 👏, 🥇again great communication and service to even make a service call at the weekend. He arrived with the replacement AdTran but unfortunately no 🎲, same as with the old NTU when I pugged in DHCP assigned x.x.x.238 and again many devices broadcasting ARP and x.x.x.1 was not responding. 
+### Saturday 16:51
+
+I was expecting the field engineer at about 4pm and the service engineer texted an ETA 👏, 🥇again great communication and service to even make a service call at the weekend. He arrived with the replacement AdTran but unfortunately no 🎲, same as with the old NTU when I pugged in DHCP assigned x.x.x.238 and again many devices broadcasting ARP and x.x.x.1 was not responding so we put the old AdTran back. 
 
 ![Screenshot-1](/pics/screenshot-2022-10-29-1.png)
 
@@ -73,12 +75,25 @@ For comparison (not actual device I captured another router) with a functioning 
 
 Time to call GigaComm but unfortunately they have a support line open at the weekends, but they clearly do work weekends.. Anyway the field engineer jumped on when I assume is an internal chat tool and the the on call engineer was troubleshooting with the field engineer, they tested my line to the MDF and even moved the router to the MDF and unfortunately more of the same, no 🎲.
 
-They even tried to re-jumper and provision the service on a new port but nothing, we even connected the router they supplied to go with the NTU. By this point there was a bit of head scratching  but what was concerning me a little I kept asking although I have an IP address that doesn't mean the gateway and the DCHP host are the same device so what and where is the gateway. 
+They even tried to re-jumper and provision the service on a new port but nothing, we even connected the NetComm NF18ACV router they supplied to go with the NTU. By this point there was a bit of head scratching  but what was concerning me a little I kept asking although I have an IP address that doesn't mean the gateway and the DCHP host are the same device so what and where is the gateway. 
 
-They seemed a little confused because they could logon to the supplied router (likely through TR-069 Device Management) so it threw them a red-herring I suspect because the on-call engineer was falling back to it's and issue with your laptop, ok we've plugged in the supplied router and your field engineer is using his own laptop, no 🎲.
+They seemed a little confused because they could logon to the supplied NF18ACV router (likely through TR-069 Device Management) so it threw them a red-herring I suspect because the on-call engineer was falling back to it's and issue with your laptop, ok we've plugged in the NF18ACV router in and your field engineer is using his own laptop, no 🎲.
 
 By this point someone else in my building had logged a support ticket with the same problem so they put my line back to it's original state and went off validate if the same was happening for my neighbour. 
 
 And thats where it was left today. 
 
 ### End of Play - Saturday  29th Oct 
+
+------
+
+### Sunday 14:30 
+
+I've not heard anything from GigaComm but when I got home this afternoon I noticed the activity lights on the NF18ACV router flashing as normal,  we have 🎲 a working connection :rocket:
+
+```
+Oct 30 11:18:56
+kernel: Intrusion -> IN=eth4.1 OUT= MAC=f8:ca:59:4c:e1:6d:22:22:22:22:00:11:08:00:45:00:00:28:8e:2d:00:00:f1:06:15:e7:9d:e6:e6:67 SRC=157.230.230.103 DST=x.x.x.164 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=36397 PR
+```
+
+Dd
