@@ -115,7 +115,7 @@ Well that answers the question what speed is possible on the on the FttDP and Fi
 
 :rofl: That's looks to have been a 1.5Gb iPhone backup in 3min flat with a symmetrical upload.. 
 
-<img src="/pics/IMG_3558.jpeg" alt="IMG_3558" style="zoom:15%;" /><img src="/pics/IMG_3561.jpeg" alt="IMG_3561" style="zoom:15%;" />
+<img src="/pics/IMG_3558.jpeg" alt="IMG_3558" style="zoom:5%;" /><img src="/pics/IMG_3561.jpeg" alt="IMG_3561" style="zoom:5%;" />
 
 
 
