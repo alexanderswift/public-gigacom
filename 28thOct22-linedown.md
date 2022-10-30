@@ -81,7 +81,7 @@ They seemed a little confused because they could logon to the supplied NF18ACV r
 
 By this point someone else in my building had logged a support ticket with the same problem so they put my line back to it's original state and went off validate if the same was happening for my neighbour. 
 
-And thats where it was left today. 
+And thats where it was left today, the original AdTran NTU and NF18ACV router connected and nothing else connected so GigaComm could keep doing whatever they need. 
 
 ### End of Play - Saturday  29th Oct 
 
@@ -89,11 +89,15 @@ And thats where it was left today.
 
 ### Sunday 14:30 
 
-I've not heard anything from GigaComm but when I got home this afternoon I noticed the activity lights on the NF18ACV router flashing as normal,  we have 🎲 a working connection :rocket:
+I've not heard anything from GigaComm but when I got home this afternoon I noticed the activity lights on the NF18ACV router flashing as normal,  we have 🎲 and a working connection :rocket:. Checking the router time it's about a hour off so the line came back at 12:18. 
 
 ```
 Oct 30 11:18:56
-kernel: Intrusion -> IN=eth4.1 OUT= MAC=f8:ca:59:4c:e1:6d:22:22:22:22:00:11:08:00:45:00:00:28:8e:2d:00:00:f1:06:15:e7:9d:e6:e6:67 SRC=157.230.230.103 DST=x.x.x.164 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=36397 PR
+kernel: Intrusion -> IN=eth4.1 OUT= MAC=f8:ca:59:4c:e1:6d:22:22:22:22:00:11:08:00:45:00:00:28:8e:2d:00:00:f1:06:15:e7:9d:e6:e6:67
+SRC=157.230.230.103 DST=x.x.x.164 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=36397 PR
 ```
 
-Dd
+RightO, so now to connect my MacBook directly to the NTU again because I'm curious what broadcasts I can see on that segment. 
+
+**BRB**
+
