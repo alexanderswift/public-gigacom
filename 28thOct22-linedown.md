@@ -99,13 +99,23 @@ SRC=157.230.230.103 DST=x.x.x.164 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=36397 PR
 
 RightO (great Aussie saying), so now to connect my MacBook directly to the NTU again because I'm curious what ARP broadcasts I can see on that segment. 
 
-**BRB**
+### Sunday 15:30 
 
 As expected with a working internet connection the ARP broadcasts are as I expected, [*Who has x.x.x.1? Tell x.x.x..164* and the reply *x.x.x..164 is at 22:22:22:22:00:11*] . I'm still curious as to *CiscoMer 62:ed: 85* broadcasting maybe that a PoE injector for the fixed wireless equipment Or it's another customer on the same L2 segment:eyes:, hope not :crossed_fingers: because I'd be hoping for L2 isolation but then again that's why I have a pfSense firewall between me and my ISP... 
 
 ![screenshot-2022-10-30-1](/pics/screenshot-2022-10-30-1.png)
 
+### Sunday 16:15
 
+I don't think it's fixed yet but it's a great temporary fix :laughing: whatever GigaComm has done! 
 
+![speedtest-30oct2022](/Users/alexs/Documents/GitHub/public-gigacom/pics/speedtest-30oct2022.png)
 
+Well that answers the question what speed is possible on the on the FttDP and Fixed Wireless service:question:, it will do 1Gbps symmetrical :rocket: :rocket::rocket:
+
+### Sunday 16:15
+
+That's me for today I'm heading to the pub for a late Sunday Roast :plate_with_cutlery: :chicken: + :beer:. 
+
+------
 
