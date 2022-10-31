@@ -119,3 +119,24 @@ That's me for today I'm heading to the pub for a late Sunday Roast :plate_with_c
 
 ------
 
+Monday 15:00 
+
+Network Operations person I was talking to on Friday night drops me an email to say.. 
+
+> Just following up on the outage over the weekend.
+>
+> I’ve been caught up on {field engineers} visit on Saturday, and was involved in the subsequent maintenance that occurred on the site on Saturday night to remedy the issue.
+>
+> I thought I should check in and see if your service has been restored since these events, and if you have any remaining issues with your connection after these events!
+>
+> Hope you’re doing well, and hope we didn’t impact your weekend too much,
+>
+> Thanks,
+
+My reply *Thanks for the follow all is well, no worries about the weekend but a big thank you to everyone at Gigacomm who gave their weekends to a bloke without internet*.  Technology, networks and cloud has been and still is my bread and butter so I understand things go wrong but as the saying goes *:poop: happens but it's what you do next that matters and subsequently what you learn from it* and GigaComm owned the issue and kept things moving :clap:
+
+What GigaComm learn from an outage is up to them. 
+
+------
+
+ 
