@@ -111,9 +111,9 @@ I don't think it's fixed yet but it's a great temporary fix :laughing: whatever 
 
 ![speedtest-30oct2022](/pics/speedtest-30oct2022.png)
 
-Well that answers the question what speed is possible on the on the FttDP and Fixed Wireless service:question:, it will do 1Gbps symmetrical :rocket: :rocket::rocket:
+Well that answers the question what speed is possible on the on the FttDP and Fixed Wireless service:question:, it will do 1Gbps symmetrical :rocket: :rocket::rocket: https://www.speedtest.net/result/13870864665.png 
 
-Now back to my normal 1Gbps down 100Mbps up. 
+Now back to my normal 1Gbps down 100Mbps up.  https://www.speedtest.net/result/13889905450.png 
 
 ### Sunday 16:30 
 
