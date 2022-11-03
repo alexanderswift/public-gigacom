@@ -119,7 +119,7 @@ That's me for today I'm heading to the pub for a late Sunday Roast :plate_with_c
 
 ------
 
-Monday 15:00 
+### Monday 15:00 
 
 Network Operations person I was talking to on Friday night drops me an email to say.. 
 
@@ -139,4 +139,17 @@ What GigaComm learn from an outage is up to them.
 
 ------
 
- 
+###  Thursday 3rd November 
+
+04:00 Line down again and GigaComm not having 24x7 support is pretty frustrating, knowing that nothing will be looked at until 9am means I now need drive to the office today,   
+
+
+
+### Thursday 09:30 
+
+Called GigaComm to report the fault 
+
+### Thursday 11:08 
+
+GigaComm called to say the line was up again but didn't say what the problem was. 
+
