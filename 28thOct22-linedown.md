@@ -113,6 +113,8 @@ I don't think it's fixed yet but it's a great temporary fix :laughing: whatever 
 
 Well that answers the question what speed is possible on the on the FttDP and Fixed Wireless service:question:, it will do 1Gbps symmetrical :rocket: :rocket::rocket:
 
+Now back to my normal 1Gbps down 100Mbps up. 
+
 ### Sunday 16:30 
 
 That's me for today I'm heading to the pub for a late Sunday Roast :plate_with_cutlery: :chicken: + :beer:. 
@@ -143,8 +145,6 @@ What GigaComm learn from an outage is up to them.
 
 04:00 Line down again and GigaComm not having 24x7 support is pretty frustrating, knowing that nothing will be looked at until 9am means I now need drive to the office today,   
 
-
-
 ### Thursday 09:30 
 
 Called GigaComm to report the fault 
@@ -152,4 +152,6 @@ Called GigaComm to report the fault
 ### Thursday 11:08 
 
 GigaComm called to say the line was up again but didn't say what the problem was. 
+
+I've turned on my line monitoring Docker and will see what happens for the next fruit weeks. 
 
