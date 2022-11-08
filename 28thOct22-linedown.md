@@ -8,7 +8,7 @@ Very specific I know thats benefit on top of the obvious security + learning of 
 Oct 28 16:24:59  kernel    igb0: link state changed to DOWN
 ```
 
-So on the phone I get to GigaComm support and let them do their thing, they could logon too their NTU & G.Fast bridge  so they must have an out of band method from their equipment in the MDF room.  We spoke for a while and confirmed that the my firewall WAN_DHCP gateway X.X.X.1 is down and the support person will talk to engineers and call me back.. (16:30)
+So on the phone I get to GigaComm support and let them do their thing, they could logon to their NTU & G.Fast bridge  so they must have an out of band method from their equipment in the MDF room.  We spoke for a while and confirmed that the my firewall WAN_DHCP gateway X.X.X.1 is down and the support person will talk to engineers and call me back.. (16:30)
 
 ```
 -- Outside of firewall ✅
@@ -39,7 +39,7 @@ Host google.com not found: 2(**SERVFAIL**)
 
 ### Friday 16:51
 
-Support called back for a light check on the NTU modem and router, OK we've been here but if it helps the tech get their flow and my line up lets go! We rebooted and disconnected everything and (my choice) I connected a laptop direct to the AdTran and the interface was DHCP assigned x.x.x.37 but still not internet or ping reply from x.x.x.1 and we faffed about for a while and call was handed over to I assume level X support of engineer. 
+Support called back for a light check on the NTU modem and router, OK we've been here but if it helps the tech get their flow and my line up lets go! We rebooted and disconnected everything and (my choice) I connected a laptop direct to the AdTran and the interface was DHCP assigned x.x.x.37 but still no internet or ping reply from x.x.x.1 and we faffed about for a while and call was handed over to I assume level X support of engineer. 
 
 I emailed in a screenshot and photos (phone on 5G) of the current simple setup.
 
@@ -47,7 +47,7 @@ I emailed in a screenshot and photos (phone on 5G) of the current simple setup.
 
 ### Friday 18:10
 
-Engineer phoned at 18:10 and they had seen the support emails and photos so asked if I was running pfSense was technical, nice to see they aren't phoning cold. I explained I'd started at the bottom of the stack trouble shooting upwards and tried two devices, different ethernet dongles and cables and we got the supplied router our of the cupboard and connected to it to the AdTran and no 🌮. 
+Engineer phoned at 18:10 and they had seen the support emails and photos so asked if I was running pfSense and was I technical, nice to see they aren't phoning cold. I explained I'd started at the bottom of the stack trouble shooting upwards and tried two devices, different ethernet dongles and cables and we got the supplied router our of the cupboard and connected to it to the AdTran and no 🌮. 
 
 The engineer de-provision and re-provision the service the interface was DHCP assigned x.x.x.58 and again no 🌮, yep it's dinner time but before we quit for dinner he asked if I had Wireshark and could captured packets.  There it is, GigaComm has called it as dead AdTran and arranging a replacement. 
 
@@ -59,13 +59,13 @@ What you should be seeing in the below capture is response to the ARP broadcast 
 
 Field Engineer called 7pm and said he could come out and drop another AdTran for me now 🚀 and he was on the other side of the harbour so he'd be about an hour.. There's no sense in getting someone to drive across the city on a Friday night so I said tomorrow is fine, relax and enjoy your Friday evening.
 
-It's an awesome commitment to service and 💩 happens as they say hardware fails so it's all good from my perspective, we spent a bit of time on the phone but they were fairly .
+It's an awesome commitment to service 💩 happens as they say, hardware fails so it's all good from my perspective, we spent a bit of time on the phone but they were good.
 
 ------
 
 ### Saturday 16:51
 
-I was expecting the field engineer at about 4pm and the service engineer texted an ETA 👏, 🥇again great communication and service to even make a service call at the weekend. He arrived with the replacement AdTran but unfortunately no 🎲, same as with the old NTU when I pugged in DHCP assigned x.x.x.238 and again many devices broadcasting ARP and x.x.x.1 was not responding so we put the old AdTran back. 
+I was expecting the service engineer at about 4pm and the service engineer texted an ETA 👏, 🥇again great communication and to even make a service call at the weekend. He arrived with the replacement AdTran but unfortunately no 🎲, same as with the old NTU when I pugged in DHCP assigned x.x.x.238 and again many devices broadcasting ARP and x.x.x.1 was not responding so we put the old AdTran back. 
 
 ![Screenshot-1](/pics/screenshot-2022-10-29-1.png)
 
@@ -73,11 +73,11 @@ For comparison (not actual device I captured another router) with a functioning 
 
 ![Screenshot-2](/pics/screenshot-2022-10-29-2.png)
 
-Time to call GigaComm but unfortunately they have a support line open at the weekends, but they clearly do work weekends.. Anyway the field engineer jumped on when I assume is an internal chat tool and the the on call engineer was troubleshooting with the field engineer, they tested my line to the MDF and even moved the router to the MDF and unfortunately more of the same, no 🎲.
+Time to call GigaComm but unfortunately they don't have a support line open at the weekends, but they clearly do work weekends.. Anyway the field engineer jumped on what I assume is an internal chat tool and the on call engineer was troubleshooting with the field engineer, they tested my line to the MDF and even moved the router to the MDF and unfortunately more of the same, no 🎲.
 
 They even tried to re-jumper and provision the service on a new port but nothing, we even connected the NetComm NF18ACV router they supplied to go with the NTU. By this point there was a bit of head scratching  but what was concerning me a little I kept asking although I have an IP address that doesn't mean the gateway and the DCHP host are the same device so what and where is the gateway. 
 
-They seemed a little confused because they could logon to the supplied NF18ACV router (likely through TR-069 Device Management) so it threw them a red-herring I suspect because the on-call engineer was falling back to it's and issue with your laptop, ok we've plugged in the NF18ACV router in and your field engineer is using his own laptop, no 🎲.
+They seemed a little confused because they could logon to the supplied NF18ACV router (likely through TR-069 Device Management) so it threw them a red-herring I suspect because the on-call engineer was falling back to it's an issue with your laptop, ok we've plugged in the NF18ACV router in and your field engineer is using his own laptop, no 🎲.
 
 By this point someone else in my building had logged a support ticket with the same problem so they put my line back to it's original state and went off validate if the same was happening for my neighbour. 
 
@@ -89,7 +89,7 @@ And thats where it was left today, the original AdTran NTU and NF18ACV router co
 
 ### Sunday 14:30 
 
-I've not heard anything from GigaComm but when I got home this afternoon I noticed the activity lights on the NF18ACV router flashing as normal,  we have 🎲 and a working internet connection :rocket:. Checking the router time it's about a hour off so the line came back at 12:18 and DHCP assigned x.x.x..164
+I've not heard anything from GigaComm but when I got home this afternoon I noticed the activity lights on the NF18ACV router flashing as normal,  we have 🎲 and a working internet connection :rocket:. Checking the router time it's about a hour off so the line came back at 12:18 and DHCP assigned x.x.x.164
 
 ```
 Oct 30 11:18:56
@@ -123,7 +123,7 @@ That's me for today I'm heading to the pub for a late Sunday Roast :plate_with_c
 
 ### Monday 15:00 
 
-Network Operations person I was talking to on Friday night drops me an email to say.. 
+Network Operations person I was talking too on Friday night drops me an email to say.. 
 
 > Just following up on the outage over the weekend.
 >
@@ -135,7 +135,7 @@ Network Operations person I was talking to on Friday night drops me an email to 
 >
 > Thanks,
 
-My reply *Thanks for the follow all is well, no worries about the weekend but a big thank you to everyone at Gigacomm who gave their weekends to a bloke without internet*.  Technology, networks and cloud has been and still is my bread and butter so I understand things go wrong but as the saying goes *:poop: happens but it's what you do next that matters and subsequently what you learn from it* and GigaComm owned the issue and kept things moving :clap:
+My reply *Thanks for the follow up all is well, no worries about the weekend but a big thank you to everyone at Gigacomm who gave their weekends to a bloke without internet*.  Technology, networks and cloud has been and still is my bread and butter so I understand things go wrong but as the saying goes *:poop: happens but it's what you do next that matters and subsequently what you learn from it* and GigaComm owned the issue and kept things moving :clap:
 
 What GigaComm learn from an outage is up to them. 
 
@@ -143,11 +143,11 @@ What GigaComm learn from an outage is up to them.
 
 ###  Thursday 3rd November 
 
-04:00 Line down again and GigaComm not having 24x7 support is pretty frustrating, knowing that nothing will be looked at until 9am means I now need drive to the office today,   
+04:00 Line down again and GigaComm not having 24x7 support is pretty frustrating, knowing that nothing will be looked at until 9am means I now need drive to the office today. 
 
 ### Thursday 09:30 
 
-Called GigaComm to report the fault 
+Called GigaComm to report the fault.
 
 ### Thursday 11:08 
 
@@ -155,3 +155,8 @@ GigaComm called to say the line was up again but didn't say what the problem was
 
 I've turned on my line monitoring Docker and will see what happens for the next fruit weeks. 
 
+### 1 Week later
+
+All good nice a stable the blip at 11/07 was because my suburb had a had a power cut this morning caused by the road sinking away and taking a power cable with it but thats another story of government outsourcing for another day.  
+
+![2022-11-08-7days](/pics/2022-11-08-7days.png)
